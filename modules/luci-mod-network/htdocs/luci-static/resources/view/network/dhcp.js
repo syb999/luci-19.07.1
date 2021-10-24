@@ -63,6 +63,9 @@ CBILease6Status = form.DummyValue.extend({
 });
 
 function validateHostname(sid, s) {
+	if (s == null || s == '')
+		return true;
+
 	if (s.length > 256)
 		return _('Expecting: %s').format(_('valid hostname'));
 
@@ -96,7 +99,7 @@ function validateServerSpec(sid, s) {
 	if (s == null || s == '')
 		return true;
 
-	var m = s.match(/^\/(.+)\/(.*)$/);
+	var m = s.match(/^(?:\/(.+)\/)?(.*)$/);
 	if (!m)
 		return _('Expecting: %s').format(_('valid hostname'));
 
@@ -113,11 +116,20 @@ function validateServerSpec(sid, s) {
 
 	if (!m)
 		return _('Expecting: %s').format(_('valid IP address'));
-	else if (validation.parseIPv4(m[1]) && m[3] != null && !validation.parseIPv4(m[3]))
-		return _('Expecting: %s').format(_('valid IPv4 address'));
-	else if (validation.parseIPv6(m[1]) && m[3] != null && !validation.parseIPv6(m[3]))
-		return _('Expecting: %s').format(_('valid IPv6 address'));
-	else if ((m[2] != null && +m[2] > 65535) || (m[4] != null && +m[4] > 65535))
+
+	if (validation.parseIPv4(m[1])) {
+		if (m[3] != null && !validation.parseIPv4(m[3]))
+			return _('Expecting: %s').format(_('valid IPv4 address'));
+	}
+	else if (validation.parseIPv6(m[1])) {
+		if (m[3] != null && !validation.parseIPv6(m[3]))
+			return _('Expecting: %s').format(_('valid IPv6 address'));
+	}
+	else {
+		return _('Expecting: %s').format(_('valid IP address'));
+	}
+
+	if ((m[2] != null && +m[2] > 65535) || (m[4] != null && +m[4] > 65535))
 		return _('Expecting: %s').format(_('valid port value'));
 
 	return true;
@@ -265,6 +277,13 @@ return L.view.extend({
 		o.validate = validateServerSpec;
 
 
+		o = s.taboption('general', form.DynamicList, 'address', _('Addresses'),
+			_('List of domains to force to an IP address.'));
+
+		o.optional = true;
+		o.placeholder = '/router.local/192.168.0.1';
+
+
 		o = s.taboption('general', form.Flag, 'rebind_protection',
 			_('Rebind protection'),
 			_('Discard upstream RFC1918 responses'));
@@ -393,7 +412,7 @@ return L.view.extend({
 		ss.anonymous = true;
 
 		so = ss.option(form.Value, 'name', _('Hostname'));
-		so.datatype = 'hostname("strict")';
+		so.validate = validateHostname;
 		so.rmempty  = true;
 		so.write = function(section, value) {
 			uci.set('dhcp', section, 'name', value);
