@@ -1002,7 +1002,7 @@ return L.view.extend({
 
 					o = ss.taboption('advanced', form.Value, 'wpa_group_rekey', _('Time interval for rekeying GTK'), _('sec'));
 					o.optional    = true;
-					o.placeholder = 600;
+					o.placeholder = 0;
 					o.datatype    = 'uinteger';
 
 					o = ss.taboption('advanced', form.Flag , 'skip_inactivity_poll', _('Disable Inactivity Polling'));
