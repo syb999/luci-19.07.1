@@ -883,7 +883,7 @@ return view.extend({
 					o.wifiNetwork = radioNet;
 
 					o = ss.taboption('advanced', form.Flag, 'legacy_rates', _('Allow legacy 802.11b rates'));
-					o.default = o.enabled;
+					o.default = o.disabled;
 
 					o = ss.taboption('advanced', form.Value, 'distance', _('Distance Optimization'), _('Distance to farthest network member in meters.'));
 					o.datatype = 'or(range(0,114750),"auto")';
@@ -1085,7 +1085,7 @@ return view.extend({
 
 					o = ss.taboption('advanced', form.Value, 'wpa_group_rekey', _('Time interval for rekeying GTK'), _('sec'));
 					o.optional    = true;
-					o.placeholder = 600;
+					o.placeholder = 0;
 					o.datatype    = 'uinteger';
 
 					o = ss.taboption('advanced', form.Flag , 'skip_inactivity_poll', _('Disable Inactivity Polling'));
@@ -1103,7 +1103,7 @@ return view.extend({
 					o.datatype    = 'uinteger';
 
 					o = ss.taboption('advanced', form.Flag, 'disassoc_low_ack', _('Disassociate On Low Acknowledgement'), _('Allow AP mode to disconnect STAs based on low ACK condition'));
-					o.default = o.enabled;
+					o.default = o.disabled;
 				}
 
 
@@ -1410,6 +1410,68 @@ return view.extend({
 
 
 				if (hwtype == 'mac80211') {
+					// Probe 802.11k support
+					o = ss.taboption('encryption', form.Flag, 'ieee80211k', _('802.11k'), _('Enables The 802.11k standard provides information to discover the best available access point'));
+					o.depends({ mode : 'ap', encryption : 'wpa' });
+					o.depends({ mode : 'ap', encryption : 'wpa2' });
+					o.depends({ mode : 'ap-wds', encryption : 'wpa' });
+					o.depends({ mode : 'ap-wds', encryption : 'wpa2' });
+					o.depends({ mode : 'ap', encryption : 'psk' });
+					o.depends({ mode : 'ap', encryption : 'psk2' });
+					o.depends({ mode : 'ap', encryption : 'psk-mixed' });
+					o.depends({ mode : 'ap-wds', encryption : 'psk' });
+					o.depends({ mode : 'ap-wds', encryption : 'psk2' });
+					o.depends({ mode : 'ap-wds', encryption : 'psk-mixed' });
+					o.rmempty = true;
+
+					o = ss.taboption('encryption', form.Flag, 'rrm_neighbor_report', _('Enable neighbor report via radio measurements'));
+					o.default = o.enabled;
+					o.depends({ ieee80211k : '1' });
+					o.rmempty = true;
+
+					o = ss.taboption('encryption', form.Flag, 'rrm_beacon_report', _('Enable beacon report via radio measurements'));
+					o.default = o.enabled;
+					o.depends({ ieee80211k : '1' });
+					o.rmempty = true;
+					// End of 802.11k options
+
+					// Probe 802.11v support
+					o = ss.taboption('encryption', form.Flag, 'ieee80211v', _('802.11v'), _('Enables 802.11v allows client devices to exchange information about the network topology,tating overall improvement of the wireless network.'));
+					o.depends({ mode : 'ap', encryption : 'wpa' });
+					o.depends({ mode : 'ap', encryption : 'wpa2' });
+					o.depends({ mode : 'ap-wds', encryption : 'wpa' });
+					o.depends({ mode : 'ap-wds', encryption : 'wpa2' });
+					o.depends({ mode : 'ap', encryption : 'psk' });
+					o.depends({ mode : 'ap', encryption : 'psk2' });
+					o.depends({ mode : 'ap', encryption : 'psk-mixed' });
+					o.depends({ mode : 'ap-wds', encryption : 'psk' });
+					o.depends({ mode : 'ap-wds', encryption : 'psk2' });
+					o.depends({ mode : 'ap-wds', encryption : 'psk-mixed' });
+					o.rmempty = true;
+
+
+					o = ss.taboption('encryption', form.Flag, 'wnm_sleep_mode', _('extended sleep mode for stations'));
+					o.default = o.disabled;
+					o.depends({ ieee80211v : '1' });
+					o.rmempty = true;
+
+					o = ss.taboption('encryption', form.Flag, 'bss_transition', _('BSS Transition Management'));
+					o.default = o.disabled;
+					o.depends({ ieee80211v : '1' });
+					o.rmempty = true;
+
+					o = ss.taboption('encryption', form.ListValue, 'time_advertisement', _('Time advertisement'));
+					o.depends({ ieee80211v : '1' });
+					o.value('0', _('disabled'));
+					o.value('2', _('UTC time at which the TSF timer is 0'));
+					o.rmempty = true;
+
+					o = ss.taboption('encryption', form.Value, 'time_zone', _('time zone'), _('Local time zone as specified in 8.3 of IEEE Std 1003.1-2004'));
+					o.depends({ time_advertisement : '2' });
+					o.placeholder = 'UTC8';
+					o.rmempty = true;
+					// End of 802.11v options
+
 					// Probe 802.11r support (and EAP support as a proxy for Openwrt)
 					var has_80211r = L.hasSystemFeature('hostapd', '11r') || L.hasSystemFeature('hostapd', 'eap');
 

@@ -14,7 +14,7 @@ LUCI_DESCRIPTION:=Standard OpenWrt set including full admin with ppp support and
 LUCI_DEPENDS:= \
 	+uhttpd +luci-mod-admin-full +luci-theme-bootstrap \
 	+luci-app-firewall +luci-app-opkg +luci-proto-ppp +libiwinfo-lua +IPV6:luci-proto-ipv6 \
-	+rpcd-mod-rrdns
+	+rpcd-mod-rrdns +luci-compat
 
 PKG_LICENSE:=Apache-2.0
 
