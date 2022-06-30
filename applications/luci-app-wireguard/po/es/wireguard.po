@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2019-10-22 08:54+0000\n"
+"PO-Revision-Date: 2022-04-04 16:09+0000\n"
 "Last-Translator: Franco Castillo <castillofrancodamian@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationswireguard/es/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: applications/luci-app-wireguard/luasrc/view/wireguard.htm:149
 msgid "Allowed IPs"
@@ -40,7 +40,7 @@ msgstr "Punto final"
 
 #: applications/luci-app-wireguard/luasrc/view/wireguard.htm:131
 msgid "Firewall Mark"
-msgstr "Marca de Firewall"
+msgstr "Marca de Cortafuegos"
 
 #: applications/luci-app-wireguard/luasrc/view/wireguard.htm:189
 msgid "Interface"
@@ -56,7 +56,7 @@ msgstr "Último Handshake"
 
 #: applications/luci-app-wireguard/luasrc/view/wireguard.htm:125
 msgid "Listen Port"
-msgstr "Puerto"
+msgstr "Puerto de escucha"
 
 #: applications/luci-app-wireguard/luasrc/view/wireguard.htm:81
 msgid "Never"
@@ -89,7 +89,7 @@ msgstr ""
 
 #: applications/luci-app-wireguard/luasrc/controller/wireguard.lua:7
 msgid "WireGuard Status"
-msgstr "WireGuard"
+msgstr "Estado de WireGuard"
 
 #: applications/luci-app-wireguard/luasrc/view/wireguard.htm:212
 msgid ""

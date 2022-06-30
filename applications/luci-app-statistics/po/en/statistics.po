@@ -1,22 +1,23 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-05-19 19:35+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2021-06-24 10:23+0000\n"
+"Last-Translator: Hannu Nyman <hannu.nyman@iki.fi>\n"
+"Language-Team: English <https://hosted.weblate.org/projects/openwrt/"
+"luciapplicationsstatistics/en/>\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.1.1\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.7.1-dev\n"
 
 #: applications/luci-app-statistics/luasrc/statistics/plugins/apcups.lua:7
 #: applications/luci-app-statistics/luasrc/statistics/rrdtool/definitions/apcups.lua:7
 msgid "APC UPS"
-msgstr ""
+msgstr "APC UPS"
 
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/apcups.lua:5
 msgid "APCUPS Plugin Configuration"
@@ -280,6 +281,10 @@ msgstr "Filter class monitoring"
 #: applications/luci-app-statistics/luasrc/statistics/rrdtool/definitions/iptables.lua:7
 msgid "Firewall"
 msgstr "Firewall"
+
+#: applications/luci-app-statistics/luasrc/statistics/rrdtool/definitions/ip6tables.lua:7
+msgid "Firewall (IPv6)"
+msgstr ""
 
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/rrdtool.lua:100
 msgid "Flush cache after"
@@ -594,7 +599,7 @@ msgstr "Ping Plugin Configuration"
 
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/olsrd.lua:18
 msgid "Port"
-msgstr ""
+msgstr "Port"
 
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/apcups.lua:23
 msgid "Port for apcupsd communication"
@@ -646,11 +651,11 @@ msgstr "RRDTool Plugin Configuration"
 msgid "Report by CPU"
 msgstr ""
 
-#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:24
+#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:25
 msgid "Report by state"
 msgstr ""
 
-#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:31
+#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:33
 msgid "Report in percent"
 msgstr ""
 
@@ -1094,7 +1099,7 @@ msgstr ""
 msgid "Verbose monitoring"
 msgstr "Verbose monitoring"
 
-#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:25
+#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:26
 msgid "When set to true, reports per-state metric (system, user, idle)"
 msgstr ""
 
@@ -1102,7 +1107,7 @@ msgstr ""
 msgid "When set to true, we request absolute values"
 msgstr ""
 
-#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:32
+#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:34
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/memory.lua:24
 msgid "When set to true, we request percentage values"
 msgstr ""

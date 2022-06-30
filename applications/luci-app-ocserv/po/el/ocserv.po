@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-12-03 08:25+0000\n"
-"Last-Translator: Tavaninja <metalcorpe@gmail.com>\n"
+"PO-Revision-Date: 2022-03-25 12:08+0000\n"
+"Last-Translator: MarioK239 <marios.k239@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsocserv/el/>\n"
 "Language: el\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.10-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/main.lua:124
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/user-config.lua:80
@@ -37,7 +37,7 @@ msgstr ""
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/main.lua:13
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/user-config.lua:13
 msgid "CA certificate"
-msgstr ""
+msgstr "Πιστοποιητικό CA"
 
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/users.lua:72
 #: applications/luci-app-ocserv/luasrc/view/ocserv_status.htm:57
@@ -61,7 +61,7 @@ msgstr ""
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/users.lua:70
 #: applications/luci-app-ocserv/luasrc/view/ocserv_status.htm:55
 msgid "Device"
-msgstr ""
+msgstr "Συσκευή"
 
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/main.lua:14
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/user-config.lua:14
@@ -111,7 +111,7 @@ msgstr ""
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/main.lua:12
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/user-config.lua:12
 msgid "General Settings"
-msgstr ""
+msgstr "Γενικές ρυθμίσεις"
 
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/users.lua:23
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/users.lua:67
@@ -168,7 +168,7 @@ msgstr ""
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/main.lua:56
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/user-config.lua:50
 msgid "Port"
-msgstr ""
+msgstr "Θύρα"
 
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/main.lua:62
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/user-config.lua:56
@@ -191,7 +191,7 @@ msgstr ""
 
 #: applications/luci-app-ocserv/luasrc/controller/ocserv.lua:19
 msgid "Server Settings"
-msgstr ""
+msgstr "Ρυθμίσεις διακομιστή"
 
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/main.lua:20
 msgid "Server's Public Key ID"
@@ -276,7 +276,7 @@ msgstr ""
 
 #: applications/luci-app-ocserv/luasrc/view/ocserv_status.htm:51
 msgid "User"
-msgstr ""
+msgstr "Χρήστης"
 
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/main.lua:49
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/user-config.lua:37

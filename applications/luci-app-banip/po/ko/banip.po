@@ -1,8 +1,14 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2021-03-21 14:31+0000\n"
+"Last-Translator: asdf1234 <cydyellowgreen@gmail.com>\n"
+"Language-Team: Korean <https://hosted.weblate.org/projects/openwrt/"
+"luciapplicationsbanip/ko/>\n"
 "Language: ko\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.5.2-dev\n"
 
 #: applications/luci-app-banip/luasrc/view/banip/ripeview.htm:89
 msgid "ASN Overview"
@@ -30,8 +36,9 @@ msgstr ""
 
 #: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:94
 #: applications/luci-app-banip/luasrc/view/banip/runtime.htm:138
+#, fuzzy
 msgid "Backup Directory"
-msgstr ""
+msgstr "백업 경로"
 
 #: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:115
 msgid ""
@@ -67,7 +74,7 @@ msgstr ""
 
 #: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:72
 msgid "Description"
-msgstr ""
+msgstr "설명"
 
 #: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:134
 msgid "Download Options"
@@ -178,7 +185,7 @@ msgstr ""
 
 #: applications/luci-app-banip/luasrc/view/banip/runtime.htm:81
 msgid "Loading"
-msgstr ""
+msgstr "로드 중"
 
 #: applications/luci-app-banip/luasrc/view/banip/ipsetview.htm:27
 #: applications/luci-app-banip/luasrc/view/banip/ripeview.htm:58

@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-01-14 15:22+0000\n"
-"Last-Translator: Franco Castillo <castillofrancodamian@gmail.com>\n"
+"PO-Revision-Date: 2021-02-07 07:33+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsopkg/nb_NO/>\n"
-"Language: no\n"
+"Language: nb_NO\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11-dev\n"
+"X-Generator: Weblate 4.5-dev\n"
 
 #: applications/luci-app-opkg/luasrc/view/opkg.htm:112
 msgid "Actions"
@@ -16,7 +16,7 @@ msgstr "Handlinger"
 
 #: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:727
 msgid "Automatically remove unused dependencies"
-msgstr ""
+msgstr "Fjern ubrukte avhengigheter automatisk"
 
 #: applications/luci-app-opkg/luasrc/view/opkg.htm:122
 msgid "Available"
@@ -34,22 +34,22 @@ msgstr ""
 #: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:644
 #: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:673
 #: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:733
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:809
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:812
 msgid "Cancel"
 msgstr "Avbryt"
 
 #: applications/luci-app-opkg/luasrc/view/opkg.htm:102
 msgid "Clear"
-msgstr ""
+msgstr "Tøm"
 
 #: applications/luci-app-opkg/luasrc/view/opkg.htm:117
 #, fuzzy
 msgid "Configure opkg…"
-msgstr "Konfigurasjon"
+msgstr "Sett opp opkg…"
 
 #: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:572
 msgid "Dependencies"
-msgstr ""
+msgstr "Avhengigheter"
 
 #: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:578
 #: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:713
@@ -59,15 +59,15 @@ msgstr "Beskrivelse"
 
 #: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:583
 msgid "Details for package <em>%h</em>"
-msgstr ""
+msgstr "Detaljer for pakken <em>%h</em>"
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:786
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:789
 msgid "Dismiss"
 msgstr ""
 
 #: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:237
 msgid "Displaying %d-%d of %d"
-msgstr ""
+msgstr "Viser %d-%d av %d"
 
 #: applications/luci-app-opkg/luasrc/view/opkg.htm:106
 msgid "Download and install package"
@@ -92,7 +92,7 @@ msgstr "Ledig plass"
 
 #: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:606
 #: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:622
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:819
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:822
 msgid "Install"
 msgstr "Installer"
 
@@ -104,32 +104,30 @@ msgid "Installed"
 msgstr "Installer"
 
 #: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:628
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:796
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:799
 msgid ""
 "Installing packages from untrusted sources is a potential security risk! "
 "Really attempt to install <em>%h</em>?"
 msgstr ""
 
 #: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:177
-#, fuzzy
 msgid "Install…"
-msgstr "Installer"
+msgstr "Installer…"
 
 #: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:653
-#, fuzzy
 msgid "Loading configuration data…"
-msgstr "Gå til relevant konfigurasjonen side"
+msgstr "Laster inn oppsettsdata…"
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:828
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:831
 msgid "Loading package information…"
-msgstr ""
+msgstr "Last inn pakkeinfo …"
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:799
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:802
 msgid "MD5"
 msgstr "MD5"
 
 #: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:638
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:795
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:798
 #, fuzzy
 msgid "Manually install package"
 msgstr "Last ned og installer pakken"
@@ -140,7 +138,7 @@ msgstr ""
 
 #: applications/luci-app-opkg/luasrc/view/opkg.htm:131
 msgid "Next page"
-msgstr ""
+msgstr "Neste side"
 
 #: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:250
 msgid "No information available"
@@ -185,9 +183,8 @@ msgid "Package name"
 msgstr "Pakkenavn"
 
 #: applications/luci-app-opkg/luasrc/view/opkg.htm:107
-#, fuzzy
 msgid "Package name or URL…"
-msgstr "Pakkenavn"
+msgstr "Pakkenavn eller nettadresse…"
 
 #: applications/luci-app-opkg/luasrc/view/opkg.htm:129
 msgid "Previous page"
@@ -199,7 +196,7 @@ msgstr ""
 
 #: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:740
 msgid "Remove"
-msgstr "Avinstaller"
+msgstr "Fjern"
 
 #: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:718
 msgid "Remove package <em>%h</em>"
@@ -231,7 +228,7 @@ msgstr ""
 msgid "Reset"
 msgstr "Nullstill"
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:800
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:803
 msgid "SHA256"
 msgstr ""
 
@@ -240,19 +237,18 @@ msgid "Save"
 msgstr "Lagre"
 
 #: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:685
-#, fuzzy
 msgid "Saving configuration data…"
-msgstr "Enhet Konfigurasjon"
+msgstr "Lagrer oppsettsdata…"
 
 #: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:586
 #: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:721
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:798
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:801
 msgid "Size"
 msgstr "Størrelse"
 
 #: applications/luci-app-opkg/luasrc/view/opkg.htm:139
 msgid "Size (.ipk)"
-msgstr ""
+msgstr "Størrelse (.ipk)"
 
 #: applications/luci-app-opkg/luasrc/controller/opkg.lua:7
 #: applications/luci-app-opkg/luasrc/view/opkg.htm:89
@@ -284,9 +280,8 @@ msgid "Type to filter…"
 msgstr ""
 
 #: applications/luci-app-opkg/luasrc/view/opkg.htm:113
-#, fuzzy
 msgid "Update lists…"
-msgstr "Oppdater lister"
+msgstr "Oppdater lister…"
 
 #: applications/luci-app-opkg/luasrc/view/opkg.htm:124
 #, fuzzy
@@ -314,9 +309,8 @@ msgid "Version incompatible"
 msgstr ""
 
 #: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:757
-#, fuzzy
 msgid "Waiting for the <em>opkg %h</em> command to complete…"
-msgstr "Venter på at kommando fullføres..."
+msgstr "Venter på at <em>opkg %h</em>-kommando fullføres…"
 
 #: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:546
 #: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:709

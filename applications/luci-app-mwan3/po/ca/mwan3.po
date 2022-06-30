@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-01-14 15:23+0000\n"
-"Last-Translator: Franco Castillo <castillofrancodamian@gmail.com>\n"
+"PO-Revision-Date: 2021-09-17 06:52+0000\n"
+"Last-Translator: Roger Pueyo Centelles <weblate@rogerpueyo.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsmwan3/ca/>\n"
 "Language: ca\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:171
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:187
@@ -106,7 +106,7 @@ msgstr ""
 msgid "Also scan this Routing table for connected networks"
 msgstr ""
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:73
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:77
 msgid "Check IP rules"
 msgstr ""
 
@@ -114,7 +114,7 @@ msgstr ""
 msgid "Check link quality"
 msgstr ""
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:74
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:78
 msgid "Check routing table"
 msgstr ""
 
@@ -191,7 +191,7 @@ msgstr ""
 msgid "Error"
 msgstr ""
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:81
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:88
 msgid "Execute"
 msgstr ""
 
@@ -223,11 +223,11 @@ msgstr ""
 msgid "Globals"
 msgstr ""
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:76
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:80
 msgid "Hotplug ifdown"
 msgstr ""
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:75
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:79
 msgid "Hotplug ifup"
 msgstr ""
 
@@ -266,7 +266,7 @@ msgstr ""
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/memberconfig.lua:18
 #: applications/luci-app-mwan3/luasrc/view/mwan/status_detail.htm:10
 #: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:10
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:62
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:61
 #: applications/luci-app-mwan3/luasrc/view/mwan/status_interface.htm:10
 #: applications/luci-app-mwan3/luasrc/view/mwan/status_troubleshooting.htm:10
 msgid "Interface"
@@ -505,7 +505,7 @@ msgstr ""
 msgid "Ping count"
 msgstr ""
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:71
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:75
 msgid "Ping default gateway"
 msgstr ""
 
@@ -530,7 +530,7 @@ msgstr ""
 msgid "Ping timeout"
 msgstr ""
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:72
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:76
 msgid "Ping tracking IP"
 msgstr ""
 
@@ -587,7 +587,7 @@ msgstr ""
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/rule.lua:59
 msgid "Rule"
-msgstr ""
+msgstr "Regla"
 
 #: applications/luci-app-mwan3/luasrc/controller/mwan3.lua:57
 msgid "Rules"
@@ -633,7 +633,7 @@ msgstr ""
 msgid "Supports CIDR notation (eg \"192.168.100.0/24\") without quotes"
 msgstr ""
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:69
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:72
 msgid "Task"
 msgstr ""
 

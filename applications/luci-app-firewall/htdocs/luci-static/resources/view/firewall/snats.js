@@ -1,4 +1,5 @@
 'use strict';
+'require view';
 'require ui';
 'require rpc';
 'require uci';
@@ -90,7 +91,7 @@ function rule_target_txt(s) {
 	}
 }
 
-return L.view.extend({
+return view.extend({
 	callHostHints: rpc.declare({
 		object: 'luci-rpc',
 		method: 'getHostHints',
@@ -179,7 +180,7 @@ return L.view.extend({
 		o = fwtool.addIPOption(s, 'general', 'src_ip', _('Source address'),
 			_('Match forwarded traffic from this IP or range.'), 'ipv4', hosts);
 		o.rmempty = true;
-		o.datatype = 'neg(ipmask4)';
+		o.datatype = 'neg(ipmask4("true"))';
 
 		o = s.taboption('general', form.Value, 'src_port', _('Source port'),
 			_('Match forwarded traffic originating from the given source port or port range.'));
@@ -193,7 +194,7 @@ return L.view.extend({
 		o = fwtool.addIPOption(s, 'general', 'dest_ip', _('Destination address'),
 			_('Match forwarded traffic directed at the given IP address.'), 'ipv4', hosts);
 		o.rmempty = true;
-		o.datatype = 'neg(ipmask4)';
+		o.datatype = 'neg(ipmask4("true"))';
 
 		o = s.taboption('general', form.Value, 'dest_port', _('Destination port'),
 			_('Match forwarded traffic directed at the given destination port or port range.'));
@@ -220,7 +221,7 @@ return L.view.extend({
 			    a = this.formvalue(section_id),
 			    p = port ? port[0].formvalue(section_id) : null;
 
-			if ((a == null || a == '') && (p == null || p == ''))
+			if ((a == null || a == '') && (p == null || p == '') && value == '')
 				return _('A rewrite IP must be specified!');
 
 			return true;
@@ -277,11 +278,11 @@ return L.view.extend({
 		for (var i = 1; i <= 31; i++)
 			o.value(i);
 
-		o = s.taboption('timed', form.Value, 'start_time', _('Start Time (hh.mm.ss)'));
+		o = s.taboption('timed', form.Value, 'start_time', _('Start Time (hh:mm:ss)'));
 		o.modalonly = true;
 		o.datatype = 'timehhmmss';
 
-		o = s.taboption('timed', form.Value, 'stop_time', _('Stop Time (hh.mm.ss)'));
+		o = s.taboption('timed', form.Value, 'stop_time', _('Stop Time (hh:mm:ss)'));
 		o.modalonly = true;
 		o.datatype = 'timehhmmss';
 

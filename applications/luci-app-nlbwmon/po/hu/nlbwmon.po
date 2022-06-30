@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-12-28 03:17+0000\n"
-"Last-Translator: Balázs Úr <balazs@urbalazs.hu>\n"
+"PO-Revision-Date: 2021-08-12 12:55+0000\n"
+"Last-Translator: Tudós Péter <tudi.sk@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsnlbwmon/hu/>\n"
 "Language: hu\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.10\n"
+"X-Generator: Weblate 4.8-dev\n"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:661
 msgid "%d IPv4-only hosts"
@@ -126,7 +126,7 @@ msgstr "Elszámolási időszak"
 
 #: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:21
 msgid "Advanced Settings"
-msgstr "Speciális beállítások"
+msgstr "Haladó Beállítások"
 
 #: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:85
 msgid "Application"
@@ -227,8 +227,11 @@ msgstr "Hónap napja"
 msgid ""
 "Day of month to restart the accounting period. Use negative values to count "
 "towards the end of month, e.g. \"-5\" to specify the 27th of July or the "
-"24th of Februrary."
+"24th of February."
 msgstr ""
+"A hónap napja az elszámolási időszak újraindításához. Használjon negatív "
+"értékeket a hónap végétől való számoláshoz, például a „-5” július 27. vagy "
+"február 24. napját határozza meg."
 
 #: applications/luci-app-nlbwmon/luasrc/controller/nlbw.lua:8
 msgid "Display"
@@ -294,7 +297,7 @@ msgstr "Újratöltés kényszerítése…"
 
 #: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:20
 msgid "General Settings"
-msgstr "Általános beállítások"
+msgstr "Általános Beállítások"
 
 #: applications/luci-app-nlbwmon/luasrc/view/nlbw/backup.htm:28
 msgid "Generate Backup"
@@ -417,7 +420,7 @@ msgstr "Adatbázis előre lefoglalása"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:451
 msgid "Protocol"
-msgstr "Protokoll"
+msgstr "Protokol"
 
 #: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:22
 msgid "Protocol Mapping"

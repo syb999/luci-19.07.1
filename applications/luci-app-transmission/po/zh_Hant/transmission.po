@@ -6,15 +6,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-08 14:06+0200\n"
-"PO-Revision-Date: 2018-10-01 11:39+0800\n"
-"Last-Translator: Yangfl <mmyangfl@gmail.com>\n"
-"Language-Team:  <debian-l10n-chinese@lists.debian.org>\n"
-"Language: zh_TW\n"
+"PO-Revision-Date: 2021-01-17 20:54+0000\n"
+"Last-Translator: akibou <jinwenxin1997@icloud.com>\n"
+"Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
+"openwrt/luciapplicationstransmission/zh_Hant/>\n"
+"Language: zh_Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Gtranslator 2.91.7\n"
+"X-Generator: Weblate 4.5-dev\n"
 
 #: applications/luci-app-transmission/luasrc/model/cbi/transmission.lua:39
 msgid "Alternative download speed"
@@ -78,7 +79,7 @@ msgstr "快取大小（MB）"
 
 #: applications/luci-app-transmission/luasrc/model/cbi/transmission.lua:25
 msgid "Config file directory"
-msgstr "配置檔案的目錄"
+msgstr "組態檔目錄"
 
 #: applications/luci-app-transmission/luasrc/model/cbi/transmission.lua:32
 msgid "Custom WEB UI directory"
@@ -110,11 +111,11 @@ msgstr "啟用種子輪詢目錄"
 
 #: applications/luci-app-transmission/luasrc/model/cbi/transmission.lua:23
 msgid "Enabled"
-msgstr "已啟用"
+msgstr "啟用"
 
 #: applications/luci-app-transmission/luasrc/model/cbi/transmission.lua:97
 msgid "Encryption"
-msgstr "加密"
+msgstr "加密(Encryption)"
 
 #: applications/luci-app-transmission/luasrc/model/cbi/transmission.lua:109
 msgid "Error"
@@ -178,11 +179,11 @@ msgstr "訊息級別"
 
 #: applications/luci-app-transmission/luasrc/model/cbi/transmission.lua:92
 msgid "Miscellaneous"
-msgstr "其他引數"
+msgstr "雜項"
 
 #: applications/luci-app-transmission/luasrc/model/cbi/transmission.lua:108
 msgid "None"
-msgstr "空"
+msgstr "無"
 
 #: applications/luci-app-transmission/luasrc/model/cbi/transmission.lua:188
 msgid ""
@@ -190,13 +191,13 @@ msgid ""
 "enabled, add a value. For Sunday - 1, Monday - 2, Tuesday - 4, Wednesday - "
 "8, Thursday - 16, Friday - 32, Saturday - 64"
 msgstr ""
-"生效日期是對應日期的算術加和值。對應關係：週日-1、週一-2、週二-4、週三-8、周"
-"四-16、週五-32、週六-64。"
+"生效日期是對應日期的算術加和值。對應關係：週日 - 1、週一 - 2、週二 - 4、週三 "
+"- 8、周四 - 16、週五 - 32、週六 - 64"
 
 #: applications/luci-app-transmission/luasrc/model/cbi/transmission.lua:72
 #: applications/luci-app-transmission/luasrc/model/cbi/transmission.lua:98
 msgid "Off"
-msgstr "關閉"
+msgstr "關"
 
 #: applications/luci-app-transmission/luasrc/model/cbi/transmission.lua:14
 msgid "Open Web Interface"
@@ -288,7 +289,7 @@ msgstr "RPC 密碼"
 
 #: applications/luci-app-transmission/luasrc/model/cbi/transmission.lua:159
 msgid "RPC port"
-msgstr "RPC 埠"
+msgstr "RPC 埠號"
 
 #: applications/luci-app-transmission/luasrc/model/cbi/transmission.lua:154
 msgid "RPC settings"
@@ -320,7 +321,7 @@ msgstr "重新命名未完成檔案"
 
 #: applications/luci-app-transmission/luasrc/model/cbi/transmission.lua:26
 msgid "Run daemon as user"
-msgstr "使用者組"
+msgstr "執行守護行程的使用者"
 
 #: applications/luci-app-transmission/luasrc/model/cbi/transmission.lua:181
 msgid "Scheduling"
@@ -370,7 +371,7 @@ msgstr "Transmission"
 msgid ""
 "Transmission daemon is a simple bittorrent client, here you can configure "
 "the settings."
-msgstr "Transmission 是一個簡單的 bittorrent 客戶端，在這裡您可以配置其設定。"
+msgstr "Transmission 是一個簡單的 BitTorrent 客戶端，您可以在這裡設定組態。"
 
 #: applications/luci-app-transmission/luasrc/model/cbi/transmission.lua:82
 msgid "Trash original torrent files"
@@ -387,7 +388,7 @@ msgstr "輪詢種子目錄"
 #: applications/luci-app-transmission/luasrc/model/cbi/transmission.lua:190
 #: applications/luci-app-transmission/luasrc/model/cbi/transmission.lua:192
 msgid "in minutes from midnight"
-msgstr "從晚上 00:00 起的分鐘數，限速到臨時速度"
+msgstr "從子夜（00:00）到計劃限速起始／終止的分鐘數"
 
 #: applications/luci-app-transmission/luasrc/model/cbi/transmission.lua:71
 msgid "preallocation"

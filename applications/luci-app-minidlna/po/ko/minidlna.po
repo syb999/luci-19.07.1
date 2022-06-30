@@ -1,17 +1,20 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-03-26 19:08+0000\n"
+"Last-Translator: dikastia <dikastia@gmail.com>\n"
+"Language-Team: Korean <https://hosted.weblate.org/projects/openwrt/"
+"luciapplicationsminidlna/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: applications/luci-app-minidlna/luasrc/model/cbi/minidlna.lua:16
 msgid "Advanced Settings"
-msgstr ""
+msgstr "고급 설정"
 
 #: applications/luci-app-minidlna/luasrc/model/cbi/minidlna.lua:136
 msgid "Album art names"
@@ -43,7 +46,7 @@ msgstr ""
 
 #: applications/luci-app-minidlna/luasrc/model/cbi/minidlna.lua:18
 msgid "Enable"
-msgstr ""
+msgstr "활성화"
 
 #: applications/luci-app-minidlna/luasrc/model/cbi/minidlna.lua:90
 msgid "Enable TIVO"
@@ -59,11 +62,11 @@ msgstr ""
 
 #: applications/luci-app-minidlna/luasrc/model/cbi/minidlna.lua:15
 msgid "General Settings"
-msgstr ""
+msgstr "기본 설정"
 
 #: applications/luci-app-minidlna/luasrc/model/cbi/minidlna.lua:43
 msgid "Interfaces"
-msgstr ""
+msgstr "인터페이스"
 
 #: applications/luci-app-minidlna/luasrc/model/cbi/minidlna.lua:82
 msgid "Log directory"
@@ -107,7 +110,7 @@ msgstr ""
 
 #: applications/luci-app-minidlna/luasrc/model/cbi/minidlna.lua:37
 msgid "Port"
-msgstr ""
+msgstr "포트"
 
 #: applications/luci-app-minidlna/luasrc/model/cbi/minidlna.lua:38
 msgid "Port for HTTP (descriptions, SOAP, media transfer) traffic."

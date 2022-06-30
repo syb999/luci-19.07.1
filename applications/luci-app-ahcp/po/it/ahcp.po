@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2020-01-11 18:23+0000\n"
-"Last-Translator: Franco Castillo <castillofrancodamian@gmail.com>\n"
+"PO-Revision-Date: 2022-02-18 20:58+0000\n"
+"Last-Translator: pisquan8 <cimurro@outlook.de>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsahcp/it/>\n"
 "Language: it\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.10.1\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #: applications/luci-app-ahcp/luasrc/controller/ahcp.lua:11
 #: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:4
@@ -18,7 +18,6 @@ msgid "AHCP Server"
 msgstr "Server AHCP"
 
 #: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:4
-#, fuzzy
 msgid ""
 "AHCP is an autoconfiguration protocol for IPv6 and dual-stack IPv6/IPv4 "
 "networks designed to be used in place of router discovery or DHCP on "
@@ -40,7 +39,7 @@ msgstr "Indirizzo"
 
 #: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:14
 msgid "Advanced Settings"
-msgstr "Opzioni Avanzate"
+msgstr "Impostazioni Avanzate"
 
 #: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm:39
 msgid "Age"
@@ -60,11 +59,11 @@ msgstr "Prefissi indicati"
 
 #: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm:42
 msgid "Collecting data..."
-msgstr "Raccolta dei dati..."
+msgstr "Raccolta dati..."
 
 #: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua:55
 msgid "Disable DNS setup"
-msgstr ""
+msgstr "Disattiva configurazione DNS"
 
 #: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:21
 msgid "Forwarder"
@@ -72,7 +71,7 @@ msgstr "Mittente"
 
 #: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:13
 msgid "General Setup"
-msgstr "Setup Generale"
+msgstr "Configurazione Generale"
 
 #: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua:24
 #: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:61
@@ -100,7 +99,7 @@ msgstr "Tempo di validità del Lease"
 
 #: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:105
 msgid "Log file"
-msgstr "File di log"
+msgstr "File registro eventi"
 
 #: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua:11
 #: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:50
@@ -114,7 +113,7 @@ msgstr "Modalità di funzionamento"
 #: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua:17
 #: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:55
 msgid "Port"
-msgstr "Port"
+msgstr "Porta"
 
 #: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua:23
 #: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:60

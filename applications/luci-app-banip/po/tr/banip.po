@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-12-09 20:04+0000\n"
-"Last-Translator: İsmail Karslı <ismail541236@gmail.com>\n"
+"PO-Revision-Date: 2021-07-05 23:42+0000\n"
+"Last-Translator: ToldYouThat <itoldyouthat@protonmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsbanip/tr/>\n"
 "Language: tr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.10-dev\n"
+"X-Generator: Weblate 4.8-dev\n"
 
 #: applications/luci-app-banip/luasrc/view/banip/ripeview.htm:89
 msgid "ASN Overview"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:139
 msgid "Additional trigger delay in seconds before banIP processing begins."
-msgstr ""
+msgstr "BanIP işleme başlamadan önce saniye cinsinden ek tetikleme gecikmesi."
 
 #: applications/luci-app-banip/luasrc/controller/banip.lua:21
 msgid "Advanced"
@@ -37,7 +37,7 @@ msgstr ""
 #: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:94
 #: applications/luci-app-banip/luasrc/view/banip/runtime.htm:138
 msgid "Backup Directory"
-msgstr "Yedek Dizini"
+msgstr "Yedekleme Dizini"
 
 #: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:115
 msgid ""
@@ -73,7 +73,7 @@ msgstr ""
 
 #: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:72
 msgid "Description"
-msgstr ""
+msgstr "Açıklama"
 
 #: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:134
 msgid "Download Options"
@@ -81,7 +81,7 @@ msgstr ""
 
 #: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:126
 msgid "Download Utility"
-msgstr ""
+msgstr "İndirme Aracı"
 
 #: applications/luci-app-banip/luasrc/view/banip/runtime.htm:126
 msgid "Download Utility, RT Monitor"
@@ -89,7 +89,7 @@ msgstr ""
 
 #: applications/luci-app-banip/luasrc/controller/banip.lua:22
 msgid "Edit Blacklist"
-msgstr ""
+msgstr "Karalisteyi Düzenle"
 
 #: applications/luci-app-banip/luasrc/controller/banip.lua:24
 msgid "Edit Configuration"
@@ -97,7 +97,7 @@ msgstr ""
 
 #: applications/luci-app-banip/luasrc/controller/banip.lua:23
 msgid "Edit Whitelist"
-msgstr ""
+msgstr "Beyazlisteyi Düzenle"
 
 #: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:20
 msgid "Enable banIP"
@@ -141,7 +141,7 @@ msgstr ""
 
 #: applications/luci-app-banip/luasrc/view/banip/runtime.htm:132
 msgid "IPSet Information"
-msgstr ""
+msgstr "IPSet Bilgileri"
 
 #: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:56
 msgid "IPSet Sources"
@@ -175,7 +175,7 @@ msgstr ""
 
 #: applications/luci-app-banip/luasrc/view/banip/runtime.htm:144
 msgid "Last Run"
-msgstr ""
+msgstr "Son çalışma zamanı"
 
 #: applications/luci-app-banip/luasrc/view/banip/ipsetview.htm:59
 #: applications/luci-app-banip/luasrc/view/banip/ripeview.htm:97
@@ -201,7 +201,7 @@ msgstr ""
 
 #: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:87
 msgid "Low Priority Service"
-msgstr ""
+msgstr "Düşük Öncelikli Servis"
 
 #: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:28
 msgid "Manual WAN Interface Selection"
@@ -223,7 +223,7 @@ msgstr ""
 
 #: applications/luci-app-banip/luasrc/controller/banip.lua:17
 msgid "Overview"
-msgstr ""
+msgstr "Genel bakış"
 
 #: applications/luci-app-banip/luasrc/model/cbi/banip/blacklist_tab.lua:32
 #: applications/luci-app-banip/luasrc/model/cbi/banip/whitelist_tab.lua:32
@@ -245,7 +245,7 @@ msgstr ""
 #: applications/luci-app-banip/luasrc/view/banip/runtime.htm:18
 #: applications/luci-app-banip/luasrc/view/banip/runtime.htm:153
 msgid "Refresh"
-msgstr ""
+msgstr "Yenile"
 
 #: applications/luci-app-banip/luasrc/view/banip/runtime.htm:151
 msgid "Refresh IPSets"
@@ -254,7 +254,7 @@ msgstr ""
 #: applications/luci-app-banip/luasrc/view/banip/runtime.htm:21
 #: applications/luci-app-banip/luasrc/view/banip/runtime.htm:160
 msgid "Reload"
-msgstr ""
+msgstr "Yeniden yükle"
 
 #: applications/luci-app-banip/luasrc/view/banip/runtime.htm:158
 msgid "Reload IPSet Sources"
@@ -288,7 +288,7 @@ msgstr ""
 #: applications/luci-app-banip/luasrc/model/cbi/banip/configuration_tab.lua:26
 #: applications/luci-app-banip/luasrc/model/cbi/banip/whitelist_tab.lua:27
 msgid "Save"
-msgstr ""
+msgstr "Kaydet"
 
 #: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:108
 msgid "Select the SSH daemon for logfile parsing, to detect break-in events."
@@ -359,6 +359,7 @@ msgstr ""
 #: applications/luci-app-banip/luasrc/view/banip/logview.htm:31
 msgid "The syslog output, pre-filtered for banIP related messages only."
 msgstr ""
+"Yalnızca banIP ile ilgili mesajlar için önceden filtrelenmiş syslog çıktısı."
 
 #: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:89
 msgid "This change requires a manual service stop/re-start to take effect."
@@ -426,15 +427,15 @@ msgstr ""
 
 #: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:138
 msgid "Trigger Delay"
-msgstr ""
+msgstr "Tetikleme Gecikmesi"
 
 #: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:83
 msgid "Verbose Debug Logging"
-msgstr ""
+msgstr "Ayrıntılı Hata Ayıklama Günlüğü"
 
 #: applications/luci-app-banip/luasrc/controller/banip.lua:20
 msgid "View Logfile"
-msgstr ""
+msgstr "Günlük Dosyasını Görüntüle"
 
 #: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:156
 msgid "WAN Forward Chain IPv4"
@@ -466,7 +467,7 @@ msgstr ""
 #: applications/luci-app-banip/luasrc/controller/banip.lua:16
 #: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:10
 msgid "banIP"
-msgstr ""
+msgstr "banIP"
 
 #: applications/luci-app-banip/luasrc/view/banip/runtime.htm:114
 msgid "banIP Status"

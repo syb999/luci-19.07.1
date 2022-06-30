@@ -3,15 +3,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-10-23 09:54+0000\n"
-"Last-Translator: liushuyu011 <liushuyu011@gmail.com>\n"
+"PO-Revision-Date: 2021-04-11 16:26+0000\n"
+"Last-Translator: xiazhang <xz@xia.plus>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "openwrt/luciapplicationsdynapoint/zh_Hans/>\n"
-"Language: zh-cn\n"
+"Language: zh_Hans\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.9.1-dev\n"
+"X-Generator: Weblate 4.6-dev\n"
 
 #: applications/luci-app-dynapoint/luasrc/model/cbi/dynapoint.lua:90
 msgid "Activate this wVIF if status is:"
@@ -48,7 +48,7 @@ msgstr "已禁用"
 
 #: applications/luci-app-dynapoint/luasrc/controller/dynapoint.lua:7
 msgid "DynaPoint"
-msgstr "DynaPoint"
+msgstr "动态点"
 
 #: applications/luci-app-dynapoint/luasrc/model/cbi/dynapoint.lua:54
 msgid "Dynamic Access Point Manager"

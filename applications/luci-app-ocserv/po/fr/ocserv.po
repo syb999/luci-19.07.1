@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-01-11 18:23+0000\n"
-"Last-Translator: Franco Castillo <castillofrancodamian@gmail.com>\n"
+"PO-Revision-Date: 2021-11-21 18:56+0000\n"
+"Last-Translator: Felix Braun <f.bhelicopter@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsocserv/fr/>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.10.1\n"
+"X-Generator: Weblate 4.10-dev\n"
 
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/main.lua:124
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/user-config.lua:80
@@ -16,10 +16,12 @@ msgid ""
 "<abbr title=\"Classless Inter-Domain Routing\">CIDR</abbr>-Notation: address/"
 "prefix"
 msgstr ""
+"<abbr title=\"Routage Inter-Domain sans classe\">CIDR</abbr>-Notation: "
+"address/prefix"
 
 #: applications/luci-app-ocserv/luasrc/view/ocserv_status.htm:48
 msgid "Active OpenConnect Users"
-msgstr ""
+msgstr "Utilisateurs OpenConnect Actifs"
 
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/users.lua:61
 msgid "Active users"
@@ -133,12 +135,12 @@ msgstr "IP"
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/user-config.lua:128
 #: applications/luci-app-ocserv/luasrc/view/ocserv_status.htm:53
 msgid "IP Address"
-msgstr ""
+msgstr "Adresse IP"
 
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/main.lua:58
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/user-config.lua:52
 msgid "Max clients"
-msgstr ""
+msgstr "Nombre max. de clients"
 
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/main.lua:59
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/user-config.lua:53
@@ -276,7 +278,7 @@ msgstr "Heure"
 
 #: applications/luci-app-ocserv/luasrc/view/ocserv_status.htm:51
 msgid "User"
-msgstr ""
+msgstr "Utilisateur"
 
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/main.lua:49
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/user-config.lua:37

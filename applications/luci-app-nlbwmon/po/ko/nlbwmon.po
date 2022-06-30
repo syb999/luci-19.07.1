@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-01-14 15:22+0000\n"
-"Last-Translator: Franco Castillo <castillofrancodamian@gmail.com>\n"
+"PO-Revision-Date: 2022-03-26 23:10+0000\n"
+"Last-Translator: dikastia <dikastia@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsnlbwmon/ko/>\n"
 "Language: ko\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.11-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:661
 msgid "%d IPv4-only hosts"
@@ -120,7 +120,7 @@ msgstr ""
 
 #: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:21
 msgid "Advanced Settings"
-msgstr ""
+msgstr "고급 설정"
 
 #: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:85
 msgid "Application"
@@ -167,7 +167,7 @@ msgstr ""
 #: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:94
 #: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:133
 msgid "Collecting data..."
-msgstr ""
+msgstr "데이터 수집 중..."
 
 #: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:177
 msgid "Commit interval"
@@ -179,7 +179,7 @@ msgstr ""
 
 #: applications/luci-app-nlbwmon/luasrc/controller/nlbw.lua:9
 msgid "Configuration"
-msgstr ""
+msgstr "설정"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:302
 msgid "Conn."
@@ -212,7 +212,7 @@ msgstr ""
 msgid ""
 "Day of month to restart the accounting period. Use negative values to count "
 "towards the end of month, e.g. \"-5\" to specify the 27th of July or the "
-"24th of Februrary."
+"24th of February."
 msgstr ""
 
 #: applications/luci-app-nlbwmon/luasrc/controller/nlbw.lua:8
@@ -279,7 +279,7 @@ msgstr ""
 
 #: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:20
 msgid "General Settings"
-msgstr ""
+msgstr "기본 설정"
 
 #: applications/luci-app-nlbwmon/luasrc/view/nlbw/backup.htm:28
 msgid "Generate Backup"
@@ -493,7 +493,7 @@ msgstr ""
 
 #: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:51
 msgid "Warning"
-msgstr ""
+msgstr "경고"
 
 #: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:165
 msgid ""

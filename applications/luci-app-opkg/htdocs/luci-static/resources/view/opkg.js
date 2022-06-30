@@ -86,7 +86,7 @@ function parseList(s, dest)
 			key = RegExp.$1.toLowerCase();
 			val = RegExp.$2.trim();
 		}
-		else {
+		else if (pkg) {
 			dest.pkgs[pkg.name] = pkg;
 
 			var provides = dest.providers[pkg.name] ? [] : [ pkg.name ];
@@ -662,7 +662,7 @@ function handleConfig(ev)
 			body.push(E('h5', {}, '%h'.format(file)));
 			body.push(E('textarea', {
 				'name': file,
-				'rows': Math.max(Math.min(conf[file].match(/\n/g).length, 10), 3)
+				'rows': Math.max(Math.min(L.toArray(conf[file].match(/\n/g)).length, 10), 3)
 			}, '%h'.format(conf[file])));
 		});
 
@@ -775,6 +775,9 @@ function handleOpkg(ev)
 				E('div', {
 					'class': 'btn',
 					'click': L.bind(function(res) {
+						if (L.ui.menu && L.ui.menu.flushCache)
+							L.ui.menu.flushCache();
+
 						L.hideModal();
 						updateLists();
 

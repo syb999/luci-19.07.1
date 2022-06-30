@@ -1,8 +1,14 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-03-26 23:10+0000\n"
+"Last-Translator: dikastia <dikastia@gmail.com>\n"
+"Language-Team: Korean <https://hosted.weblate.org/projects/openwrt/"
+"luciapplicationsaria2/ko/>\n"
 "Language: ko\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:296
 msgid "<abbr title=\"Local Peer Discovery\">LPD</abbr> enabled"
@@ -74,7 +80,7 @@ msgstr ""
 #: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm:49
 #: applications/luci-app-aria2/luasrc/view/aria2/settings_header.htm:29
 msgid "Collecting data..."
-msgstr ""
+msgstr "데이터 수집 중..."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:73
 msgid "Config file directory"
@@ -82,7 +88,7 @@ msgstr ""
 
 #: applications/luci-app-aria2/luasrc/controller/aria2.lua:21
 msgid "Configuration"
-msgstr ""
+msgstr "설정"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:230
 msgid "Connect timeout"
@@ -102,7 +108,7 @@ msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:87
 msgid "Debug"
-msgstr ""
+msgstr "디버그"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:422
 msgid ""
@@ -165,11 +171,11 @@ msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:58
 msgid "Enabled"
-msgstr ""
+msgstr "활성화"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:91
 msgid "Error"
-msgstr ""
+msgstr "에러"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:44
 msgid "Error: Can't find aria2c in PATH, please reinstall aria2."
@@ -259,7 +265,7 @@ msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:88
 msgid "Info"
-msgstr ""
+msgstr "정보"
 
 #: applications/luci-app-aria2/luasrc/view/aria2/settings_header.htm:33
 msgid "Installed web interface:"
@@ -297,7 +303,7 @@ msgstr ""
 
 #: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm:48
 msgid "Loading"
-msgstr ""
+msgstr "로드 중"
 
 #: applications/luci-app-aria2/luasrc/controller/aria2.lua:27
 msgid "Log"
@@ -309,7 +315,7 @@ msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:80
 msgid "Log file"
-msgstr ""
+msgstr "로그 파일"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:85
 msgid "Log level"

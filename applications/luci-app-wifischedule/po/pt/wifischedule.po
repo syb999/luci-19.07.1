@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-11-21 14:24+0000\n"
+"PO-Revision-Date: 2020-07-20 11:41+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationswifischedule/pt/>\n"
@@ -8,7 +8,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.10-dev\n"
+"X-Generator: Weblate 4.2-dev\n"
 
 #: applications/luci-app-wifischedule/luasrc/model/cbi/wifischedule/wifi_schedule.lua:81
 msgid "Activate wifi"
@@ -42,7 +42,7 @@ msgstr "Determinar os Módulos Automaticamente"
 
 #: applications/luci-app-wifischedule/luasrc/model/cbi/wifischedule/wifi_schedule.lua:88
 msgid "Disable wifi gracefully"
-msgstr "Desabilitar a WiFi amistosamente"
+msgstr "Desativar a WiFi amistosamente"
 
 #: applications/luci-app-wifischedule/luasrc/model/cbi/wifischedule/wifi_schedule.lua:95
 msgid "Disabled wifi forced"
@@ -54,7 +54,7 @@ msgstr "Ativar"
 
 #: applications/luci-app-wifischedule/luasrc/model/cbi/wifischedule/wifi_schedule.lua:55
 msgid "Enable Wifi Schedule"
-msgstr "Habilitar o agendamento da WiFi"
+msgstr "Ativar o agendamento da WiFi"
 
 #: applications/luci-app-wifischedule/luasrc/model/cbi/wifischedule/wifi_schedule.lua:74
 msgid "Enable logging"
@@ -90,7 +90,7 @@ msgstr "Eventos do agendamento"
 
 #: applications/luci-app-wifischedule/luasrc/model/cbi/wifischedule/wifi_schedule.lua:196
 msgid "Start Time"
-msgstr "Hora Inicial"
+msgstr "Hora do Início"
 
 #: applications/luci-app-wifischedule/luasrc/model/cbi/wifischedule/wifi_schedule.lua:167
 msgid "Start WiFi"
@@ -143,4 +143,4 @@ msgstr "Agendamento da Wifi"
 
 #: applications/luci-app-wifischedule/luasrc/controller/wifischedule/wifi_schedule.lua:35
 msgid "Wifi Schedule Logfile"
-msgstr "Arquivo de Registros (log) do Agendamento da Wifi"
+msgstr "Ficheiro de Registros (log) do Agendamento da Wifi"

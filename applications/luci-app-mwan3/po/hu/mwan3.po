@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-12-21 21:43+0000\n"
-"Last-Translator: Balázs Úr <balazs@urbalazs.hu>\n"
+"PO-Revision-Date: 2021-08-12 12:55+0000\n"
+"Last-Translator: Tudós Péter <tudi.sk@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsmwan3/hu/>\n"
 "Language: hu\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.10\n"
+"X-Generator: Weblate 4.8-dev\n"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:171
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:187
@@ -42,6 +42,7 @@ msgstr "%d perc"
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:160
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:176
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:196
+#, fuzzy
 msgid "%d second"
 msgstr "%d másodperc"
 
@@ -109,7 +110,7 @@ msgid "Also scan this Routing table for connected networks"
 msgstr ""
 "Vizsgálja ezt az útválasztási táblázatot is a kapcsolódott hálózatoknál"
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:73
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:77
 msgid "Check IP rules"
 msgstr "IP-szabályok ellenőrzése"
 
@@ -117,7 +118,7 @@ msgstr "IP-szabályok ellenőrzése"
 msgid "Check link quality"
 msgstr "Kapcsolatminőség ellenőrzése"
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:74
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:78
 msgid "Check routing table"
 msgstr "Útválasztási táblázat ellenőrzése"
 
@@ -198,7 +199,7 @@ msgstr "Érték megadása hexadecimálisan, <code>0x</code>-szel kezdve"
 msgid "Error"
 msgstr "Hiba"
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:81
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:88
 msgid "Execute"
 msgstr "Végrehajtás"
 
@@ -231,11 +232,11 @@ msgstr ""
 msgid "Globals"
 msgstr "Globálisak"
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:76
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:80
 msgid "Hotplug ifdown"
 msgstr "Gyorsleválasztási csatolólekapcsolás"
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:75
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:79
 msgid "Hotplug ifup"
 msgstr "Gyorsleválasztási csatolófelkapcsolás"
 
@@ -276,7 +277,7 @@ msgstr "Kezdeti állapot"
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/memberconfig.lua:18
 #: applications/luci-app-mwan3/luasrc/view/mwan/status_detail.htm:10
 #: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:10
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:62
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:61
 #: applications/luci-app-mwan3/luasrc/view/mwan/status_interface.htm:10
 #: applications/luci-app-mwan3/luasrc/view/mwan/status_troubleshooting.htm:10
 msgid "Interface"
@@ -531,7 +532,7 @@ msgstr "Csak egy IP-szabály található a(z) %s csatolónál"
 msgid "Ping count"
 msgstr "Pingelés darabszáma"
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:71
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:75
 msgid "Ping default gateway"
 msgstr "Alapértelmezett átjáró pingelése"
 
@@ -556,7 +557,7 @@ msgstr "Pingelés mérete"
 msgid "Ping timeout"
 msgstr "Pingelés időkorlátja"
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:72
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:76
 msgid "Ping tracking IP"
 msgstr "Követési IP pingelése"
 
@@ -596,7 +597,7 @@ msgstr "Hozzárendelt házirend"
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/rule.lua:93
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/ruleconfig.lua:36
 msgid "Protocol"
-msgstr "Protokoll"
+msgstr "Protokol"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:193
 msgid "Recovery interval"
@@ -682,7 +683,7 @@ msgid "Supports CIDR notation (eg \"192.168.100.0/24\") without quotes"
 msgstr ""
 "Támogatja a CIDR jelölést (például „192.168.100.0/24”), idézőjelek nélkül"
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:69
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:72
 msgid "Task"
 msgstr "Feladat"
 

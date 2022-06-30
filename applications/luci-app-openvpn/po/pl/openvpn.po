@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2020-01-28 03:40+0000\n"
+"PO-Revision-Date: 2021-04-03 04:26+0000\n"
 "Last-Translator: Marcin Net <marcin.net@linux.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsopenvpn/pl/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.11-dev\n"
+"X-Generator: Weblate 4.6-dev\n"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:821
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:824
@@ -86,7 +86,7 @@ msgstr "Automatycznie przekieruj domyślną trasę"
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn.lua:11
 msgid "Below is a list of configured OpenVPN instances and their current state"
 msgstr ""
-"Ponieżej znajduje się lista skonfigurowanych procesów OpenVPN wraz z ich "
+"Poniżej znajduje się lista skonfigurowanych instancji OpenVPN wraz z ich "
 "aktualnymi stanami"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:119
@@ -434,7 +434,7 @@ msgstr "Utrzymuj/Nie utrzymuj ifconfig-pool"
 msgid "Ping remote every n seconds over TCP/UDP port"
 msgstr "Pinguj zdalnego co n sekund przez port TCP/UDP"
 
-#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:28
+#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:32
 msgid "Please edit this file directly in a terminal session."
 msgstr "Proszę edytować ten plik bezpośrednio w sesji terminala."
 
@@ -554,20 +554,20 @@ msgstr "Uruchom skrypt cmd po rozłączeniu klienta"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:123
 msgid "Run up/down scripts for all restarts"
-msgstr "Uruchom skrypty up/down dla wszystkich restartów"
+msgstr "Uruchom skrypty góra/dół dla wszystkich restartów"
 
-#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:37
+#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:41
 msgid "Save"
 msgstr "Zapisz"
 
-#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:61
+#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:65
 msgid ""
 "Section to add an optional 'auth-user-pass' file with your credentials (%s)"
 msgstr ""
 "Sekcja umożliwiająca dodanie opcjonalnego pliku 'auth-user-pass' z danymi "
 "uwierzytelniającymi (%s)"
 
-#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:40
+#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:44
 msgid "Section to modify the OVPN config file (%s)"
 msgstr "Sekcja modyfikacji pliku konfiguracyjnego OVPN (%s)"
 
@@ -724,7 +724,7 @@ msgstr "Katalog tymczasowy dla pliku zwrotnego połączenia klienta"
 msgid "The 'Name' field must not be empty!"
 msgstr "Pole 'Nazwa' nie może być puste!"
 
-#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:18
+#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:22
 msgid ""
 "The OVPN config file (%s) could not be found, please check your "
 "configuration."
@@ -745,7 +745,7 @@ msgstr "Kluczowy kierunek dla opcji \"tls-auth\" i \"secret\""
 msgid "The lowest supported TLS version"
 msgstr "Najniższa obsługiwana wersja protokołu TLS"
 
-#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:27
+#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:31
 msgid ""
 "The size of the OVPN config file (%s) is too large for online editing in "
 "LuCI (&ge; 100 KB)."
@@ -768,7 +768,7 @@ msgstr "Typ użytego urządzenia"
 
 #: applications/luci-app-openvpn/luasrc/view/openvpn/cbi-select-input-add.htm:104
 msgid "Upload"
-msgstr "Wyślij"
+msgstr "Wysyłanie"
 
 #: applications/luci-app-openvpn/luasrc/view/openvpn/cbi-select-input-add.htm:104
 msgid "Upload ovpn file"

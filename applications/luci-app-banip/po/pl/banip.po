@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-01-28 03:40+0000\n"
-"Last-Translator: Marcin Net <marcin.net@linux.pl>\n"
+"PO-Revision-Date: 2022-01-08 22:54+0000\n"
+"Last-Translator: Matthaiks <kitynska@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsbanip/pl/>\n"
 "Language: pl\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.11-dev\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: applications/luci-app-banip/luasrc/view/banip/ripeview.htm:89
 msgid "ASN Overview"
@@ -96,7 +96,7 @@ msgstr "Narzędzie pobierania, monitor RT"
 
 #: applications/luci-app-banip/luasrc/controller/banip.lua:22
 msgid "Edit Blacklist"
-msgstr "Edycja czarnej listy"
+msgstr "Czarna lista"
 
 #: applications/luci-app-banip/luasrc/controller/banip.lua:24
 msgid "Edit Configuration"
@@ -104,7 +104,7 @@ msgstr "Edycja konfiguracji"
 
 #: applications/luci-app-banip/luasrc/controller/banip.lua:23
 msgid "Edit Whitelist"
-msgstr "Edycja białej listy"
+msgstr "Biała lista"
 
 #: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:20
 msgid "Enable banIP"
@@ -390,7 +390,7 @@ msgstr "Rozmiar pliku jest zbyt duży do edycji online w LuCI (&ge; 100 KB)."
 #: applications/luci-app-banip/luasrc/view/banip/logview.htm:31
 msgid "The syslog output, pre-filtered for banIP related messages only."
 msgstr ""
-"Dane wyjściowe dziennika systemowego, wstępnie filtrowane dla dla wiadomości "
+"Dane wyjściowe dziennika systemowego, wstępnie filtrowane dla wiadomości "
 "związanych z banIP."
 
 #: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:89

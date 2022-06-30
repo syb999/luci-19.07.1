@@ -72,40 +72,6 @@ end
 
 net = {}
 
---			The following fields are defined for arp entry objects:
---			{ "IP address", "HW address", "HW type", "Flags", "Mask", "Device" }
-function net.arptable(callback)
-	local arp = (not callback) and {} or nil
-	local e, r, v
-	if fs.access("/proc/net/arp") then
-		for e in io.lines("/proc/net/arp") do
-			local r = { }, v
-			for v in e:gmatch("%S+") do
-				r[#r+1] = v
-			end
-
-			if r[1] ~= "IP" then
-				local x = {
-					["IP address"] = r[1],
-					["HW type"]    = r[2],
-					["Flags"]      = r[3],
-					["HW address"] = r[4],
-					["Mask"]       = r[5],
-					["Device"]     = r[6]
-				}
-
-				if callback then
-					callback(x)
-				else
-					arp = arp or { }
-					arp[#arp+1] = x
-				end
-			end
-		end
-	end
-	return arp
-end
-
 local function _nethints(what, callback)
 	local _, k, e, mac, ip, name, duid, iaid
 	local cur = uci.cursor()
@@ -413,7 +379,7 @@ function process.list()
 
 	for line in ps do
 		local pid, ppid, user, stat, vsz, mem, cpu, cmd = line:match(
-			"^ *(%d+) +(%d+) +(%S.-%S) +([RSDZTW][<NW ][<N ]) +(%d+) +(%d+%%) +(%d+%%) +(.+)"
+			"^ *(%d+) +(%d+) +(%S.-%S) +([RSDZTW][<NW ][<N ]) +(%d+m?) +(%d+%%) +(%d+%%) +(.+)"
 		)
 
 		local idx = tonumber(pid)
@@ -600,6 +566,7 @@ function init.names()
 end
 
 function init.index(name)
+	name = fs.basename(name)
 	if fs.access(init.dir..name) then
 		return call("env -i sh -c 'source %s%s enabled; exit ${START:-255}' >/dev/null"
 			%{ init.dir, name })
@@ -607,6 +574,7 @@ function init.index(name)
 end
 
 local function init_action(action, name)
+	name = fs.basename(name)
 	if fs.access(init.dir..name) then
 		return call("env -i %s%s %s >/dev/null" %{ init.dir, name, action })
 	end

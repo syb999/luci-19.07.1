@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-06-10 03:41+0200\n"
-"PO-Revision-Date: 2020-01-26 12:41+0000\n"
+"PO-Revision-Date: 2022-01-12 11:22+0000\n"
 "Last-Translator: Franco Castillo <castillofrancodamian@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsstatistics/es/>\n"
@@ -12,12 +12,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11-dev\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: applications/luci-app-statistics/luasrc/statistics/plugins/apcups.lua:7
 #: applications/luci-app-statistics/luasrc/statistics/rrdtool/definitions/apcups.lua:7
 msgid "APC UPS"
-msgstr "APC UPS"
+msgstr "UPS APC"
 
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/apcups.lua:5
 msgid "APCUPS Plugin Configuration"
@@ -117,7 +117,7 @@ msgstr "Rutas"
 
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/olsrd.lua:38
 msgid "CollectTopology"
-msgstr "CollectTopology"
+msgstr "Topología"
 
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/collectd.lua:8
 msgid "Collectd Settings"
@@ -282,7 +282,11 @@ msgstr "Monitorización del filtro de clases"
 #: applications/luci-app-statistics/luasrc/statistics/plugins/iptables.lua:2
 #: applications/luci-app-statistics/luasrc/statistics/rrdtool/definitions/iptables.lua:7
 msgid "Firewall"
-msgstr "Firewall"
+msgstr "Cortafuegos"
+
+#: applications/luci-app-statistics/luasrc/statistics/rrdtool/definitions/ip6tables.lua:7
+msgid "Firewall (IPv6)"
+msgstr "Firewall (IPv6)"
 
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/rrdtool.lua:100
 msgid "Flush cache after"
@@ -655,11 +659,11 @@ msgstr "Configuración del plugin \"Herramienta RRD\""
 msgid "Report by CPU"
 msgstr "Informe por CPU"
 
-#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:24
+#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:25
 msgid "Report by state"
 msgstr "Informe por estado"
 
-#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:31
+#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:33
 msgid "Report in percent"
 msgstr "Informe en porcentaje"
 
@@ -1000,8 +1004,8 @@ msgid ""
 "The splash leases plugin uses libuci to collect statistics about splash "
 "leases."
 msgstr ""
-"El plugin \"splash leases\" usa libuci para recopilar estadísticas sobre los "
-"arrendamientos de salpicaduras."
+"El complemento \"splash leases\" usa libuci para recopilar estadísticas "
+"sobre los arrendamientos de salpicaduras."
 
 #: applications/luci-app-statistics/luasrc/view/admin_statistics/index.htm:11
 msgid ""
@@ -1137,7 +1141,7 @@ msgstr "Usuario"
 msgid "Verbose monitoring"
 msgstr "Monitorización detallada"
 
-#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:25
+#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:26
 msgid "When set to true, reports per-state metric (system, user, idle)"
 msgstr ""
 "Cuando se establece en verdadero, informa métrica por estado (sistema, "
@@ -1147,7 +1151,7 @@ msgstr ""
 msgid "When set to true, we request absolute values"
 msgstr "Cuando se establece en verdadero, se solicita valores absolutos"
 
-#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:32
+#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:34
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/memory.lua:24
 msgid "When set to true, we request percentage values"
 msgstr "Cuando se establece en verdadero, se solicita valores de porcentaje"

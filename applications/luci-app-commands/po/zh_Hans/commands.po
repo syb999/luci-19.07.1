@@ -5,15 +5,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2018-08-07 17:23+0800\n"
-"Last-Translator: Yangfl <mmyangfl@gmail.com>\n"
-"Language-Team:  <debian-l10n-chinese@lists.debian.org>\n"
-"Language: zh_CN\n"
+"PO-Revision-Date: 2021-04-15 17:26+0000\n"
+"Last-Translator: xiazhang <xz@xia.plus>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"openwrt/luciapplicationscommands/zh_Hans/>\n"
+"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Gtranslator 2.91.7\n"
+"X-Generator: Weblate 4.6-dev\n"
 
 #: applications/luci-app-commands/luasrc/model/cbi/commands.lua:16
 msgid "A short textual description of the configured command"
@@ -23,7 +24,7 @@ msgstr "简短描述命令用途"
 msgid ""
 "Allow executing the command and downloading its output without prior "
 "authentication"
-msgstr "允许直接执行命令并获取其输出，无须事先验证。"
+msgstr "允许不事先验证就执行命令并下载其输出"
 
 #: applications/luci-app-commands/luasrc/model/cbi/commands.lua:22
 msgid "Allow the user to provide additional command line arguments"
@@ -55,11 +56,11 @@ msgstr "命令成功执行。"
 
 #: applications/luci-app-commands/luasrc/view/commands_public.htm:32
 msgid "Command exited with status code"
-msgstr "命令退出，状态码："
+msgstr "命令退出，状态码为"
 
 #: applications/luci-app-commands/luasrc/view/commands.htm:73
 msgid "Command failed"
-msgstr "执行命令失败"
+msgstr "命令执行失败"
 
 #: applications/luci-app-commands/luasrc/model/cbi/commands.lua:19
 msgid "Command line to execute"
@@ -89,7 +90,7 @@ msgstr "自定义参数"
 
 #: applications/luci-app-commands/luasrc/controller/commands.lua:8
 msgid "Dashboard"
-msgstr "看板"
+msgstr "概览"
 
 #: applications/luci-app-commands/luasrc/model/cbi/commands.lua:15
 msgid "Description"

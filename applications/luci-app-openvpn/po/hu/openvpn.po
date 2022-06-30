@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2020-01-12 19:21+0000\n"
-"Last-Translator: Balázs Úr <balazs@urbalazs.hu>\n"
+"PO-Revision-Date: 2021-08-16 10:33+0000\n"
+"Last-Translator: Bence Csókás <bence.csokas@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsopenvpn/hu/>\n"
 "Language: hu\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.10.1\n"
+"X-Generator: Weblate 4.8-dev\n"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:821
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:824
@@ -414,7 +414,7 @@ msgstr "TUN/TAP/UDP írások optimalizálása"
 
 #: applications/luci-app-openvpn/luasrc/view/openvpn/pageswitch.htm:11
 msgid "Overview"
-msgstr "Áttekintő"
+msgstr "Áttekintés"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:673
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-basic.lua:73
@@ -437,7 +437,7 @@ msgstr "Ifconfig tároló állandóvá vagy nem állandóvá tétele"
 msgid "Ping remote every n seconds over TCP/UDP port"
 msgstr "Távoli gép pingelése N másodpercenként TCP/UDP porton keresztül"
 
-#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:28
+#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:32
 msgid "Please edit this file directly in a terminal session."
 msgstr "Szerkessze ezt a fájlt közvetlenül egy terminál munkamenetben."
 
@@ -459,7 +459,7 @@ msgstr "Port"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn.lua:156
 msgid "Protocol"
-msgstr "Protokoll"
+msgstr "Protokol"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:529
 msgid "Proxy timeout in seconds"
@@ -559,18 +559,18 @@ msgid "Run up/down scripts for all restarts"
 msgstr ""
 "Felkapcsolási és lekapcsolási parancsfájlok futtatása minden újraindításnál"
 
-#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:37
+#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:41
 msgid "Save"
 msgstr "Mentés"
 
-#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:61
+#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:65
 msgid ""
 "Section to add an optional 'auth-user-pass' file with your credentials (%s)"
 msgstr ""
 "Egy szakasz egy nem kötelező „auth-user-pass” fájl hozzáadásához a "
 "hitelesítési adatokkal (%s)"
 
-#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:40
+#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:44
 msgid "Section to modify the OVPN config file (%s)"
 msgstr "Egy szakasz az OVPN beállítófájl módosításához (%s)"
 
@@ -727,7 +727,7 @@ msgstr "Átmeneti könyvtár az ügyfélkapcsolódás visszatérési fájljához
 msgid "The 'Name' field must not be empty!"
 msgstr "A „Name” mező nem lehet üres!"
 
-#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:18
+#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:22
 msgid ""
 "The OVPN config file (%s) could not be found, please check your "
 "configuration."
@@ -746,7 +746,7 @@ msgstr "A kulcsirány a „tls-auth” és „secret” beállításoknál"
 msgid "The lowest supported TLS version"
 msgstr "A legalacsonyabb támogatott TLS verzió"
 
-#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:27
+#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:31
 msgid ""
 "The size of the OVPN config file (%s) is too large for online editing in "
 "LuCI (&ge; 100 KB)."

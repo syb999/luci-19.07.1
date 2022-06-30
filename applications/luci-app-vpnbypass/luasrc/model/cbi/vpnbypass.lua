@@ -4,27 +4,53 @@ local sys = require "luci.sys"
 local util = require "luci.util"
 local packageName = "vpnbypass"
 
-local tmpfsVersion = tostring(util.trim(sys.exec("opkg list-installed " .. packageName .. " | awk '{print $3}'")))
-if not tmpfsVersion or tmpfsVersion == "" then
-	tmpfsStatusCode = -1
-	tmpfsVersion = ""
-	tmpfsStatus = packageName .. " " .. translate("is not installed or not found")
-else  
-	tmpfsVersion = " [" .. packageName .. " " .. tmpfsVersion .. "]"
+function getPackageVersion()
+	local opkgFile = "/usr/lib/opkg/status"
+	local line
+	local flag = false
+	for line in io.lines(opkgFile) do
+		if flag then
+			return line:match('[%d%.$-]+') or ""
+		elseif line:find("Package: " .. packageName:gsub("%-", "%%%-")) then
+			flag = true
+		end
+	end
+	return ""
 end
-local tmpfsStatus = "Stopped"
-if sys.call("iptables -t mangle -L | grep -q VPNBYPASS") == 0 then
-	tmpfsStatus = "Running"
+
+local packageVersion = getPackageVersion()
+local statusText = nil 
+if packageVersion == "" then
+	statusText = translatef("%s is not installed or not found", packageName)
+end
+
+local serviceRunning, serviceEnabled = false, false
+if uci:get(packageName, "config", "enabled") == "1" then
+	serviceEnabled = true
+end
+if sys.call("iptables -t mangle -L | grep -q " .. packageName:upper()) == 0 then
+	serviceRunning = true
+end
+
+if serviceRunning then
+	statusText = translate("Running")
+else
+	statusText = translate("Stopped")
+	if not serviceEnabled then
+		statusText = translatef("%s (disabled)", statusText)
+	end
 end
 
 m = Map("vpnbypass", translate("VPN Bypass Settings"))
 
-h = m:section(NamedSection, "config", packageName, translate("Service Status") .. tmpfsVersion)
+h = m:section(NamedSection, "config", packageName, translatef("Service Status [%s %s]", packageName, packageVersion))
 ss = h:option(DummyValue, "_dummy", translate("Service Status"))
 ss.template = packageName .. "/status"
-ss.value = tmpfsStatus
-buttons = h:option(DummyValue, "_dummy")
-buttons.template = packageName .. "/buttons"
+ss.value = statusText
+if packageVersion ~= "" then
+	buttons = h:option(DummyValue, "_dummy")
+	buttons.template = packageName .. "/buttons"
+end
 
 s = m:section(NamedSection, "config", "vpnbypass", translate("VPN Bypass Rules"))
 -- Local Ports
@@ -60,9 +86,8 @@ d = Map("dhcp")
 s4 = d:section(TypedSection, "dnsmasq")
 s4.anonymous = true
 di = s4:option(DynamicList, "ipset", translate("Domains to Bypass"),
-		translate("Domains to be accessed directly (outside of the VPN tunnel), see ")
-		.. [[<a href="]] .. readmeURL .. [[#bypass-domains-formatsyntax" target="_blank">]]
-		.. translate("README") .. [[</a> ]] .. translate("for syntax"))
+		translatef("Domains to be accessed directly (outside of the VPN tunnel), see %sREADME%s for syntax", 
+		"<a href=\"" .. readmeURL   .. "#bypass-domains-formatsyntax" .. "\" target=\"_blank\">", "</a>"))
 function d.on_after_commit(map)
 	util.exec("/etc/init.d/dnsmasq restart >/dev/null 2>&1")
 end

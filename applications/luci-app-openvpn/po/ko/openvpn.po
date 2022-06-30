@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-05-19 19:35+0200\n"
-"PO-Revision-Date: 2020-01-14 15:22+0000\n"
-"Last-Translator: Franco Castillo <castillofrancodamian@gmail.com>\n"
+"PO-Revision-Date: 2021-06-07 10:49+0000\n"
+"Last-Translator: Sunggu Choi <dkaost@outlook.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsopenvpn/ko/>\n"
 "Language: ko\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.11-dev\n"
+"X-Generator: Weblate 4.7-dev\n"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:821
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:824
@@ -263,7 +263,7 @@ msgstr ""
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn.lua:104
 msgid "Enabled"
-msgstr ""
+msgstr "활성화"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:749
 msgid "Encrypt and authenticate all control channel packets with the key"
@@ -425,7 +425,7 @@ msgstr ""
 msgid "Ping remote every n seconds over TCP/UDP port"
 msgstr ""
 
-#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:28
+#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:32
 msgid "Please edit this file directly in a terminal session."
 msgstr ""
 
@@ -443,7 +443,7 @@ msgstr ""
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn.lua:141
 msgid "Port"
-msgstr ""
+msgstr "포트"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn.lua:156
 msgid "Protocol"
@@ -546,16 +546,16 @@ msgstr ""
 msgid "Run up/down scripts for all restarts"
 msgstr ""
 
-#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:37
+#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:41
 msgid "Save"
 msgstr ""
 
-#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:61
+#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:65
 msgid ""
 "Section to add an optional 'auth-user-pass' file with your credentials (%s)"
 msgstr ""
 
-#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:40
+#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:44
 msgid "Section to modify the OVPN config file (%s)"
 msgstr ""
 
@@ -711,7 +711,7 @@ msgstr ""
 msgid "The 'Name' field must not be empty!"
 msgstr ""
 
-#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:18
+#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:22
 msgid ""
 "The OVPN config file (%s) could not be found, please check your "
 "configuration."
@@ -730,7 +730,7 @@ msgstr ""
 msgid "The lowest supported TLS version"
 msgstr ""
 
-#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:27
+#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:31
 msgid ""
 "The size of the OVPN config file (%s) is too large for online editing in "
 "LuCI (&ge; 100 KB)."

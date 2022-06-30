@@ -5,16 +5,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: luci-app-ddns 2.4.0-1\n"
 "POT-Creation-Date: 2016-01-30 11:07+0100\n"
-"PO-Revision-Date: 2019-12-04 12:06+0000\n"
-"Last-Translator: lissom <kkjoy2617@gmail.com>\n"
+"PO-Revision-Date: 2021-06-29 18:07+0000\n"
+"Last-Translator: xiazhang <xz@xia.plus>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "openwrt/luciapplicationsddns/zh_Hans/>\n"
-"Language: zh-cn\n"
+"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.10-dev\n"
+"X-Generator: Weblate 4.7.1-dev\n"
 
 #: applications/luci-app-ddns/luasrc/view/ddns/overview_status.htm:145
 msgid "&"
@@ -46,7 +46,7 @@ msgstr "正在应用更改"
 #: applications/luci-app-ddns/luasrc/model/cbi/ddns/detail.lua:50
 #: applications/luci-app-ddns/luasrc/model/cbi/ddns/detail.lua:263
 msgid "Basic Settings"
-msgstr "基础设置"
+msgstr "基本设置"
 
 #: applications/luci-app-ddns/luasrc/model/cbi/ddns/hints.lua:25
 msgid ""
@@ -73,23 +73,21 @@ msgstr "不支持绑定到一个指定的网络"
 msgid ""
 "BusyBox's nslookup and Wget do not support to specify the IP version to use "
 "for communication with DDNS Provider!"
-msgstr ""
-"与 DDNS 供应商通讯时，BusyBox 的 nslookup 和 Wget 不支持设置特定的 IP 协议版"
-"本。"
+msgstr "BusyBox 的 nslookup 和 wget 不支持指定 IP 协议版本与 DDNS 供应商通讯！"
 
 #: applications/luci-app-ddns/luasrc/model/cbi/ddns/hints.lua:133
 msgid ""
 "BusyBox's nslookup and hostip do not support to specify to use TCP instead "
 "of default UDP when requesting DNS server!"
 msgstr ""
-"向 DNS 服务器查询时，BusyBox 的 nslookup 和 hostip 不支持使用 TCP 而不是默认"
-"的 UDP！"
+"向 DNS 服务器查询时，BusyBox 的 nslookup 和 hostip 不支持使用 TCP ，而是使用"
+"默认的 UDP！"
 
 #: applications/luci-app-ddns/luasrc/model/cbi/ddns/hints.lua:146
 msgid ""
 "BusyBox's nslookup in the current compiled version does not handle given DNS "
 "Servers correctly!"
-msgstr "当前编译版本中 BusyBox 的 nslookup 在处理给定的 DNS 服务器不正确！"
+msgstr "当前编译版本中的 BusyBox 的 nslookup 不能正确处理给定的 DNS 服务器！"
 
 #: applications/luci-app-ddns/luasrc/model/cbi/ddns/detail.lua:1118
 msgid "Casual users should not change this setting"
@@ -101,7 +99,7 @@ msgstr "更改提供者"
 
 #: applications/luci-app-ddns/luasrc/model/cbi/ddns/detail.lua:1302
 msgid "Check Interval"
-msgstr "检查时间周期"
+msgstr "检查间隔"
 
 #: applications/luci-app-ddns/luasrc/view/ddns/system_status.htm:55
 msgid "Collecting data..."
@@ -385,7 +383,7 @@ msgstr "IPv4 地址"
 
 #: applications/luci-app-ddns/luasrc/model/cbi/ddns/detail.lua:1244
 msgid "IPv6 address must be given in square brackets"
-msgstr "IPv6 地址必须填写在中括号（\"[  ]\"）内"
+msgstr "IPv6 地址必须填写在中括号(\"[ ]\")内"
 
 #: applications/luci-app-ddns/luasrc/model/cbi/ddns/hints.lua:57
 msgid ""
@@ -416,8 +414,8 @@ msgid ""
 "If this service section is disabled it could not be started.<br />Neither "
 "from LuCI interface nor from console"
 msgstr ""
-"如果服务配置被禁用，那么它将不能被启动。<br />无论是通过 LuCI 页面或者是通过"
-"终端。"
+"如果服务配置被禁用，那么它将不能被启动。<br />无论是通过 LuCI 页面还是通过终"
+"端。"
 
 #: applications/luci-app-ddns/luasrc/model/cbi/ddns/hints.lua:160
 msgid "If using secure communication you should verify server certificates!"
@@ -541,7 +539,7 @@ msgstr "DDNS 更新脚本将会运行于该网络"
 
 #: applications/luci-app-ddns/luasrc/view/ddns/overview_status.htm:45
 msgid "Never"
-msgstr "从不"
+msgstr "永不"
 
 #: applications/luci-app-ddns/luasrc/model/cbi/ddns/overview.lua:159
 #: applications/luci-app-ddns/luasrc/view/ddns/system_status.htm:49
@@ -595,7 +593,7 @@ msgstr "可选：使用非默认 DNS 服务器检测\"已注册的 IP 地址\"�
 
 #: applications/luci-app-ddns/luasrc/model/cbi/ddns/detail.lua:1470
 msgid "On Error the script will retry the failed action after given time"
-msgstr "当出错时，脚本将会重试失败的动作的次数"
+msgstr "当出错时，脚本将会重试失败操作的次数"
 
 #: applications/luci-app-ddns/luasrc/model/cbi/ddns/detail.lua:1426
 msgid "On Error the script will stop execution after given number of retrys"

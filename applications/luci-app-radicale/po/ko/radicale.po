@@ -1,8 +1,14 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-03-26 23:10+0000\n"
+"Last-Translator: dikastia <dikastia@gmail.com>\n"
+"Language-Team: Korean <https://hosted.weblate.org/projects/openwrt/"
+"luciapplicationsradicale/ko/>\n"
 "Language: ko\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:268
 msgid ""
@@ -114,7 +120,7 @@ msgstr ""
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:570
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:592
 msgid "Debug"
-msgstr ""
+msgstr "디버그"
 
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:191
 msgid "Delay (in seconds) during system boot before Radicale start"
@@ -169,7 +175,7 @@ msgstr ""
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:573
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:595
 msgid "Error"
-msgstr ""
+msgstr "에러"
 
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:120
 msgid "File '%s' not found !"
@@ -218,7 +224,7 @@ msgstr ""
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:571
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:593
 msgid "Info"
-msgstr ""
+msgstr "정보"
 
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:83
 msgid "Keep in mind to use the correct hashing algorithm !"
@@ -372,7 +378,7 @@ msgstr ""
 
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:211
 msgid "Server"
-msgstr ""
+msgstr "서버"
 
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:633
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:656
@@ -394,7 +400,7 @@ msgstr ""
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:164
 #: applications/luci-app-radicale/luasrc/view/radicale/btn_startstop.htm:10
 msgid "Start"
-msgstr ""
+msgstr "시작"
 
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:155
 msgid "Start / Stop"
@@ -482,7 +488,7 @@ msgstr ""
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:572
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:594
 msgid "Warning"
-msgstr ""
+msgstr "경고"
 
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:90
 msgid ""

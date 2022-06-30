@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-01-16 12:57+0000\n"
-"Last-Translator: Anton Kikin <a.a.kikin@gmail.com>\n"
+"PO-Revision-Date: 2021-09-17 06:52+0000\n"
+"Last-Translator: masta0f1eave <lomskoff.dima@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsshadowsocks-libev/ru/>\n"
 "Language: ru\n"
@@ -9,11 +9,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.11-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua:176
 msgid "<hidden>"
-msgstr ""
+msgstr "<скрытый>"
 
 #: applications/luci-app-shadowsocks-libev/luasrc/view/shadowsocks-libev/add_instance.htm:14
 msgid "Add"
@@ -25,7 +25,7 @@ msgstr "Дополнительные настройки"
 
 #: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/instance-details.lua:32
 msgid "Bind address"
-msgstr ""
+msgstr "Привязка адреса"
 
 #: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:73
 msgid "Bypass ss-redir for packets with dst address in this list"
@@ -33,7 +33,7 @@ msgstr ""
 
 #: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:59
 msgid "Bypass ss-redir for packets with src address in this list"
-msgstr ""
+msgstr "Обойти ss-redir для пакетов с адресом src в этом списке"
 
 #: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:65
 msgid ""
@@ -43,7 +43,7 @@ msgstr ""
 
 #: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:47
 msgid "Default action for locally generated TCP packets"
-msgstr ""
+msgstr "Действие по умолчанию для локально сгенерированных TCP-пакетов"
 
 #: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:88
 msgid ""
@@ -151,7 +151,7 @@ msgstr ""
 #: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/instance-details.lua:23
 #: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:31
 msgid "General Settings"
-msgstr "Основные настройки"
+msgstr "Общие настройки"
 
 #: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua:129
 msgid "IPv6 First"
@@ -239,6 +239,8 @@ msgstr ""
 #: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:55
 msgid "Passes additional arguments to iptables. Use with care!"
 msgstr ""
+"Передаёт дополнительные аргументы таблице iptables. Используйте с "
+"осторожностью!"
 
 #: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua:101
 msgid "Password"
@@ -276,11 +278,11 @@ msgstr ""
 
 #: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/instances.lua:81
 msgid "Running"
-msgstr "Запущен"
+msgstr "Запущенные"
 
 #: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua:91
 msgid "Server"
-msgstr ""
+msgstr "Сервер"
 
 #: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua:94
 msgid "Server port"
@@ -328,7 +330,7 @@ msgstr ""
 
 #: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua:128
 msgid "Verbose"
-msgstr ""
+msgstr "Подробный журнал"
 
 #: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:39
 msgid "ss-redir for TCP"

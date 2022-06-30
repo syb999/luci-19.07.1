@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-11-25 13:58+0000\n"
-"Last-Translator: Ansuel Smith <ansuelsmth@gmail.com>\n"
+"PO-Revision-Date: 2022-01-27 19:54+0000\n"
+"Last-Translator: Massimo Simoni <pirtahilti@vusra.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsaria2/it/>\n"
 "Language: it\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.10-dev\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:296
 msgid "<abbr title=\"Local Peer Discovery\">LPD</abbr> enabled"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:419
 msgid "Advanced Options"
-msgstr ""
+msgstr "Opzioni avanzate"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:169
 msgid "All proxy"
@@ -35,7 +35,7 @@ msgstr ""
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/files.lua:14
 #: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm:45
 msgid "Aria2"
-msgstr ""
+msgstr "Aria2"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:37
 msgid ""
@@ -61,15 +61,15 @@ msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:189
 msgid "CA certificate"
-msgstr ""
+msgstr "Certificato CA"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:195
 msgid "Certificate"
-msgstr ""
+msgstr "Certificato"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:182
 msgid "Check certificate"
-msgstr ""
+msgstr "Controllare il certificato"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:242
 msgid ""
@@ -80,7 +80,7 @@ msgstr ""
 #: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm:49
 #: applications/luci-app-aria2/luasrc/view/aria2/settings_header.htm:29
 msgid "Collecting data..."
-msgstr ""
+msgstr "Raccolta dati..."
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:73
 msgid "Config file directory"
@@ -108,7 +108,7 @@ msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:87
 msgid "Debug"
-msgstr ""
+msgstr "Debug"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:422
 msgid ""
@@ -159,7 +159,7 @@ msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:77
 msgid "Enable logging"
-msgstr ""
+msgstr "Abilita registro eventi"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:305
 msgid "Enable peer exchange"
@@ -175,7 +175,7 @@ msgstr "Abilitato"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:91
 msgid "Error"
-msgstr ""
+msgstr "Errore"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:44
 msgid "Error: Can't find aria2c in PATH, please reinstall aria2."
@@ -303,11 +303,11 @@ msgstr ""
 
 #: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm:48
 msgid "Loading"
-msgstr ""
+msgstr "Caricamento"
 
 #: applications/luci-app-aria2/luasrc/controller/aria2.lua:27
 msgid "Log"
-msgstr ""
+msgstr "Registro"
 
 #: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm:45
 msgid "Log Data"
@@ -315,7 +315,7 @@ msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:80
 msgid "Log file"
-msgstr ""
+msgstr "File registro eventi"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:85
 msgid "Log level"
@@ -380,11 +380,11 @@ msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:454
 msgid "None"
-msgstr ""
+msgstr "Nessuno"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:89
 msgid "Notice"
-msgstr ""
+msgstr "Notizia"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:99
 msgid "Pause"
@@ -604,7 +604,7 @@ msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:35
 msgid "Settings"
-msgstr ""
+msgstr "Impostazioni"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:483
 msgid "Settings in this section will be added to config file."
@@ -704,7 +704,7 @@ msgstr ""
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:236
 msgid "Timeout"
-msgstr ""
+msgstr "Timeout"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:117
 msgid "Token"

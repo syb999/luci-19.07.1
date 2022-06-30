@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-05-26 19:03+0200\n"
-"PO-Revision-Date: 2020-01-11 18:22+0000\n"
+"PO-Revision-Date: 2021-03-06 14:44+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsopenvpn/pt/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.10.1\n"
+"X-Generator: Weblate 4.5.1\n"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:821
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:824
@@ -166,7 +166,7 @@ msgstr "Parametros Diffie-Hellman"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:426
 msgid "Directory for custom client config files"
-msgstr "Directório para configurações personalizadas dos clientes"
+msgstr "Diretório para ficheiros de configurações personalizadas de clientes"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:23
 msgid "Disable Paging"
@@ -345,7 +345,7 @@ msgstr "Manter o endereço IP remoto entre reinicios"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:327
 msgid "Keep tun/tap device open on restart"
-msgstr "Manter o dispositivo tun/tap aberto entre reinicios"
+msgstr "Manter o aparelho tun/tap aberto entre reinicios"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:733
 msgid "Key transition window"
@@ -383,7 +383,7 @@ msgstr "Numero de buffers de broadcast alocados"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:359
 msgid "Number of lines for log file history"
-msgstr "Numero de linhas para o historico do registo"
+msgstr "Numero de linhas para o histórico de ficheiros de registo"
 
 #: applications/luci-app-openvpn/luasrc/view/openvpn/cbi-select-input-add.htm:95
 msgid "OVPN configuration file upload"
@@ -435,7 +435,7 @@ msgstr "Manter ou não o conjunto de subredes"
 msgid "Ping remote every n seconds over TCP/UDP port"
 msgstr "Pingar o remoto a cada n segundos sobre a porta TCP/UDP"
 
-#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:28
+#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:32
 msgid "Please edit this file directly in a terminal session."
 msgstr "Por favor, edite este ficheiro diretamente numa sessão de terminal."
 
@@ -558,18 +558,18 @@ msgstr "Executar script quando o cliente desligar"
 msgid "Run up/down scripts for all restarts"
 msgstr "Executar scripts de abertura/activação para todos os reinicios"
 
-#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:37
+#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:41
 msgid "Save"
 msgstr "Guardar"
 
-#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:61
+#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:65
 msgid ""
 "Section to add an optional 'auth-user-pass' file with your credentials (%s)"
 msgstr ""
 "Secção para adicionar um ficheiro opcional 'auth-user-pass' com as suas "
 "credenciais (%s)"
 
-#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:40
+#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:44
 msgid "Section to modify the OVPN config file (%s)"
 msgstr "Secção para modificar o ficheiro de configuração OVPN (%s)"
 
@@ -621,11 +621,11 @@ msgstr "Definir os parâmetros do adaptador tun/tap"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:269
 msgid "Set tun/tap device MTU"
-msgstr "Definir o MTU do dispositivo tun/tap"
+msgstr "Definir o MTU do aparelho tun/tap"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:273
 msgid "Set tun/tap device overhead"
-msgstr "Definir o overhead do dispositivo tun/tap"
+msgstr "Definir o overhead do aparelho tun/tap"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:282
 msgid "Set upper bound on TCP MSS"
@@ -637,11 +637,11 @@ msgstr "Restringir a largura de banda ao remoto"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:107
 msgid "Shell cmd to execute after tun device open"
-msgstr "Comando shell a executar após abertura do dispositivo tun"
+msgstr "Comando shell a executar após abertura do aparelho tun"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:115
 msgid "Shell cmd to run after tun device close"
-msgstr "Comando shell a executar após fecho do dispositivo tun"
+msgstr "Comando shell a executar após fecho do aparelho tun"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:140
 msgid "Shell command to verify X509 name"
@@ -725,7 +725,7 @@ msgstr "Directório temporário para ficheiro de retorno de ligação-cliente"
 msgid "The 'Name' field must not be empty!"
 msgstr "O campo \"Nome\" não deve ficar vazio!"
 
-#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:18
+#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:22
 msgid ""
 "The OVPN config file (%s) could not be found, please check your "
 "configuration."
@@ -746,7 +746,7 @@ msgstr "A direção chave para as opções 'tls-auth' e 'secret'"
 msgid "The lowest supported TLS version"
 msgstr "A versão TLS suportada mais baixa"
 
-#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:27
+#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:31
 msgid ""
 "The size of the OVPN config file (%s) is too large for online editing in "
 "LuCI (&ge; 100 KB)."
@@ -765,7 +765,7 @@ msgstr "Janela temporal para troca de chaves"
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:204
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-basic.lua:25
 msgid "Type of used device"
-msgstr "Tipo de dispositivo utilizado"
+msgstr "Tipo de aparelho utilizado"
 
 #: applications/luci-app-openvpn/luasrc/view/openvpn/cbi-select-input-add.htm:104
 msgid "Upload"
@@ -788,7 +788,7 @@ msgstr "Usar protocolo"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:208
 msgid "Use tun/tap device node"
-msgstr "Utilizar dispositivo tun/tap"
+msgstr "Utilizar aparelho tun/tap"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:471
 msgid "Use username as common name"
@@ -809,7 +809,7 @@ msgstr "não"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:200
 msgid "tun/tap device"
-msgstr "Dispositivo tun/tap"
+msgstr "Aparelho tun/tap"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:303
 msgid "tun/tap inactivity timeout"

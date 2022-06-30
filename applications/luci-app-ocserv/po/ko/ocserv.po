@@ -1,8 +1,14 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-03-26 13:17+0000\n"
+"Last-Translator: dikastia <dikastia@gmail.com>\n"
+"Language-Team: Korean <https://hosted.weblate.org/projects/openwrt/"
+"luciapplicationsocserv/ko/>\n"
 "Language: ko\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/main.lua:124
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/user-config.lua:80
@@ -40,7 +46,7 @@ msgstr ""
 
 #: applications/luci-app-ocserv/luasrc/view/ocserv_status.htm:62
 msgid "Collecting data..."
-msgstr ""
+msgstr "데이터 수집 중..."
 
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/main.lua:132
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/user-config.lua:111
@@ -60,7 +66,7 @@ msgstr ""
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/main.lua:14
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/user-config.lua:14
 msgid "Edit Template"
-msgstr ""
+msgstr "템플릿 편집"
 
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/main.lua:80
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/user-config.lua:85
@@ -105,7 +111,7 @@ msgstr ""
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/main.lua:12
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/user-config.lua:12
 msgid "General Settings"
-msgstr ""
+msgstr "기본 설정"
 
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/users.lua:23
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/users.lua:67
@@ -162,7 +168,7 @@ msgstr ""
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/main.lua:56
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/user-config.lua:50
 msgid "Port"
-msgstr ""
+msgstr "포트"
 
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/main.lua:62
 #: applications/luci-app-ocserv/luasrc/model/cbi/ocserv/user-config.lua:56

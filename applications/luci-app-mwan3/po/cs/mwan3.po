@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-12-16 23:26+0000\n"
-"Last-Translator: Jiri Tersel <jiri.tersel@seznam.cz>\n"
+"PO-Revision-Date: 2021-09-15 08:34+0000\n"
+"Last-Translator: Lukas Jelinek <lukas.jelinek@nic.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsmwan3/cs/>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 3.10-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:171
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:187
@@ -42,6 +42,7 @@ msgstr "%d minut"
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:160
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:176
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:196
+#, fuzzy
 msgid "%d second"
 msgstr "%d sekunda"
 
@@ -78,7 +79,7 @@ msgstr "%d sekund"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/ruleconfig.lua:58
 msgid "-- Please choose --"
-msgstr "-- Prosím vyberte --"
+msgstr "-- Vyberte --"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:59
 #, fuzzy
@@ -109,7 +110,7 @@ msgstr ""
 msgid "Also scan this Routing table for connected networks"
 msgstr ""
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:73
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:77
 msgid "Check IP rules"
 msgstr ""
 
@@ -117,7 +118,7 @@ msgstr ""
 msgid "Check link quality"
 msgstr ""
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:74
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:78
 msgid "Check routing table"
 msgstr ""
 
@@ -125,7 +126,7 @@ msgstr ""
 #: applications/luci-app-mwan3/luasrc/view/mwan/status_detail.htm:34
 #: applications/luci-app-mwan3/luasrc/view/mwan/status_troubleshooting.htm:34
 msgid "Collecting data..."
-msgstr "Probíhá sběr dat..."
+msgstr "Shromažďování údajů…"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/globalsconfig.lua:33
 msgid "Critical"
@@ -175,7 +176,7 @@ msgstr "Záchrana"
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interface.lua:160
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:22
 msgid "Enabled"
-msgstr "Povoleno"
+msgstr "Zapnuto"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/ruleconfig.lua:64
 msgid ""
@@ -194,7 +195,7 @@ msgstr ""
 msgid "Error"
 msgstr "Chyba"
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:81
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:88
 msgid "Execute"
 msgstr ""
 
@@ -226,11 +227,11 @@ msgstr ""
 msgid "Globals"
 msgstr ""
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:76
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:80
 msgid "Hotplug ifdown"
 msgstr ""
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:75
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:79
 msgid "Hotplug ifup"
 msgstr ""
 
@@ -269,7 +270,7 @@ msgstr ""
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/memberconfig.lua:18
 #: applications/luci-app-mwan3/luasrc/view/mwan/status_detail.htm:10
 #: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:10
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:62
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:61
 #: applications/luci-app-mwan3/luasrc/view/mwan/status_interface.htm:10
 #: applications/luci-app-mwan3/luasrc/view/mwan/status_troubleshooting.htm:10
 msgid "Interface"
@@ -508,7 +509,7 @@ msgstr ""
 msgid "Ping count"
 msgstr ""
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:71
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:75
 msgid "Ping default gateway"
 msgstr ""
 
@@ -533,7 +534,7 @@ msgstr ""
 msgid "Ping timeout"
 msgstr ""
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:72
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:76
 msgid "Ping tracking IP"
 msgstr ""
 
@@ -636,7 +637,7 @@ msgstr ""
 msgid "Supports CIDR notation (eg \"192.168.100.0/24\") without quotes"
 msgstr ""
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:69
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:72
 msgid "Task"
 msgstr ""
 

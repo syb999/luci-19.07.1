@@ -3,16 +3,16 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-06-10 03:41+0200\n"
-"PO-Revision-Date: 2019-12-09 20:02+0000\n"
+"PO-Revision-Date: 2022-01-25 09:41+0000\n"
 "Last-Translator: Wellington Terumi Uemura <wellingtonuemura@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "openwrt/luciapplicationsstatistics/pt_BR/>\n"
-"Language: pt-br\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.10-dev\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #: applications/luci-app-statistics/luasrc/statistics/plugins/apcups.lua:7
 #: applications/luci-app-statistics/luasrc/statistics/rrdtool/definitions/apcups.lua:7
@@ -251,7 +251,7 @@ msgstr "Ativar"
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/unixsock.lua:15
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/uptime.lua:10
 msgid "Enable this plugin"
-msgstr "Habilitar este plugin"
+msgstr "Ativar este plugin"
 
 #: applications/luci-app-statistics/luasrc/statistics/plugins/entropy.lua:7
 #: applications/luci-app-statistics/luasrc/statistics/rrdtool/definitions/entropy.lua:7
@@ -282,6 +282,10 @@ msgstr "Monitoramento das Classes de Filtros"
 #: applications/luci-app-statistics/luasrc/statistics/rrdtool/definitions/iptables.lua:7
 msgid "Firewall"
 msgstr "Firewall"
+
+#: applications/luci-app-statistics/luasrc/statistics/rrdtool/definitions/ip6tables.lua:7
+msgid "Firewall (IPv6)"
+msgstr "Firewall (IPv6)"
 
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/rrdtool.lua:100
 msgid "Flush cache after"
@@ -505,7 +509,7 @@ msgstr "Monitorar portas remotas"
 
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpufreq.lua:15
 msgid "More details about frequency usage and transitions"
-msgstr "Mais detalhes sobre a frequência usada e transições"
+msgstr "Mais detalhes sobre a frequência de uso e transições"
 
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/curl.lua:20
 msgid "Name"
@@ -658,11 +662,11 @@ msgstr "Configuração do plugin RRDTool"
 msgid "Report by CPU"
 msgstr "Relatado pela CPU"
 
-#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:24
+#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:25
 msgid "Report by state"
 msgstr "Relatório por estado"
 
-#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:31
+#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:33
 msgid "Report in percent"
 msgstr "Relatório em porcentagem"
 
@@ -899,7 +903,7 @@ msgstr ""
 msgid ""
 "The interface plugin collects traffic statistics on selected interfaces."
 msgstr ""
-"O plugin interface plugin coleta estatísticas sobre o tráfego das interfaces "
+"O plugin interface coleta estatísticas sobre o tráfego das interfaces "
 "selecionadas."
 
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/iptables.lua:20
@@ -1085,7 +1089,7 @@ msgstr "Tentar encontrar o nome completo do equipamento (FQDN)"
 #: applications/luci-app-statistics/luasrc/statistics/plugins/nut.lua:7
 #: applications/luci-app-statistics/luasrc/statistics/rrdtool/definitions/nut.lua:6
 msgid "UPS"
-msgstr "UPS (no-breaks)"
+msgstr "UPS"
 
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/nut.lua:4
 msgid "UPS Plugin Configuration"
@@ -1133,7 +1137,7 @@ msgstr "Usuário"
 msgid "Verbose monitoring"
 msgstr "Monitoramento no modo detalhado"
 
-#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:25
+#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:26
 msgid "When set to true, reports per-state metric (system, user, idle)"
 msgstr ""
 "Quando definido como verdadeiro, os relatório são feitos pela métrica de "
@@ -1143,7 +1147,7 @@ msgstr ""
 msgid "When set to true, we request absolute values"
 msgstr "Quando definido como verdadeiro, serão requeridos valores absolutos"
 
-#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:32
+#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:34
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/memory.lua:24
 msgid "When set to true, we request percentage values"
 msgstr ""

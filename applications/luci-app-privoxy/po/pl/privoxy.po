@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-01-27 20:01+0000\n"
-"Last-Translator: Marcin Net <marcin.net@linux.pl>\n"
+"PO-Revision-Date: 2022-02-24 06:56+0000\n"
+"Last-Translator: Daniel Pawlik <pawlik.dan@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsprivoxy/pl/>\n"
 "Language: pl\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.11-dev\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:236
 msgid ""
@@ -24,8 +24,8 @@ msgid ""
 "A URL to documentation about the local Privoxy setup, configuration or "
 "policies."
 msgstr ""
-"URL do dokumentacji dotyczącej lokalnej konfiguracji, konfiguracji lub zasad "
-"Privoxy."
+"Adres URL do dokumentacji dotyczącej lokalnych ustawień, konfiguracji lub "
+"zasad Privoxy."
 
 #: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:325
 msgid "A directory where Privoxy can create temporary files."
@@ -48,7 +48,7 @@ msgstr "Alternatywny katalog, z którego ładowane są szablony."
 
 #: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:206
 msgid "An email address to reach the Privoxy administrator."
-msgstr "Adres email, aby skontaktować się z administratorem Privoxy."
+msgstr "Adres e-mail, aby skontaktować się z administratorem Privoxy."
 
 #: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:691
 msgid ""
@@ -191,7 +191,7 @@ msgstr ""
 
 #: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:215
 msgid "Invalid email address"
-msgstr "Nieprawidłowy adres email"
+msgstr "Nieprawidłowy adres e-mail"
 
 #: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:416
 msgid "It is NOT recommended for the casual user."
@@ -401,7 +401,7 @@ msgstr "Start/Stop"
 
 #: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:116
 msgid "Start/Stop Privoxy WEB Proxy"
-msgstr "Start/Stop Privoxy WEB Proxy"
+msgstr "Włącz/Wyłącz Privoxy WEB Proxy"
 
 #: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:875
 msgid "Startup banner and warnings."

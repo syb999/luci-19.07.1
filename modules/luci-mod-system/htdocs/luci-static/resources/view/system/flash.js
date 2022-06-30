@@ -1,4 +1,6 @@
 'use strict';
+'require view';
+'require dom';
 'require form';
 'require rpc';
 'require fs';
@@ -60,7 +62,7 @@ function findStorageSize(procmtd, procpart) {
 
 var mapdata = { actions: {}, config: {} };
 
-return L.view.extend({
+return view.extend({
 	load: function() {
 		var tasks = [
 			L.resolveDefault(fs.stat('/lib/upgrade/platform.sh'), {}),
@@ -76,7 +78,7 @@ return L.view.extend({
 	handleBackup: function(ev) {
 		var form = E('form', {
 			method: 'post',
-			action: '/cgi-bin/cgi-backup',
+			action: L.env.cgi_base + '/cgi-backup',
 			enctype: 'application/x-www-form-urlencoded'
 		}, E('input', { type: 'hidden', name: 'sessionid', value: rpc.getSessionID() }));
 
@@ -166,10 +168,10 @@ return L.view.extend({
 	},
 
 	handleBlock: function(hostname, ev) {
-		var mtdblock = L.dom.parent(ev.target, '.cbi-section').querySelector('[data-name="mtdselect"] select').value;
+		var mtdblock = dom.parent(ev.target, '.cbi-section').querySelector('[data-name="mtdselect"] select').value;
 		var form = E('form', {
 			'method': 'post',
-			'action': '/cgi-bin/cgi-download',
+			'action': L.env.cgi_base + '/cgi-download',
 			'enctype': 'application/x-www-form-urlencoded'
 		}, [
 			E('input', { 'type': 'hidden', 'name': 'sessionid', 'value': rpc.getSessionID() }),
@@ -208,7 +210,7 @@ return L.view.extend({
 				    is_too_big = (storage_size > 0 && res[0].size > storage_size),
 				    body = [];
 
-				body.push(E('p', _('The flash image was uploaded. Below is the checksum and file size listed, compare them with the original file to ensure data integrity. <br /> Click "Proceed" below to start the flash procedure.')));
+				body.push(E('p', _("The flash image was uploaded. Below is the checksum and file size listed, compare them with the original file to ensure data integrity. <br /> Click 'Continue' below to start the flash procedure.")));
 				body.push(E('ul', {}, [
 					res[0].size ? E('li', {}, '%s: %1024.2mB'.format(_('Size'), res[0].size)) : '',
 					res[0].checksum ? E('li', {}, '%s: %s'.format(_('MD5'), res[0].checksum)) : '',
@@ -380,16 +382,21 @@ return L.view.extend({
 		o.onclick = L.bind(this.handleRestore, this);
 
 
-		if (procmtd.length) {
+		var mtdblocks = [];
+		procmtd.split(/\n/).forEach(function(ln) {
+			var match = ln.match(/^mtd(\d+): .+ "(.+?)"$/);
+			if (match)
+				mtdblocks.push(match[1], match[2]);
+		});
+
+		if (mtdblocks.length) {
 			o = s.option(form.SectionValue, 'actions', form.NamedSection, 'actions', 'actions', _('Save mtdblock contents'), _('Click "Save mtdblock" to download specified mtdblock file. (NOTE: THIS FEATURE IS FOR PROFESSIONALS! )'));
 			ss = o.subsection;
 
 			o = ss.option(form.ListValue, 'mtdselect', _('Choose mtdblock'));
-			procmtd.split(/\n/).forEach(function(ln) {
-				var match = ln.match(/^mtd(\d+): .+ "(.+?)"$/);
-				if (match)
-					o.value(match[1], match[2]);
-			});
+
+			for (var i = 0; i < mtdblocks.length; i += 2)
+				o.value(mtdblocks[i], mtdblocks[i+1]);
 
 			o = ss.option(form.Button, 'mtddownload', _('Download mtdblock'));
 			o.inputstyle = 'action important';

@@ -2,16 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: luci-app-ddns 2.4.0-1\n"
 "POT-Creation-Date: 2016-01-30 11:07+0100\n"
-"PO-Revision-Date: 2019-12-04 12:06+0000\n"
+"PO-Revision-Date: 2021-09-06 16:34+0000\n"
 "Last-Translator: Wellington Terumi Uemura <wellingtonuemura@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "openwrt/luciapplicationsddns/pt_BR/>\n"
-"Language: pt-br\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.10-dev\n"
+"X-Generator: Weblate 4.8.1-dev\n"
 
 #: applications/luci-app-ddns/luasrc/view/ddns/overview_status.htm:145
 msgid "&"
@@ -103,7 +103,7 @@ msgstr "Mudando provedor"
 
 #: applications/luci-app-ddns/luasrc/model/cbi/ddns/detail.lua:1302
 msgid "Check Interval"
-msgstr "Checar Intervalo"
+msgstr "Intervalo de verificação"
 
 #: applications/luci-app-ddns/luasrc/view/ddns/system_status.htm:55
 msgid "Collecting data..."
@@ -256,7 +256,7 @@ msgstr ""
 #: applications/luci-app-ddns/luasrc/model/cbi/ddns/overview.lua:217
 #: applications/luci-app-ddns/luasrc/view/ddns/overview_status.htm:68
 msgid "Disabled"
-msgstr "Desabilitado"
+msgstr "Desativado"
 
 #: applications/luci-app-ddns/luasrc/model/cbi/ddns/detail.lua:479
 msgid "Domain"
@@ -529,7 +529,7 @@ msgstr "Log para arquivo"
 
 #: applications/luci-app-ddns/luasrc/model/cbi/ddns/detail.lua:1279
 msgid "Log to syslog"
-msgstr "Registrar para o syslog"
+msgstr "Registrar no syslog"
 
 #: applications/luci-app-ddns/luasrc/model/cbi/ddns/detail.lua:278
 #: applications/luci-app-ddns/luasrc/model/cbi/ddns/overview.lua:113
@@ -672,7 +672,7 @@ msgstr "Senha"
 
 #: applications/luci-app-ddns/luasrc/model/cbi/ddns/detail.lua:630
 msgid "Path to CA-Certificate"
-msgstr "Caminho para o Certificado da AC"
+msgstr "Caminho para o certificado CA"
 
 #: applications/luci-app-ddns/luasrc/view/ddns/overview_status.htm:144
 msgid "Please [Save & Apply] your changes first"
@@ -693,7 +693,7 @@ msgstr "ID do processo"
 
 #: applications/luci-app-ddns/luasrc/model/cbi/ddns/detail.lua:1494
 msgid "Read / Reread log file"
-msgstr "Ler / Ler novamente o arquivo de registro"
+msgstr "Ler / Ler novamente o arquivo do registro log"
 
 #: applications/luci-app-ddns/luasrc/model/cbi/ddns/detail.lua:406
 msgid "Really change DDNS provider?"
@@ -828,7 +828,7 @@ msgstr "Script definido pelo usuário para ler endereço IP do sistema"
 
 #: applications/luci-app-ddns/luasrc/model/cbi/ddns/detail.lua:491
 msgid "Username"
-msgstr "Nome do Usuário"
+msgstr "Nome do usuário"
 
 #: applications/luci-app-ddns/luasrc/model/cbi/ddns/hints.lua:145
 msgid "Using specific DNS Server not supported"

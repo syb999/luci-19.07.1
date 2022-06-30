@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-01-19 20:38+0000\n"
-"Last-Translator: Anton Kikin <a.a.kikin@gmail.com>\n"
+"PO-Revision-Date: 2021-06-28 11:33+0000\n"
+"Last-Translator: masta0f1eave <lomskoff.dima@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsvpn-policy-routing/ru/>\n"
 "Language: ru\n"
@@ -9,173 +9,199 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.11-dev\n"
+"X-Generator: Weblate 4.7.1-dev\n"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:46
-msgid "(strict mode)"
-msgstr ""
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:62
+msgid "%s (disabled)"
+msgstr "%s (отключено)"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:202
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:57
+msgid "%s (strict mode)"
+msgstr "%s (строгий режим)"
+
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:51
+msgid "%s is not installed or not found"
+msgstr "%s не установлен или не найден"
+
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:189
 msgid ""
-"Add an ip rule, not an iptables entry for policies with just the local "
-"address. Use with caution to manipulte policies priorities."
+"%sWARNING:%s Please make sure to check the %sREADME%s before changing "
+"anything in this section! Change any of the settings below with extreme "
+"caution!%s"
 msgstr ""
+"%sWARNING:%s Пожалуйста ознакомьтесь с %sREADME%s перед любыми изменениями в "
+"этой секции! Любые изменения в настройках ниже проводите с предельной "
+"осторожностью!%s"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:182
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:259
+msgid "Add IGNORE Target"
+msgstr "Добавить IGNORE к цели"
+
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:259
+msgid ""
+"Adds `IGNORE` to the list of interfaces for policies, allowing you to skip "
+"further processing by VPN Policy Routing."
+msgstr ""
+"Добавляет `IGNORE` в список интерфейсов для политик, позволяя вам пропустить "
+"дальнейшую обработку VPN Policy Routing."
+
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:188
 msgid "Advanced Configuration"
-msgstr ""
+msgstr "Расширенная конфигурация"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:187
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:191
 msgid ""
 "Allows to specify the list of interface names (in lower case) to be "
 "explicitly supported by the service. Can be useful if your OpenVPN tunnels "
 "have dev option other than tun* or tap*."
 msgstr ""
+"Позволяет указать список имен интерфейсов (в нижнем регистре) для явной "
+"поддержки службой. Может быть полезно если OpenVPN тоннели создаются с "
+"именем интерфейса (параметр dev) отличным от tun* или tap*."
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:190
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:194
 msgid ""
 "Allows to specify the list of interface names (in lower case) to be ignored "
 "by the service. Can be useful if running both VPN server and VPN client on "
 "the router."
 msgstr ""
+"Позволяет указать список имен интерфейсов (в нижнем регистре) для "
+"игнорирования службой. Может быть полезно если VPN сервер и VPN клиент "
+"запущены на одном маршрутизаторе."
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:198
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:214
 msgid "Append"
-msgstr ""
+msgstr "Добавить"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:215
-msgid "Append local IP Tables rules"
-msgstr ""
-
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:218
-msgid "Append remote IP Tables rules"
-msgstr ""
-
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:145
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:163
 msgid "Basic Configuration"
-msgstr ""
+msgstr "Основная конфигурация"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:193
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:197
 msgid "Boot Time-out"
-msgstr ""
+msgstr "Время ожидания загрузки"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:326
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:335
 msgid "Chain"
 msgstr "Цепочка"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/view/vpn-policy-routing/status-gateways.htm:15
-msgid "Checkmark represents the default gateway. See the"
-msgstr ""
-
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:277
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:286
 msgid "Comment"
 msgstr "Комментарий"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:260
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:269
 msgid ""
 "Comment, interface and at least one other field are required. Multiple local "
 "and remote addresses/devices/domains and ports can be space separated. "
 "Placeholders below represent just the format/syntax and will not be used if "
 "fields are left blank."
 msgstr ""
+"Необходимо заполнить Название, Интерфейс и не менее одного другого поля. "
+"Множественные адреса (локальные и удалённые), устройства, домены и порты "
+"разделяются пробелами. Заглушки показывают только синтаксис полей и не "
+"используются, если поле не заполнено явно."
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:149
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:167
 msgid "Condensed output"
-msgstr ""
+msgstr "Сжатый вывод"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:140
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:158
 msgid "Configuration"
 msgstr "Конфигурация"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:147
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:165
 msgid "Controls both system log and console output verbosity."
 msgstr ""
+"Управляет уровнем подробности для системного журнала и вывода в консоль."
+
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:373
+msgid "Custom User File Includes"
+msgstr "Добавить пользовательский файл"
+
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:180
+msgid "DNSMASQ ipset"
+msgstr "ipset DNSMASQ"
+
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:366
+msgid "DSCP Tag"
+msgstr "Метка DSCP"
 
 #: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:361
-msgid "Custom User File Includes"
-msgstr ""
-
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:354
-msgid "DSCP Tag"
-msgstr ""
-
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:348
 msgid "DSCP Tagging"
-msgstr ""
+msgstr "Добавление тегов DSCP"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:206
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:218
 msgid "Default ICMP Interface"
-msgstr ""
+msgstr "Интерфейс ICMP по умолчанию"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/view/vpn-policy-routing/buttons.htm:52
+#: applications/luci-app-vpn-policy-routing/luasrc/view/vpn-policy-routing/buttons.htm:59
 msgid "Disable"
 msgstr "Отключить"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:164
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:174
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:178
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:179
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:184
 #: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:203
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:239
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:243
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:250
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:254
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:209
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:245
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:249
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:256
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:260
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:264
 msgid "Disabled"
 msgstr "Отключено"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:246
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:252
 msgid "Display these protocols in protocol column in Web UI."
-msgstr ""
+msgstr "Отображать эти протоколы в строке протоколов Web UI."
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:156
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:173
 msgid "Do not enforce policies when their gateway is down"
-msgstr ""
+msgstr "Не применять политики когда их шлюз отключен"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/view/vpn-policy-routing/buttons.htm:50
+#: applications/luci-app-vpn-policy-routing/luasrc/view/vpn-policy-routing/buttons.htm:56
 msgid "Enable"
 msgstr "Включить"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:179
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:204
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:240
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:244
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:251
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:255
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:271
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:369
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:185
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:246
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:250
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:257
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:261
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:265
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:280
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:380
 msgid "Enabled"
 msgstr "Включено"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:231
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:237
 msgid ""
 "FW Mask used by the service. High mask is used to avoid conflict with SQM/"
 "QoS. Change with caution together with"
 msgstr ""
+"Маска FW, используемая службой. Большое значение маски используется, чтобы "
+"избежать конфликта с SQM / QoS. Меняйте осторожно вместе с"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:206
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:218
 msgid "Force the ICMP protocol interface."
-msgstr ""
+msgstr "Принудительно использовать интерфейс протокола ICMP."
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:202
-msgid "IP Rules Support"
-msgstr ""
-
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:197
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:213
 msgid "IPTables rule option"
-msgstr ""
+msgstr "Параметр правил IPTables"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:177
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:183
 msgid "IPv6 Support"
-msgstr ""
+msgstr "Поддержка IPv6"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:190
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:194
 msgid "Ignored Interfaces"
-msgstr ""
+msgstr "Игнорируемые интерфейсы"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:199
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:215
 msgid "Insert"
-msgstr ""
+msgstr "Вставить"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:335
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:344
 msgid "Interface"
 msgstr "Интерфейс"
 
@@ -183,284 +209,262 @@ msgstr "Интерфейс"
 msgid "Loading"
 msgstr "Загрузка"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:282
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:291
 msgid "Local addresses / devices"
-msgstr ""
+msgstr "Локальные адреса / устройства"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:289
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:298
 msgid "Local ports"
-msgstr ""
+msgstr "Локальные порты"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:279
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:288
 msgid "Name"
-msgstr "Имя"
+msgstr "Название"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:207
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:219
 msgid "No Change"
-msgstr ""
+msgstr "Без изменений"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:147
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:165
 msgid "Output verbosity"
-msgstr ""
+msgstr "Подробность вывода"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:372
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:383
 msgid "Path"
 msgstr "Путь"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:161
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:171
-msgid "Please check the"
-msgstr ""
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:178
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:202
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:208
+msgid "Please check the %sREADME%s before changing this option."
+msgstr "Пожалуйста ознакомьтесь с %sREADME%s прежде чем менять эту опцию."
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:183
-msgid "Please make sure to check the"
-msgstr ""
-
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:260
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:269
 msgid "Policies"
-msgstr ""
+msgstr "Политики"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:306
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:315
 msgid "Protocol"
 msgstr "Протокол"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:155
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:163
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:173
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:184
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:350
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:363
-#: applications/luci-app-vpn-policy-routing/luasrc/view/vpn-policy-routing/status-gateways.htm:17
-msgid "README"
-msgstr "Описание"
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:303
+msgid "Remote addresses / domains"
+msgstr "Удалённые адреса / домены"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/view/vpn-policy-routing/buttons.htm:42
-msgid "Reload"
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:308
+msgid "Remote ports"
+msgstr "Удалённые порты"
+
+#: applications/luci-app-vpn-policy-routing/luasrc/view/vpn-policy-routing/buttons.htm:46
+msgid "Restart"
 msgstr "Перезапустить"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:294
-msgid "Remote addresses / domains"
-msgstr ""
-
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:299
-msgid "Remote ports"
-msgstr ""
-
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:361
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:374
 msgid ""
 "Run the following user files after setting up but before restarting DNSMASQ. "
-"See the"
+"See the %sREADME%s for details."
 msgstr ""
+"После настройки, но перед перезапуском DNSMASQ, запустить следующие "
+"пользовательские файлы. См. %sREADME%s."
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:44
-#: applications/luci-app-vpn-policy-routing/luasrc/view/vpn-policy-routing/buttons.htm:13
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:55
 msgid "Running"
-msgstr "Запущен"
+msgstr "Запущенные"
+
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:172
+msgid "See the %sREADME%s for details."
+msgstr "См. %sREADME%s."
+
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:213
+msgid "Select Append for -A and Insert for -I."
+msgstr "Выберите Добавить для -A и Вставить для -I."
 
 #: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:153
-msgid "See the"
-msgstr ""
+msgid "Service Control"
+msgstr "Управление службой"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:197
-msgid "Select Append for -A and Insert for -I."
-msgstr ""
-
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:127
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:143
 msgid "Service Errors"
-msgstr ""
+msgstr "Ошибки службы"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:226
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:231
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:232
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:237
 msgid "Service FW Mask"
-msgstr ""
+msgstr "Маска FW службы"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:122
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:138
 msgid "Service Gateways"
-msgstr ""
+msgstr "Шлюзы сервиса"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:117
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:118
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:134
 msgid "Service Status"
-msgstr "Статус сервиса"
+msgstr "Статус службы"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:132
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:133
+msgid "Service Status [%s %s]"
+msgstr "Статус службы [%s %s]"
+
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:148
 msgid "Service Warnings"
-msgstr ""
+msgstr "Предупреждения службы"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:348
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:362
 msgid ""
-"Set DSCP tags (in range between 1 and 63) for specific interfaces. See the"
+"Set DSCP tags (in range between 1 and 63) for specific interfaces. See the "
+"%sREADME%s for details."
 msgstr ""
+"Установить DSCP метки (в диапазоне между 1 и 63) для конкретных интерфейсов. "
+"См. %sREADME%s."
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:249
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:255
 msgid "Show Chain Column"
-msgstr ""
+msgstr "Показать столбец Цепочки"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:238
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:244
 msgid "Show Enable Column"
-msgstr ""
+msgstr "Показать столбец Включить"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:242
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:248
 msgid "Show Protocol Column"
-msgstr ""
+msgstr "Показать столбец Протокол"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:253
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:263
 msgid "Show Up/Down Buttons"
-msgstr ""
+msgstr "Показать кнопки Вверх/Вниз"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:253
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:263
 msgid ""
 "Shows the Up/Down buttons for policies, allowing you to move a policy up or "
 "down in the list."
 msgstr ""
+"Показать кнопки Вверх/Вниз для политик, позволяя вам перемещать политики "
+"вверх или вниз списка."
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:249
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:255
 msgid ""
 "Shows the chain column for policies, allowing you to assign a PREROUTING, "
 "FORWARD, INPUT or OUTPUT chain to a policy."
 msgstr ""
+"Показать столбец Цепочки для политик, позволяет вам применять цепочки "
+"PREROUTING, FORWARD, INPUT или OUTPUT к политике."
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:238
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:244
 msgid ""
 "Shows the enable checkbox column for policies, allowing you to quickly "
 "enable/disable specific policy without deleting it."
 msgstr ""
+"Показывает столбец флажка включения для политик, позволяющий быстро "
+"включать / отключать определенную политику, не удаляя ее."
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:242
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:248
 msgid ""
 "Shows the protocol column for policies, allowing you to assign a specific "
 "protocol to a policy."
 msgstr ""
+"Показать столбец протокола для политик, позволяющий вам применять конкретный "
+"протокол к политике."
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:215
-msgid ""
-"Special instructions to append iptables rules for local IPs/netmasks/devices."
-msgstr ""
-
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:218
-msgid "Special instructions to append iptables rules for remote IPs/netmasks."
-msgstr ""
-
-#: applications/luci-app-vpn-policy-routing/luasrc/view/vpn-policy-routing/buttons.htm:40
+#: applications/luci-app-vpn-policy-routing/luasrc/view/vpn-policy-routing/buttons.htm:43
 msgid "Start"
 msgstr "Запустить"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:226
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:232
 msgid ""
 "Starting (WAN) FW Mark for marks used by the service. High starting mark is "
 "used to avoid conflict with SQM/QoS. Change with caution together with"
 msgstr ""
+"Начальная (WAN) метка FW, используемая службой. Большое значение метки "
+"используется, чтобы избежать конфликта с SQM / QoS. Меняйте осторожно вместе "
+"с"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:221
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:227
 msgid "Starting (WAN) Table ID number for tables created by the service."
-msgstr ""
+msgstr "Начальный (WAN) ID таблицы для таблиц созданных службой."
 
-#: applications/luci-app-vpn-policy-routing/luasrc/view/vpn-policy-routing/buttons.htm:44
+#: applications/luci-app-vpn-policy-routing/luasrc/view/vpn-policy-routing/buttons.htm:49
 msgid "Stop"
 msgstr "Остановить"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:42
-#: applications/luci-app-vpn-policy-routing/luasrc/view/vpn-policy-routing/buttons.htm:11
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:60
 msgid "Stopped"
-msgstr "Остановлен"
+msgstr "Остановлена"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:153
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:171
 msgid "Strict enforcement"
-msgstr ""
+msgstr "Строгое применение"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:157
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:174
 msgid "Strictly enforce policies when their gateway is down"
-msgstr ""
+msgstr "Строго применять политики, когда их шлюз не работает"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:187
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:191
 msgid "Supported Interfaces"
-msgstr ""
+msgstr "Поддерживаемые интерфейсы"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:246
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:252
 msgid "Supported Protocols"
-msgstr ""
+msgstr "Поддерживаемые протоколы"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:148
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:166
 msgid "Suppress/No output"
-msgstr ""
+msgstr "Заглушить/Без вывода"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:170
+#: applications/luci-app-vpn-policy-routing/luasrc/view/vpn-policy-routing/status-gateways.htm:15
+msgid "The %s indicates default gateway. See the %sREADME%s for details."
+msgstr "%s обозначает шлюз по умолчанию. См. %sREADME%s."
+
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:207
 msgid "The ipset option for local policies"
-msgstr ""
+msgstr "Параметры ipset для локальных политик"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:160
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:201
 msgid "The ipset option for remote policies"
-msgstr ""
+msgstr "Параметры ipset для удалённых политик"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:193
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:197
 msgid ""
 "Time (in seconds) for service to wait for WAN gateway discovery on boot."
 msgstr ""
+"Время (в секундах) ожидания обнаружения WAN шлюза сервисом при загрузке."
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:166
-msgid "Use DNSMASQ ipset"
-msgstr ""
-
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:165
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:175
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:204
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:210
 msgid "Use ipset command"
-msgstr ""
+msgstr "Использовать ipset команду"
+
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:177
+msgid "Use resolver's ipset for domains"
+msgstr "Использовать ipset резолвера для доменов"
 
 #: applications/luci-app-vpn-policy-routing/luasrc/controller/vpn-policy-routing.lua:4
 msgid "VPN"
 msgstr "VPN"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/controller/vpn-policy-routing.lua:5
+#: applications/luci-app-vpn-policy-routing/luasrc/controller/vpn-policy-routing.lua:7
 msgid "VPN Policy Routing"
-msgstr ""
+msgstr "Политика маршрутизации VPN"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:115
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:131
 msgid "VPN and WAN Policy-Based Routing"
-msgstr ""
+msgstr "Машрутизация VPN и WAN на основе политик"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:150
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:168
 msgid "Verbose output"
-msgstr ""
+msgstr "Подробный вывод"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:208
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:220
 msgid "WAN"
-msgstr ""
+msgstr "WAN"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:226
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:231
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:232
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:237
 msgid "WAN Table FW Mark"
-msgstr ""
+msgstr "Метка FW WAN таблицы"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:221
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:227
 msgid "WAN Table ID"
-msgstr ""
+msgstr "ID таблицы WAN"
 
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:183
-msgid "WARNING:"
-msgstr ""
-
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:236
+#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:242
 msgid "Web UI Configuration"
-msgstr ""
-
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:185
-msgid ""
-"before changing anything in this section! Change any of the settings below "
-"with extreme caution!"
-msgstr ""
-
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:163
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:173
-msgid "before changing this option."
-msgstr ""
-
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:155
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:350
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:363
-#: applications/luci-app-vpn-policy-routing/luasrc/view/vpn-policy-routing/status-gateways.htm:17
-msgid "for details."
-msgstr ""
-
-#: applications/luci-app-vpn-policy-routing/luasrc/model/cbi/vpn-policy-routing.lua:38
-msgid "is not installed or not found"
-msgstr "не установлен или не найден"
+msgstr "Параметры веб-интерфейса"

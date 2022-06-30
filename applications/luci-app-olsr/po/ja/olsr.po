@@ -3,19 +3,20 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-05-19 19:36+0200\n"
-"PO-Revision-Date: 2012-11-14 14:40+0200\n"
-"Last-Translator: Kentaro <kentaro.matsuyama@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-03-29 14:26+0000\n"
+"Last-Translator: INAGAKI Hiroshi <musashino.open@gmail.com>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/openwrt/"
+"luciapplicationsolsr/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pootle 2.0.6\n"
+"X-Generator: Weblate 4.6-dev\n"
 
 #: applications/luci-app-olsr/luasrc/view/status-olsr/mid.htm:13
 msgid "Active MID announcements"
-msgstr "アクティブなMID(Multi Interface Declaration) 通知"
+msgstr "アクティブなMID通知"
 
 #: applications/luci-app-olsr/luasrc/view/status-olsr/topology.htm:14
 msgid "Active OLSR nodes"
@@ -71,12 +72,12 @@ msgstr "ブロードキャストアドレス"
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd.lua:265
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrdiface.lua:90
 msgid "Can only be a valid IPv4 or IPv6 address or 'default'"
-msgstr ""
+msgstr "有効な IPv4 または IPv6 アドレス、または「default」のみ可能です"
 
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd6.lua:259
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrdiface6.lua:90
 msgid "Can only be a valid IPv6 address or 'default'"
-msgstr ""
+msgstr "有効な IPv6 アドレスまたは「default」のみ可能です"
 
 #: applications/luci-app-olsr/luasrc/view/status-olsr/overview.htm:198
 msgid "Configuration"
@@ -94,7 +95,7 @@ msgstr "デバイス"
 
 #: applications/luci-app-olsr/luasrc/controller/olsr.lua:75
 msgid "Display"
-msgstr "ディスプレイ"
+msgstr "表示"
 
 #: applications/luci-app-olsr/luasrc/view/status-olsr/smartgw.htm:60
 #: applications/luci-app-olsr/luasrc/view/status-olsr/smartgw.htm:112
@@ -120,7 +121,7 @@ msgstr "ETX"
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrdplugins.lua:15
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrdplugins6.lua:15
 msgid "Enable"
-msgstr "有効"
+msgstr "有効化"
 
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd.lua:140
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd6.lua:134
@@ -128,8 +129,8 @@ msgid ""
 "Enable SmartGateway. If it is disabled, then all other SmartGateway "
 "parameters are ignored. Default is \"no\"."
 msgstr ""
-"スマートゲートウェイを有効にします。無効の場合、その他全てのスマートゲート"
-"ウェイの設定値は無視されます。標準設定は\"無効\"です。"
+"スマートゲートウェイを有効にします。無効の場合、その他すべてのスマートゲート"
+"ウェイの設定値は無視されます。初期設定は\"無効\"です。"
 
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrdiface.lua:36
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrdiface6.lua:36
@@ -170,7 +171,7 @@ msgstr ""
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd.lua:112
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd6.lua:106
 msgid "Fisheye mechanism for TCs (checked means on). Default is \"on\""
-msgstr "TCsのfisheyeメカニズムを使用します。標準設定は\"有効\"です。"
+msgstr "TCsのfisheyeメカニズムを使用します。初期設定は\"有効\"です。"
 
 #: applications/luci-app-olsr/luasrc/view/status-olsr/smartgw.htm:55
 #: applications/luci-app-olsr/luasrc/view/status-olsr/smartgw.htm:107
@@ -202,7 +203,7 @@ msgstr ""
 #: applications/luci-app-olsr/luasrc/view/status-olsr/legend.htm:8
 #: applications/luci-app-olsr/luasrc/view/status-olsr/legend.htm:17
 msgid "Green"
-msgstr ""
+msgstr "緑"
 
 #: applications/luci-app-olsr/luasrc/controller/olsr.lua:53
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd.lua:402
@@ -244,7 +245,7 @@ msgstr "Hello"
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrdiface.lua:129
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrdiface6.lua:116
 msgid "Hello interval"
-msgstr "Hello 送信間隔"
+msgstr "ハロー間隔"
 
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd.lua:311
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd6.lua:292
@@ -256,12 +257,12 @@ msgstr "Hello 有効時間"
 #: applications/luci-app-olsr/luasrc/view/status-olsr/common_js.htm:12
 #: applications/luci-app-olsr/luasrc/view/status-olsr/common_js.htm:20
 msgid "Hide IPv4"
-msgstr ""
+msgstr "IPv4 を隠す"
 
 #: applications/luci-app-olsr/luasrc/view/status-olsr/common_js.htm:13
 #: applications/luci-app-olsr/luasrc/view/status-olsr/common_js.htm:28
 msgid "Hide IPv6"
-msgstr ""
+msgstr "IPv6 を隠す"
 
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrdhna.lua:12
 msgid "Hna4"
@@ -303,7 +304,7 @@ msgid ""
 msgstr ""
 "リンク検出に対するヒステリシスを設定します (ホップ数メトリックの場合のみ有"
 "効)。ヒステリシスはリンク検出に対するロバスト性を向上させますが、隣接ノードの"
-"登録が遅くなります。標準設定は\"有効\"です。"
+"登録が遅くなります。初期設定は\"有効\"です。"
 
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd.lua:223
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd6.lua:217
@@ -328,7 +329,7 @@ msgstr "IPv4"
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd.lua:278
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrdiface.lua:103
 msgid "IPv4 broadcast"
-msgstr "IPv4 ブロードキャスト"
+msgstr "IPv4ブロードキャスト"
 
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd.lua:279
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrdiface.lua:104
@@ -338,7 +339,7 @@ msgid ""
 "interface broadcast IP."
 msgstr ""
 "送信するOLSRパケットのIPv4ブロードキャストアドレスです。便利な一例として、"
-"255.255.255.255が挙げられます。標準設定は\"0.0.0.0\"であり、インターフェース"
+"255.255.255.255が挙げられます。初期設定は\"0.0.0.0\"であり、インターフェース"
 "のブロードキャストIPを使用します。"
 
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd.lua:291
@@ -352,7 +353,7 @@ msgid ""
 "IPv4 src address for outgoing OLSR packages. Default is \"0.0.0.0\", which "
 "triggers usage of the interface IP."
 msgstr ""
-"送信するOLSRパケットのIPv4送信元アドレスです。標準設定は\"0.0.0.0\"であり、イ"
+"送信するOLSRパケットのIPv4送信元アドレスです。初期設定は\"0.0.0.0\"であり、イ"
 "ンターフェースのIPを使用します。"
 
 #: applications/luci-app-olsr/luasrc/view/status-olsr/smartgw.htm:62
@@ -375,8 +376,8 @@ msgid ""
 "IPv6 multicast address. Default is \"FF02::6D\", the manet-router linklocal "
 "multicast."
 msgstr ""
-"IPv6 マルチキャストアドレスを設定します。標準はMANETルーターが使用するリンク"
-"ローカル・マルチキャストである\"FF02::6D\"です。"
+"IPv6 マルチキャストアドレスを設定します。初期設定はMANETルーターが使用するリ"
+"ンクローカル・マルチキャストである\"FF02::6D\"です。"
 
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrdhna.lua:28
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrdhna6.lua:10
@@ -403,7 +404,7 @@ msgid ""
 "of a not-linklocal interface IP."
 msgstr ""
 "IPv6送信元プレフィクスを設定します。OLSRdはインターフェースの中から、このプレ"
-"フィクス値に一致するものを選択します。標準設定は\"0::/0\"であり、リンクローカ"
+"フィクス値に一致するものを選択します。初期設定は\"0::/0\"であり、リンクローカ"
 "ルIPでないインターフェースIPを使用します。"
 
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd.lua:184
@@ -422,17 +423,17 @@ msgid ""
 msgstr ""
 "現在のゲートウェイへの経路が変わる場合、このゲートウェイのETX値は新しい値と比"
 "較される前に、このパラメータの値と乗算されます。パラメータは0.1から1.0の間で"
-"設定可能です。ただし、変更する場合、1.0に近い値を設定する事をお薦めします。"
+"設定可能です。ただし、変更する場合、1.0に近い値を設定する事をおすすめします。"
 "<br /><b>警告:</b>このパラメータはetx_ffeth メトリックと同時に使用しないでく"
-"ださい!<br />標準設定は\"1.0\"です。"
+"ださい！<br />初期設定は\"1.0\"です。"
 
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd.lua:166
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd6.lua:160
 msgid ""
 "If this Node uses NAT for connections to the internet. Default is \"yes\"."
 msgstr ""
-"このノードがNATを使用してインターネットに接続する場合、有効にしてください。標"
-"準設定は\"有効\"です。"
+"このノードがNATを使用してインターネットに接続する場合、有効にしてください。初"
+"期設定は\"有効\"です。"
 
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrdiface.lua:27
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrdiface6.lua:27
@@ -481,7 +482,7 @@ msgid ""
 "Default is \"2.5\"."
 msgstr ""
 "ネットワーク・インターフェースの設定が変更されたかをチェックするポーリング間"
-"隔を秒単位で設定します。標準設定は\"2.5\"です。"
+"隔を秒単位で設定します。初期設定は\"2.5\"です。"
 
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd.lua:268
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd6.lua:262
@@ -580,9 +581,9 @@ msgstr ""
 "リンク品質 (LQ) アルゴリズムを設定します (LQ レベルが2の場合のみ有効)。<br /"
 "><b>etx_float</b>: 浮動小数点演算＋指数関数エイジング<br /><b>etx_fpm</b> : "
 "etx_floatと同様、ただし整数値演算を行います<br /><b>etx_ff</b> : ETX "
-"freifunk, ETXの変形版であり、ETX算出のためにHelloパケットだけでなく全てのOLSR"
-"トラフィックを使用します<br /><b>etx_ffeth</b>: etx_ffと互換性のない変形版で"
-"す。イーサネットのリンクにETX 0.1を設定することができます<br />標準設定は"
+"freifunk, ETXの変形版であり、ETX算出のためにHelloパケットだけでなくすべての"
+"OLSRトラフィックを使用します<br /><b>etx_ffeth</b>: etx_ffと互換性のない変形"
+"版です。イーサネットのリンクにETX 0.1を設定することができます<br />初期設定は"
 "\"etx_ff\"です。"
 
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd.lua:83
@@ -594,7 +595,7 @@ msgid ""
 msgstr ""
 "リンク品質(LQ) レベルの設定では、ホップ数ベースまたはコストベース(ETX) のどち"
 "らかにルーティング方法を切り替えます。<br /><b>0</b> = リンク品質を加味しない"
-"<br /><b>2</b> = MPR集合及びルーティングにリンク品質を加味する<br />標準設定"
+"<br /><b>2</b> = MPR集合及びルーティングにリンク品質を加味する<br />初期設定"
 "は\"2\"です。"
 
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd.lua:245
@@ -686,8 +687,8 @@ msgid ""
 msgstr ""
 "経路のLQと設定値の乗算を行います。設定可能な値は0.01-1です。この設定はLQ レベ"
 "ルが0以上の場合のみ設定可能です。<br />例:192.168.0.1へのLQを半分にする場合: "
-"192.168.0.1 0.5<br />このインターフェースから全てのノードへ対して20%減らす場"
-"合: default 0.8"
+"192.168.0.1 0.5<br />このインターフェースからすべてのノードへ対して20%減らす"
+"場合: default 0.8"
 
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd.lua:201
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd6.lua:195
@@ -793,7 +794,7 @@ msgstr "OLSR ノード"
 #: applications/luci-app-olsr/luasrc/view/status-olsr/legend.htm:10
 #: applications/luci-app-olsr/luasrc/view/status-olsr/legend.htm:19
 msgid "Orange"
-msgstr ""
+msgstr "オレンジ"
 
 #: applications/luci-app-olsr/luasrc/view/status-olsr/overview.htm:157
 msgid "Overview"
@@ -842,7 +843,7 @@ msgstr "プラグイン"
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd.lua:54
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd6.lua:48
 msgid "Polling rate for OLSR sockets in seconds. Default is 0.05."
-msgstr "OLSRソケットのポーリング間隔を秒単位で設定します。標準は0.05です。"
+msgstr "OLSRソケットのポーリング間隔を秒単位で設定します。初期設定は0.05です。"
 
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd.lua:53
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd6.lua:47
@@ -864,7 +865,7 @@ msgstr "プレフィックス"
 #: applications/luci-app-olsr/luasrc/view/status-olsr/legend.htm:11
 #: applications/luci-app-olsr/luasrc/view/status-olsr/legend.htm:20
 msgid "Red"
-msgstr ""
+msgstr "赤"
 
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrddisplay.lua:9
 msgid "Resolve"
@@ -883,7 +884,7 @@ msgstr ""
 
 #: applications/luci-app-olsr/luasrc/controller/olsr.lua:43
 msgid "Routes"
-msgstr "経路"
+msgstr "ルート"
 
 #: applications/luci-app-olsr/luasrc/view/status-olsr/mid.htm:21
 msgid "Secondary OLSR interfaces"
@@ -901,7 +902,7 @@ msgid ""
 "IP of the first interface."
 msgstr ""
 "ルーターのメインIP (発信元IP)を設定してください。このIPは、OLSRdの稼働中は決"
-"して変更しません。標準設定は0.0.0.0であり、プライマリ・インターフェースのIPを"
+"して変更しません。初期設定は0.0.0.0であり、プライマリ・インターフェースのIPを"
 "自動的に使用します。"
 
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd6.lua:127
@@ -912,16 +913,16 @@ msgid ""
 "the first interface."
 msgstr ""
 "ルーターのメインIP (発信元IP)を設定してください。このIPは、OLSRdの稼働中は決"
-"して変更しません。標準設定は0.0.0.0であり、プライマリ・インターフェースのIPを"
+"して変更しません。初期設定は0.0.0.0であり、プライマリ・インターフェースのIPを"
 "自動的に使用します。"
 
 #: applications/luci-app-olsr/luasrc/view/status-olsr/common_js.htm:20
 msgid "Show IPv4"
-msgstr ""
+msgstr "IPv4 を表示"
 
 #: applications/luci-app-olsr/luasrc/view/status-olsr/common_js.htm:28
 msgid "Show IPv6"
-msgstr ""
+msgstr "IPv6 を表示"
 
 #: applications/luci-app-olsr/luasrc/view/status-olsr/legend.htm:14
 msgid "Signal Noise Ratio in dB"
@@ -952,7 +953,7 @@ msgid ""
 "upstream, second parameter is downstream. Default is \"128 1024\"."
 msgstr ""
 "アップリンク速度をキロビット/秒で設定してください。1つ目のパラメータは上り、2"
-"つ目のパラメータは下りのストリームです。標準は\"128 1024\"です。"
+"つ目のパラメータは下りのストリームです。初期設定は\"128 1024\"です。"
 
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd.lua:176
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd6.lua:170
@@ -1016,8 +1017,8 @@ msgid ""
 msgstr ""
 "OLSRデーモンは、Optimized Link State Routingプロコトルを実装したサービスで"
 "す。OLSRはどのようなネットワーク環境でもメッシュルーティングを実現します。"
-"OLSRはアドホック・モードをサポートした全ての無線LANカードをサポートし、もちろ"
-"ん全てのイーサネットデバイスでも使用可能です。<a href='http://www.olsr."
+"OLSRはアドホック・モードをサポートしたすべての無線LANカードをサポートし、もち"
+"ろんすべてのイーサネットデバイスでも使用可能です。<a href='http://www.olsr."
 "org'>olsrd.org</a>にアクセスして、ヘルプ及びドキュメントを参照してください。"
 
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd.lua:194
@@ -1027,7 +1028,7 @@ msgid ""
 "dynamically based on battery/power status. Default is \"3\"."
 msgstr ""
 "willingnessを固定する場合に使用します。willingnessが設定されていない場合、"
-"バッテリや電源のステータスによって動的に計算されます。標準は\"3\"です。"
+"バッテリや電源のステータスによって動的に計算されます。初期設定は\"3\"です。"
 
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrdiface.lua:45
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrdiface6.lua:45
@@ -1070,7 +1071,7 @@ msgid ""
 "\"16\"."
 msgstr ""
 "OLSRコントロールパケットにおける、IPヘッダのTOS (Type Of Service) 値を設定し"
-"ます。標準設定は\"16\"です。"
+"ます。初期設定は\"16\"です。"
 
 #: applications/luci-app-olsr/luasrc/view/status-olsr/error_olsr.htm:9
 msgid "Unable to connect to the OLSR daemon!"
@@ -1126,7 +1127,7 @@ msgstr ""
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrdiface.lua:60
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrdiface6.lua:60
 msgid "Weight"
-msgstr "Weight"
+msgstr "ウエイト"
 
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd.lua:236
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd6.lua:230
@@ -1156,7 +1157,7 @@ msgid ""
 msgstr ""
 "どのアップリンクを他のメッシュノードへ通知するかを設定します。アップリンクは"
 "ローカルのHNAである0.0.0.0/0、::ffff:0:0/96、2000::/3を探索することで検出しま"
-"す。標準設定は、\"both\"です。"
+"す。初期設定は、\"both\"です。"
 
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd6.lua:149
 #, fuzzy
@@ -1167,7 +1168,7 @@ msgid ""
 msgstr ""
 "どのアップリンクを他のメッシュノードへ通知するかを設定します。アップリンクは"
 "ローカルのHNAである0.0.0.0/0、::ffff:0:0/96、2000::/3を探索することで検出しま"
-"す。標準設定は、\"both\"です。"
+"す。初期設定は、\"both\"です。"
 
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd.lua:193
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd6.lua:187
@@ -1177,11 +1178,11 @@ msgstr "Willingness"
 #: applications/luci-app-olsr/luasrc/view/status-olsr/legend.htm:9
 #: applications/luci-app-olsr/luasrc/view/status-olsr/legend.htm:18
 msgid "Yellow"
-msgstr ""
+msgstr "黄色"
 
 #: applications/luci-app-olsr/luasrc/view/status-olsr/interfaces.htm:38
 msgid "down"
-msgstr ""
+msgstr "下へ"
 
 #: applications/luci-app-olsr/luasrc/view/status-olsr/smartgw.htm:30
 #: applications/luci-app-olsr/luasrc/view/status-olsr/smartgw.htm:134
@@ -1196,11 +1197,11 @@ msgstr ""
 #: applications/luci-app-olsr/luasrc/view/status-olsr/smartgw.htm:138
 #: applications/luci-app-olsr/luasrc/view/status-olsr/smartgw.htm:139
 msgid "no"
-msgstr ""
+msgstr "いいえ"
 
 #: applications/luci-app-olsr/luasrc/view/status-olsr/interfaces.htm:38
 msgid "up"
-msgstr ""
+msgstr "上へ"
 
 #: applications/luci-app-olsr/luasrc/view/status-olsr/interfaces.htm:40
 #: applications/luci-app-olsr/luasrc/view/status-olsr/smartgw.htm:29
@@ -1210,4 +1211,4 @@ msgstr ""
 #: applications/luci-app-olsr/luasrc/view/status-olsr/smartgw.htm:138
 #: applications/luci-app-olsr/luasrc/view/status-olsr/smartgw.htm:139
 msgid "yes"
-msgstr ""
+msgstr "はい"

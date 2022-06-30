@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2019-12-21 21:42+0000\n"
-"Last-Translator: Jiri Tersel <jiri.tersel@seznam.cz>\n"
+"PO-Revision-Date: 2021-09-15 08:34+0000\n"
+"Last-Translator: Lukas Jelinek <lukas.jelinek@nic.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsstatistics/cs/>\n"
 "Language: cs\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 3.10\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #: applications/luci-app-statistics/luasrc/statistics/plugins/apcups.lua:7
 #: applications/luci-app-statistics/luasrc/statistics/rrdtool/definitions/apcups.lua:7
@@ -279,7 +279,11 @@ msgstr "Sledování třídy filtrů"
 #: applications/luci-app-statistics/luasrc/statistics/plugins/iptables.lua:2
 #: applications/luci-app-statistics/luasrc/statistics/rrdtool/definitions/iptables.lua:7
 msgid "Firewall"
-msgstr "Firewall"
+msgstr "Brána firewall"
+
+#: applications/luci-app-statistics/luasrc/statistics/rrdtool/definitions/ip6tables.lua:7
+msgid "Firewall (IPv6)"
+msgstr ""
 
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/rrdtool.lua:100
 msgid "Flush cache after"
@@ -652,11 +656,11 @@ msgstr "Nastavení pluginu RRDTool"
 msgid "Report by CPU"
 msgstr "Zpráva o CPU"
 
-#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:24
+#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:25
 msgid "Report by state"
 msgstr "Zpráva o stavu"
 
-#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:31
+#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:33
 msgid "Report in percent"
 msgstr "Zpráva v procentech"
 
@@ -1109,7 +1113,7 @@ msgstr "Uživatel"
 msgid "Verbose monitoring"
 msgstr "Podrobný monitoring"
 
-#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:25
+#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:26
 msgid "When set to true, reports per-state metric (system, user, idle)"
 msgstr ""
 "Je-li nastaveno na 'povoleno', zaznamenává metriky dle stavu (systém, "
@@ -1119,7 +1123,7 @@ msgstr ""
 msgid "When set to true, we request absolute values"
 msgstr "Je-li nastaveno na 'povoleno', zaznamenávájí se absolutní hodnoty"
 
-#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:32
+#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:34
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/memory.lua:24
 msgid "When set to true, we request percentage values"
 msgstr "Je-li nastaveno na 'povoleno', zaznamenávají se percentuální hodnoty"

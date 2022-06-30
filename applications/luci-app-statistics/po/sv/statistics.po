@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2019-10-17 20:20+0000\n"
-"Last-Translator: Mattias Münster <mattiasmun@gmail.com>\n"
+"PO-Revision-Date: 2021-12-15 03:52+0000\n"
+"Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsstatistics/sv/>\n"
 "Language: sv\n"
@@ -10,12 +10,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1-dev\n"
+"X-Generator: Weblate 4.10-dev\n"
 
 #: applications/luci-app-statistics/luasrc/statistics/plugins/apcups.lua:7
 #: applications/luci-app-statistics/luasrc/statistics/rrdtool/definitions/apcups.lua:7
 msgid "APC UPS"
-msgstr ""
+msgstr "A.P.C UPS"
 
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/apcups.lua:5
 msgid "APCUPS Plugin Configuration"
@@ -279,6 +279,10 @@ msgstr ""
 #: applications/luci-app-statistics/luasrc/statistics/rrdtool/definitions/iptables.lua:7
 msgid "Firewall"
 msgstr "Brandvägg"
+
+#: applications/luci-app-statistics/luasrc/statistics/rrdtool/definitions/ip6tables.lua:7
+msgid "Firewall (IPv6)"
+msgstr ""
 
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/rrdtool.lua:100
 msgid "Flush cache after"
@@ -639,11 +643,11 @@ msgstr ""
 msgid "Report by CPU"
 msgstr ""
 
-#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:24
+#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:25
 msgid "Report by state"
 msgstr ""
 
-#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:31
+#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:33
 msgid "Report in percent"
 msgstr ""
 
@@ -685,7 +689,7 @@ msgstr "Värd-server"
 
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/network.lua:58
 msgid "Server port"
-msgstr "Server-port"
+msgstr "Port för server"
 
 #: applications/luci-app-statistics/luasrc/controller/luci_statistics/luci_statistics.lua:48
 msgid "Setup"
@@ -1047,7 +1051,7 @@ msgstr "Användare"
 msgid "Verbose monitoring"
 msgstr "Detaljerad övervakning"
 
-#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:25
+#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:26
 msgid "When set to true, reports per-state metric (system, user, idle)"
 msgstr ""
 
@@ -1055,7 +1059,7 @@ msgstr ""
 msgid "When set to true, we request absolute values"
 msgstr ""
 
-#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:32
+#: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/cpu.lua:34
 #: applications/luci-app-statistics/luasrc/model/cbi/luci_statistics/memory.lua:24
 msgid "When set to true, we request percentage values"
 msgstr ""

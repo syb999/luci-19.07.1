@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LuCI: mjpg-streamer\n"
 "POT-Creation-Date: 2017-10-17 14:30+0300\n"
-"PO-Revision-Date: 2020-01-13 14:27+0000\n"
-"Last-Translator: Nazym Bavbekov <joker2000joker@list.ru>\n"
+"PO-Revision-Date: 2021-07-05 20:29+0000\n"
+"Last-Translator: Artem <KovalevArtem.ru@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsmjpg-streamer/ru/>\n"
 "Language: ru\n"
@@ -12,18 +12,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.10.1\n"
+"X-Generator: Weblate 4.8-dev\n"
 "Project-Info: Это технический перевод, не дословный. Главное-удобный русский "
 "интерфейс, все проверялось в графическом режиме, совместим с другими apps\n"
 
 #: applications/luci-app-mjpg-streamer/luasrc/model/cbi/mjpg-streamer.lua:217
 msgid "Allow ringbuffer to exceed limit by this amount"
 msgstr ""
-"Позволить кольцевому буферу превысить ограничение, установив данное значение."
+"Разрешить кольцевому буферу превысить ограничение, установив данное значение"
 
 #: applications/luci-app-mjpg-streamer/luasrc/model/cbi/mjpg-streamer.lua:95
 msgid "Ask for username and password on connect"
-msgstr "Задать доступ по имени и паролю."
+msgstr "Спрашивать имя пользователя и пароль при подключении"
 
 #: applications/luci-app-mjpg-streamer/luasrc/model/cbi/mjpg-streamer.lua:95
 msgid "Authentication required"
@@ -35,7 +35,7 @@ msgstr "Автоматически"
 
 #: applications/luci-app-mjpg-streamer/luasrc/model/cbi/mjpg-streamer.lua:69
 msgid "Automatic disabling of MJPEG mode"
-msgstr "Автоматически отключится MJPEG."
+msgstr "Автоматическое отключение MJPEG режима"
 
 #: applications/luci-app-mjpg-streamer/luasrc/model/cbi/mjpg-streamer.lua:82
 msgid "Blink"
@@ -51,7 +51,7 @@ msgstr "Устройство"
 
 #: applications/luci-app-mjpg-streamer/luasrc/model/cbi/mjpg-streamer.lua:77
 msgid "Do not initialize dynctrls of Linux-UVC driver"
-msgstr "Не задействует dynctrls драйвера Linux-UVC."
+msgstr "Не задействует dynctrls драйвера Linux-UVC"
 
 #: applications/luci-app-mjpg-streamer/luasrc/model/cbi/mjpg-streamer.lua:77
 msgid "Don't initialize dynctrls"
@@ -95,7 +95,7 @@ msgstr "Папка"
 
 #: applications/luci-app-mjpg-streamer/luasrc/model/cbi/mjpg-streamer.lua:108
 msgid "Folder that contains webpages"
-msgstr "Содержимое вебстраницы, находится в этой папке."
+msgstr "Содержимое веб-страницы, находится в этой папке"
 
 #: applications/luci-app-mjpg-streamer/luasrc/model/cbi/mjpg-streamer.lua:64
 msgid "Frames per second"
@@ -127,7 +127,7 @@ msgstr "Управление светодиодным индикатором в�
 
 #: applications/luci-app-mjpg-streamer/luasrc/model/cbi/mjpg-streamer.lua:222
 msgid "Link newest picture to fixed file name"
-msgstr ""
+msgstr "Свяжите новейшее изображение с фиксированным именем файла"
 
 #: applications/luci-app-mjpg-streamer/luasrc/model/cbi/mjpg-streamer.lua:222
 msgid "Link the last picture in ringbuffer to fixed named file provided."
@@ -139,7 +139,7 @@ msgstr "MJPG-streamer"
 
 #: applications/luci-app-mjpg-streamer/luasrc/model/cbi/mjpg-streamer.lua:213
 msgid "Max. number of pictures to hold"
-msgstr "Размер кольцевого буфера."
+msgstr "Макс. количество изображений для хранения"
 
 #: applications/luci-app-mjpg-streamer/luasrc/model/cbi/mjpg-streamer.lua:81
 msgid "Off"
@@ -175,19 +175,19 @@ msgstr "Задать размер буфера"
 
 #: applications/luci-app-mjpg-streamer/luasrc/model/cbi/mjpg-streamer.lua:203
 msgid "Set folder to save pictures"
-msgstr "Задать папку для сохранения снимков."
+msgstr "Задать папку для сохранения снимков"
 
 #: applications/luci-app-mjpg-streamer/luasrc/model/cbi/mjpg-streamer.lua:209
 msgid "Set the interval in millisecond"
-msgstr "Задать интервал в миллисекундах."
+msgstr "Задать интервал в миллисекундах"
 
 #: applications/luci-app-mjpg-streamer/luasrc/model/cbi/mjpg-streamer.lua:74
 msgid ""
 "Set the minimum size if the webcam produces small-sized garbage frames. May "
 "happen under low light conditions"
 msgstr ""
-"Задайте минимальное значение, если вебкамера не справляется при плохом "
-"освещении."
+"Задайте минимальное значение, если веб-камера не справляется при плохом "
+"освещении"
 
 #: applications/luci-app-mjpg-streamer/luasrc/model/cbi/mjpg-streamer.lua:71
 msgid ""
@@ -195,11 +195,11 @@ msgid ""
 "MJPEG"
 msgstr ""
 "Задать качество в процентах. Данная настройка активирует YUYV формат "
-"отключая MJPEG."
+"отключая MJPEG"
 
 #: applications/luci-app-mjpg-streamer/luasrc/model/cbi/mjpg-streamer.lua:91
 msgid "TCP port for this HTTP server"
-msgstr "Задать TCP порт для HTTP сервера."
+msgstr "Задать TCP порт для HTTP сервера"
 
 #: applications/luci-app-mjpg-streamer/luasrc/model/cbi/mjpg-streamer.lua:35
 msgid "UVC input"

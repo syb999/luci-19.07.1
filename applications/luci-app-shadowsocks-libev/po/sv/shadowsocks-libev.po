@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-12-03 08:27+0000\n"
-"Last-Translator: Mattias Münster <mattiasmun@gmail.com>\n"
+"PO-Revision-Date: 2021-12-15 03:52+0000\n"
+"Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsshadowsocks-libev/sv/>\n"
 "Language: sv\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.10-dev\n"
+"X-Generator: Weblate 4.10-dev\n"
 
 #: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua:176
 msgid "<hidden>"
@@ -74,7 +74,7 @@ msgstr "Inaktivera"
 
 #: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/instances.lua:86
 msgid "Disabled"
-msgstr "Inaktiverad"
+msgstr "Avaktiverad"
 
 #: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:87
 msgid "Dst default"
@@ -190,7 +190,7 @@ msgstr ""
 
 #: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua:75
 msgid "Local port"
-msgstr ""
+msgstr "Lokal port"
 
 #: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:46
 msgid "Local-out default"
@@ -229,7 +229,7 @@ msgstr ""
 
 #: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/instances.lua:78
 msgid "Overview"
-msgstr "Översikt"
+msgstr "Överblick"
 
 #: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua:202
 msgid "Package is not installed"
@@ -275,7 +275,7 @@ msgstr ""
 
 #: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/instances.lua:81
 msgid "Running"
-msgstr ""
+msgstr "Igång"
 
 #: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua:91
 msgid "Server"
@@ -283,7 +283,7 @@ msgstr "Server"
 
 #: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua:94
 msgid "Server port"
-msgstr "Server-port"
+msgstr "Port för server"
 
 #: applications/luci-app-shadowsocks-libev/luasrc/controller/shadowsocks-libev.lua:9
 msgid "Shadowsocks-libev"

@@ -1,26 +1,26 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-01-14 15:23+0000\n"
-"Last-Translator: Franco Castillo <castillofrancodamian@gmail.com>\n"
+"PO-Revision-Date: 2022-03-25 12:08+0000\n"
+"Last-Translator: MarioK239 <marios.k239@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsmwan3/el/>\n"
 "Language: el\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:171
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:187
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:207
 msgid "%d hour"
-msgstr ""
+msgstr "%d ώρα"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:166
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:182
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:202
 msgid "%d minute"
-msgstr ""
+msgstr "%d λεπτό"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:167
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:168
@@ -35,15 +35,16 @@ msgstr ""
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:205
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:206
 msgid "%d minutes"
-msgstr ""
+msgstr "%d λεπτά"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/globalsconfig.lua:48
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:147
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:160
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:176
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:196
+#, fuzzy
 msgid "%d second"
-msgstr ""
+msgstr "%d δευτερόλεπτο"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/globalsconfig.lua:49
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/globalsconfig.lua:50
@@ -74,11 +75,11 @@ msgstr ""
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:200
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:201
 msgid "%d seconds"
-msgstr ""
+msgstr "%d δευτερόλεπτα"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/ruleconfig.lua:58
 msgid "-- Please choose --"
-msgstr ""
+msgstr "-- Παρακαλώ επιλέξτε --"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:59
 msgid ""
@@ -88,11 +89,11 @@ msgstr ""
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/memberconfig.lua:30
 msgid "Acceptable values: 1-1000. Defaults to 1 if not set"
-msgstr ""
+msgstr "Αποδεκτές τιμές: 1-1000. Προεπιλέγεται το 1 αν δεν οριστεί"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/memberconfig.lua:26
 msgid "Acceptable values: 1-256. Defaults to 1 if not set"
-msgstr ""
+msgstr "Αποδεκτές τιμές: 1-256. Προεπιλέγεται το 1 αν δεν οριστεί"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/globalsconfig.lua:32
 msgid "Alert"
@@ -106,7 +107,7 @@ msgstr ""
 msgid "Also scan this Routing table for connected networks"
 msgstr ""
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:73
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:77
 msgid "Check IP rules"
 msgstr ""
 
@@ -114,7 +115,7 @@ msgstr ""
 msgid "Check link quality"
 msgstr ""
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:74
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:78
 msgid "Check routing table"
 msgstr ""
 
@@ -126,21 +127,21 @@ msgstr "Συλλογή δεδομένων..."
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/globalsconfig.lua:33
 msgid "Critical"
-msgstr ""
+msgstr "Κρίσιμο"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/globalsconfig.lua:38
 msgid "Debug"
-msgstr ""
+msgstr "Αποσφαλμάτωση"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/rule.lua:81
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/ruleconfig.lua:29
 msgid "Destination address"
-msgstr ""
+msgstr "Διεύθυνση προορισμού"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/rule.lua:87
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/ruleconfig.lua:33
 msgid "Destination port"
-msgstr ""
+msgstr "Θύρα προορισμού"
 
 #: applications/luci-app-mwan3/luasrc/view/mwan/status_detail.htm:11
 #: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:11
@@ -154,7 +155,7 @@ msgstr ""
 #: applications/luci-app-mwan3/luasrc/view/mwan/status_interface.htm:12
 #: applications/luci-app-mwan3/luasrc/view/mwan/status_troubleshooting.htm:12
 msgid "Diagnostics"
-msgstr ""
+msgstr "Διαγνωστικά"
 
 #: applications/luci-app-mwan3/luasrc/view/mwan/overview_status_interface.htm:50
 msgid "Disabled"
@@ -172,7 +173,7 @@ msgstr ""
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interface.lua:160
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:22
 msgid "Enabled"
-msgstr ""
+msgstr "Ενεργοποιήθηκε"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/ruleconfig.lua:64
 msgid ""
@@ -189,11 +190,11 @@ msgstr ""
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/globalsconfig.lua:34
 msgid "Error"
-msgstr ""
+msgstr "Σφάλμα"
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:81
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:88
 msgid "Execute"
-msgstr ""
+msgstr "Εκτέλεση"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:26
 msgid "Expect interface state on up event"
@@ -223,11 +224,11 @@ msgstr ""
 msgid "Globals"
 msgstr ""
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:76
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:80
 msgid "Hotplug ifdown"
 msgstr ""
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:75
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:79
 msgid "Hotplug ifup"
 msgstr ""
 
@@ -266,7 +267,7 @@ msgstr ""
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/memberconfig.lua:18
 #: applications/luci-app-mwan3/luasrc/view/mwan/status_detail.htm:10
 #: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:10
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:62
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:61
 #: applications/luci-app-mwan3/luasrc/view/mwan/status_interface.htm:10
 #: applications/luci-app-mwan3/luasrc/view/mwan/status_troubleshooting.htm:10
 msgid "Interface"
@@ -288,7 +289,7 @@ msgstr ""
 
 #: applications/luci-app-mwan3/luasrc/controller/mwan3.lua:48
 msgid "Interfaces"
-msgstr ""
+msgstr "Διεπαφές"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:31
 msgid "Internet Protocol"
@@ -505,7 +506,7 @@ msgstr ""
 msgid "Ping count"
 msgstr ""
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:71
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:75
 msgid "Ping default gateway"
 msgstr ""
 
@@ -530,7 +531,7 @@ msgstr ""
 msgid "Ping timeout"
 msgstr ""
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:72
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:76
 msgid "Ping tracking IP"
 msgstr ""
 
@@ -551,7 +552,7 @@ msgstr ""
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/policy.lua:51
 msgid "Policy"
-msgstr ""
+msgstr "Πολιτική"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/rule.lua:99
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/ruleconfig.lua:66
@@ -633,7 +634,7 @@ msgstr ""
 msgid "Supports CIDR notation (eg \"192.168.100.0/24\") without quotes"
 msgstr ""
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:69
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:72
 msgid "Task"
 msgstr ""
 

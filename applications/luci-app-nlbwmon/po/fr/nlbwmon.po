@@ -1,90 +1,101 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-01-11 18:23+0000\n"
-"Last-Translator: Franco Castillo <castillofrancodamian@gmail.com>\n"
+"PO-Revision-Date: 2022-02-02 16:56+0000\n"
+"Last-Translator: ButterflyOfFire <ButterflyOfFire@protonmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsnlbwmon/fr/>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.10.1\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:661
 msgid "%d IPv4-only hosts"
-msgstr ""
+msgstr "%d hôtes IPv4 uniquement"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:668
 msgid "%d IPv6-only hosts"
-msgstr ""
+msgstr "%d hôtes IPv6 uniquement"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:675
 msgid "%d dual-stack hosts"
-msgstr ""
+msgstr "%d hôtes double-pile"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:71
 msgid "%s and %s"
-msgstr ""
+msgstr "%s et %s"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:69
 msgid "%s, %s and %s"
-msgstr ""
+msgstr "%s, %s et %s"
 
 #: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:68
 msgid "-1 - Restart every last day of month"
-msgstr ""
+msgstr "-1 - Redémarrez tous les derniers jours du mois"
 
 #: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:69
 msgid "-7 - Restart a week before end of month"
-msgstr ""
+msgstr "-7 - Redémarrer une semaine avant la fin du mois"
 
 #: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:67
 msgid "1 - Restart every 1st of month"
-msgstr ""
+msgstr "1 - Redémarrez tous les 1er du mois"
 
 #: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:183
 msgid "10m - frequent commits at the expense of flash wear"
 msgstr ""
+"10m - sauvegardes fréquentes au détriment de l'usure de la mémoire flash"
 
 #: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:182
 msgid "12h - compromise between risk of data loss and flash wear"
 msgstr ""
+"12h - compromis entre le risque de perte de données et l'usure de la mémoire "
+"flash"
 
 #: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:181
 msgid "24h - least flash wear at the expense of data loss risk"
 msgstr ""
+"24h - usure de la mémoire flash minimale mais risque plus élevé de perte de "
+"données"
 
 #: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:191
 msgid "30s - refresh twice per minute for reasonably current stats"
 msgstr ""
+"30s - rafraîchissement deux fois par minutes pour des statistiques "
+"raisonnablement mises a jours"
 
 #: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:192
 msgid "5m - rarely refresh to avoid frequently clearing conntrack counters"
 msgstr ""
+"5m - rafraîchissement long pour éviter de vider les compteurs conntrack "
+"souvent"
 
 #: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:184
 msgid "60s - commit minutely, useful for non-flash storage"
 msgstr ""
+"60s - sauvegarde toutes les minutes, utile pour les medium de stockages non "
+"flash"
 
 #: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:40
 msgid "<big id=\"conn-total\">0</big> connections"
-msgstr ""
+msgstr "<big id=\"conn-total\">0</big> connexions"
 
 #: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:37
 msgid "<big id=\"host-total\">0</big> hosts"
-msgstr ""
+msgstr "<big id=\"host-total\">0</big> hôtes"
 
 #: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:114
 msgid "<big id=\"ipv6-hosts\">0%</big> IPv6 support rate among hosts"
-msgstr ""
+msgstr "<big id=\"ipv6-hosts\">0%</big> Taux de support IPv6 parmi les hôtes"
 
 #: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:116
 msgid "<big id=\"ipv6-rx\">0B</big> total IPv6 download"
-msgstr ""
+msgstr "<big id=\"ipv6-rx\">0B</big> téléchargement IPv6 total"
 
 #: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:115
 msgid "<big id=\"ipv6-share\">0%</big> of the total traffic is IPv6"
-msgstr ""
+msgstr "<big id=\"ipv6-share\">0%</big> du traffic total est en IPv6"
 
 #: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:117
 msgid "<big id=\"ipv6-tx\">0B</big> total IPv6 upload"
@@ -206,13 +217,13 @@ msgstr ""
 
 #: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:28
 msgid "Day of month"
-msgstr ""
+msgstr "Jour du mois"
 
 #: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:63
 msgid ""
 "Day of month to restart the accounting period. Use negative values to count "
 "towards the end of month, e.g. \"-5\" to specify the 27th of July or the "
-"24th of Februrary."
+"24th of February."
 msgstr ""
 
 #: applications/luci-app-nlbwmon/luasrc/controller/nlbw.lua:8
@@ -229,7 +240,7 @@ msgstr ""
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:285
 msgid "Download"
-msgstr ""
+msgstr "Télécharger"
 
 #: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:49
 #: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:87
@@ -283,7 +294,7 @@ msgstr "Paramètres généraux"
 
 #: applications/luci-app-nlbwmon/luasrc/view/nlbw/backup.htm:28
 msgid "Generate Backup"
-msgstr ""
+msgstr "Générer une sauvegarde"
 
 #: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:46
 #: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:123
@@ -292,7 +303,7 @@ msgstr "Hôte"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:294
 msgid "Hostname: <big id=\"bubble-hostname\">example.org</big>"
-msgstr ""
+msgstr "Nom d’hôte : <big id=\"bubble-hostname\">example.org</big>"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:624
 msgid "IPv4"
@@ -309,7 +320,7 @@ msgstr "IPv6"
 
 #: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:95
 msgid "Interval"
-msgstr ""
+msgstr "Intervalle"
 
 #: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:178
 msgid ""
@@ -337,11 +348,11 @@ msgstr ""
 
 #: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:110
 msgid "Local interfaces"
-msgstr ""
+msgstr "Interfaces locales"
 
 #: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:134
 msgid "Local subnets"
-msgstr ""
+msgstr "Sous-réseaux locaux"
 
 #: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:47
 #: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:124
@@ -405,7 +416,7 @@ msgstr ""
 
 #: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:187
 msgid "Refresh interval"
-msgstr ""
+msgstr "Intervalle d’actualisation"
 
 #: applications/luci-app-nlbwmon/luasrc/view/nlbw/backup.htm:17
 msgid "Restore"
@@ -453,11 +464,11 @@ msgstr ""
 
 #: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:26
 msgid "Traffic / Host"
-msgstr ""
+msgstr "Trafic / Hôte"
 
 #: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:23
 msgid "Traffic Distribution"
-msgstr ""
+msgstr "Distribution du trafic"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:305
 msgid "Up. (Bytes)"
@@ -469,7 +480,7 @@ msgstr ""
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:289
 msgid "Upload"
-msgstr ""
+msgstr "Téléverser"
 
 #: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:51
 #: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:89
@@ -521,4 +532,4 @@ msgstr ""
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:517
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:522
 msgid "other"
-msgstr ""
+msgstr "autre"

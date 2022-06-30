@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2019-12-05 17:06+0000\n"
-"Last-Translator: Jiri Tersel <jiri.tersel@seznam.cz>\n"
+"PO-Revision-Date: 2020-02-02 09:02+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsopenvpn/cs/>\n"
 "Language: cs\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 3.10-dev\n"
+"X-Generator: Weblate 3.11-dev\n"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:821
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:824
@@ -265,7 +265,7 @@ msgstr "Povolit správu rozhraní na <em>IP</em> <em>port</em>"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn.lua:104
 msgid "Enabled"
-msgstr "Povoleno"
+msgstr "Zapnuto"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:749
 msgid "Encrypt and authenticate all control channel packets with the key"
@@ -433,7 +433,7 @@ msgstr "Zachovávat/zrušit ifconfig-pool"
 msgid "Ping remote every n seconds over TCP/UDP port"
 msgstr "Ping protistrany každých n sekund přes port TCP/UDP"
 
-#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:28
+#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:32
 msgid "Please edit this file directly in a terminal session."
 msgstr "Upravte tento soubor přímo v relaci terminálu."
 
@@ -555,17 +555,17 @@ msgstr "Spustit skript cmd pro odpojení klienta"
 msgid "Run up/down scripts for all restarts"
 msgstr "Spouštět up/down skripty při všech restartech"
 
-#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:37
+#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:41
 msgid "Save"
 msgstr "Uložit"
 
-#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:61
+#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:65
 msgid ""
 "Section to add an optional 'auth-user-pass' file with your credentials (%s)"
 msgstr ""
 "Sekce pro přidání volitelného souboru \"auth-user-pass\" s pověřeními (%s)"
 
-#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:40
+#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:44
 msgid "Section to modify the OVPN config file (%s)"
 msgstr "Sekce pro úpravu konfiguračního souboru OVPN (%s)"
 
@@ -721,7 +721,7 @@ msgstr "Dočasný adresář pro návratový soubor client-connect"
 msgid "The 'Name' field must not be empty!"
 msgstr "Pole 'Název' nesmí být prázdné!"
 
-#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:18
+#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:22
 msgid ""
 "The OVPN config file (%s) could not be found, please check your "
 "configuration."
@@ -740,7 +740,7 @@ msgstr "Směr klíče pro možnosti 'tls-auth' a 'secret'"
 msgid "The lowest supported TLS version"
 msgstr "Nejnižší podporovaná verze TLS"
 
-#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:27
+#: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:31
 msgid ""
 "The size of the OVPN config file (%s) is too large for online editing in "
 "LuCI (&ge; 100 KB)."

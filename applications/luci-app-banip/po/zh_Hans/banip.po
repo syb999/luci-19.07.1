@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-01-09 07:25+0000\n"
-"Last-Translator: Rya Lin <ray.xue@my.com>\n"
+"PO-Revision-Date: 2021-06-22 17:33+0000\n"
+"Last-Translator: Eric <spice2wolf@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "openwrt/luciapplicationsbanip/zh_Hans/>\n"
-"Language: zh-cn\n"
+"Language: zh_Hans\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.10.1-dev\n"
+"X-Generator: Weblate 4.7.1-dev\n"
 
 #: applications/luci-app-banip/luasrc/view/banip/ripeview.htm:89
 msgid "ASN Overview"
@@ -67,11 +67,11 @@ msgstr "DNS 链"
 
 #: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:177
 msgid "DST Target IPv4"
-msgstr "DST Target IPv4"
+msgstr "DST 目标 IPv4"
 
 #: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:209
 msgid "DST Target IPv6"
-msgstr "DST Target IPv6"
+msgstr "DST 目标 IPv6"
 
 #: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:72
 msgid "Description"
@@ -194,14 +194,12 @@ msgid "Loading ..."
 msgstr "加载中…"
 
 #: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:114
-#, fuzzy
 msgid "Local Save Blacklist Addons"
-msgstr "本地保存黑名单插件"
+msgstr "本地保存黑名单"
 
 #: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:119
-#, fuzzy
 msgid "Local Save Whitelist Addons"
-msgstr "本地保存白名单插件"
+msgstr "本地保存白名单"
 
 #: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:87
 msgid "Low Priority Service"
@@ -246,7 +244,7 @@ msgstr "请直接在终端会话中编辑此文件。"
 
 #: applications/luci-app-banip/luasrc/controller/banip.lua:19
 msgid "RIPE-Lookup"
-msgstr "RIPE-Lookup"
+msgstr "RIPE查找"
 
 #: applications/luci-app-banip/luasrc/view/banip/runtime.htm:18
 #: applications/luci-app-banip/luasrc/view/banip/runtime.htm:153
@@ -334,7 +332,6 @@ msgid ""
 msgstr "所选下载工具的特殊选项，例如：“--timeout=20 -O”。"
 
 #: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:144
-#, fuzzy
 msgid "Start Type"
 msgstr "启动类型"
 
@@ -369,7 +366,7 @@ msgstr "文件过大，无法使用 LuCI 的在线编辑（&ge; 100 KB）。"
 
 #: applications/luci-app-banip/luasrc/view/banip/logview.htm:31
 msgid "The syslog output, pre-filtered for banIP related messages only."
-msgstr "syslog 输出，仅针对 banIP 相关消息进行了预过滤。"
+msgstr "系统日志输出，仅针对 banIP 相关的消息进行了预筛选。"
 
 #: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:89
 msgid "This change requires a manual service stop/re-start to take effect."
@@ -398,11 +395,10 @@ msgid ""
 msgstr "此数据调用返回给定 IP 空间或 ASN 情况下已声明 IP 前缀的地理位置信息。"
 
 #: applications/luci-app-banip/luasrc/view/banip/ripeview.htm:28
-#, fuzzy
 msgid ""
 "This data call returns the containing prefix and announcing ASN of a given "
 "IP address."
-msgstr "此数据调用返回包含的前缀和通告给定 IP 地址的 ASN。"
+msgstr "此数据包会调用返回的前缀和给定 IP 地址通告的 ASN。"
 
 #: applications/luci-app-banip/luasrc/view/banip/ripeview.htm:37
 msgid ""
@@ -445,7 +441,7 @@ msgstr "此表单允许您修改 banIP 的主配置文件（/etc/config/banip）
 
 #: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:138
 msgid "Trigger Delay"
-msgstr "触发延迟"
+msgstr "触发延时"
 
 #: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:83
 msgid "Verbose Debug Logging"

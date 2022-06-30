@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2019-12-03 08:24+0000\n"
-"Last-Translator: Jiri Tersel <jiri.tersel@seznam.cz>\n"
+"PO-Revision-Date: 2021-09-15 08:34+0000\n"
+"Last-Translator: Lukas Jelinek <lukas.jelinek@nic.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsminidlna/cs/>\n"
 "Language: cs\n"
@@ -10,11 +10,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 3.10-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #: applications/luci-app-minidlna/luasrc/model/cbi/minidlna.lua:16
 msgid "Advanced Settings"
-msgstr "Pokročilé nastavení"
+msgstr "Pokročilá nastavení"
 
 #: applications/luci-app-minidlna/luasrc/model/cbi/minidlna.lua:136
 msgid "Album art names"
@@ -38,7 +38,7 @@ msgstr "Procházet adresář"
 
 #: applications/luci-app-minidlna/luasrc/view/minidlna_status.htm:27
 msgid "Collecting data..."
-msgstr "Probíhá sběr dat..."
+msgstr "Shromažďování údajů…"
 
 #: applications/luci-app-minidlna/luasrc/model/cbi/minidlna.lua:77
 msgid "Database directory"
@@ -62,7 +62,7 @@ msgstr "Popisek"
 
 #: applications/luci-app-minidlna/luasrc/model/cbi/minidlna.lua:15
 msgid "General Settings"
-msgstr "Obecné nastavení"
+msgstr "Obecná nastavení"
 
 #: applications/luci-app-minidlna/luasrc/model/cbi/minidlna.lua:43
 msgid "Interfaces"

@@ -3,14 +3,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-08-07 20:08+0800\n"
-"Last-Translator: Yangfl <mmyangfl@gmail.com>\n"
-"Language-Team:  <debian-l10n-chinese@lists.debian.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2020-12-30 02:30+0000\n"
+"Last-Translator: operator <omniplay@hotmail.com>\n"
+"Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
+"openwrt/luciapplicationspagekitec/zh_Hant/>\n"
+"Language: zh_Hant\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Gtranslator 2.91.7\n"
+"X-Generator: Weblate 4.4.1-dev\n"
 
 #: applications/luci-app-pagekitec/luasrc/model/cbi/pagekitec.lua:2
 msgid ""
@@ -54,7 +55,7 @@ msgstr "Kite 密碼"
 #: applications/luci-app-pagekitec/luasrc/model/cbi/pagekitec.lua:1
 #: applications/luci-app-pagekitec/luasrc/model/cbi/pagekitec.lua:10
 msgid "PageKite"
-msgstr "PageKite"
+msgstr "PageKite出版商"
 
 #: applications/luci-app-pagekitec/luasrc/model/cbi/pagekitec.lua:16
 msgid "Static Setup"

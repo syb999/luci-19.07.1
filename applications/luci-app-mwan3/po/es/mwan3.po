@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2019-12-03 08:26+0000\n"
+"PO-Revision-Date: 2021-08-18 10:44+0000\n"
 "Last-Translator: Franco Castillo <castillofrancodamian@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsmwan3/es/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.10-dev\n"
+"X-Generator: Weblate 4.8-dev\n"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:171
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:187
@@ -45,6 +45,7 @@ msgstr "%d minutos"
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:160
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:176
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:196
+#, fuzzy
 msgid "%d second"
 msgstr "%d segundo"
 
@@ -113,7 +114,7 @@ msgstr "Se encontraron todas las reglas de IP requeridas para la interfaz %s"
 msgid "Also scan this Routing table for connected networks"
 msgstr "También escanee esta tabla de enrutamiento para redes conectadas"
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:73
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:77
 msgid "Check IP rules"
 msgstr "Comprobar reglas de IP"
 
@@ -121,7 +122,7 @@ msgstr "Comprobar reglas de IP"
 msgid "Check link quality"
 msgstr "Comprobar calidad del enlace"
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:74
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:78
 msgid "Check routing table"
 msgstr "Ver tabla de enrutamiento"
 
@@ -202,7 +203,7 @@ msgstr "Ingrese el valor en hexadecimal, comenzando con <code>0x</code>"
 msgid "Error"
 msgstr "Error"
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:81
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:88
 msgid "Execute"
 msgstr "Ejecutar"
 
@@ -236,11 +237,11 @@ msgstr ""
 msgid "Globals"
 msgstr "Globales"
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:76
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:80
 msgid "Hotplug ifdown"
 msgstr "Hotplug ifdown"
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:75
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:79
 msgid "Hotplug ifup"
 msgstr "Hotplug ifup"
 
@@ -281,7 +282,7 @@ msgstr "Estado inicial"
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/memberconfig.lua:18
 #: applications/luci-app-mwan3/luasrc/view/mwan/status_detail.htm:10
 #: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:10
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:62
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:61
 #: applications/luci-app-mwan3/luasrc/view/mwan/status_interface.htm:10
 #: applications/luci-app-mwan3/luasrc/view/mwan/status_troubleshooting.htm:10
 msgid "Interface"
@@ -536,7 +537,7 @@ msgstr "Solo se encontró una regla de IP para la interfaz %s"
 msgid "Ping count"
 msgstr "Recuento de ping"
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:71
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:75
 msgid "Ping default gateway"
 msgstr "Ping a puerta de enlace predeterminada"
 
@@ -561,7 +562,7 @@ msgstr "Tamaño de ping"
 msgid "Ping timeout"
 msgstr "Tiempo de espera de ping"
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:72
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:76
 msgid "Ping tracking IP"
 msgstr "Ping de seguimiento de IP"
 
@@ -686,7 +687,7 @@ msgid "Supports CIDR notation (eg \"192.168.100.0/24\") without quotes"
 msgstr ""
 "Admite la notación CIDR (por ejemplo, \"192.168.100.0/24\") sin comillas"
 
-#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:69
+#: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:72
 msgid "Task"
 msgstr "Tarea"
 
@@ -845,7 +846,7 @@ msgstr ""
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interface.lua:164
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/ruleconfig.lua:49
 msgid "Yes"
-msgstr "Si"
+msgstr "Sí"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/policy.lua:80
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/policyconfig.lua:29

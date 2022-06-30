@@ -2,22 +2,23 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
+"PO-Revision-Date: 2021-04-03 04:26+0000\n"
 "Last-Translator: INAGAKI Hiroshi <musashino.open@gmail.com>\n"
-"Language-Team: \n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/openwrt/"
+"luciapplicationstravelmate/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.3\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.6-dev\n"
 
 #: applications/luci-app-travelmate/luasrc/view/travelmate/runtime.htm:206
 msgid "AP on"
 msgstr "AP の場所:"
 
 #: applications/luci-app-travelmate/luasrc/view/travelmate/stations.htm:113
-#: applications/luci-app-travelmate/luasrc/view/travelmate/wifi_scan.htm:38
+#: applications/luci-app-travelmate/luasrc/view/travelmate/wifi_scan.htm:45
 msgid "Action"
 msgstr "アクション"
 
@@ -25,7 +26,7 @@ msgstr "アクション"
 msgid "Add Open Uplinks"
 msgstr "オープンなアップリンクの追加"
 
-#: applications/luci-app-travelmate/luasrc/view/travelmate/wifi_scan.htm:68
+#: applications/luci-app-travelmate/luasrc/view/travelmate/wifi_scan.htm:75
 msgid "Add Uplink"
 msgstr "アップリンクの追加"
 
@@ -83,7 +84,7 @@ msgstr "BSSID"
 
 #: applications/luci-app-travelmate/luasrc/model/cbi/travelmate/wifi_add.lua:15
 #: applications/luci-app-travelmate/luasrc/model/cbi/travelmate/wifi_edit.lua:12
-#: applications/luci-app-travelmate/luasrc/view/travelmate/wifi_scan.htm:77
+#: applications/luci-app-travelmate/luasrc/view/travelmate/wifi_scan.htm:84
 msgid "Back to overview"
 msgstr "概要へ戻る"
 
@@ -143,7 +144,7 @@ msgstr "下へ"
 #: applications/luci-app-travelmate/luasrc/model/cbi/travelmate/wifi_add.lua:85
 #: applications/luci-app-travelmate/luasrc/model/cbi/travelmate/wifi_edit.lua:67
 msgid "EAP-Method"
-msgstr "EAP メソッド"
+msgstr "EAPメソッド"
 
 #: applications/luci-app-travelmate/luasrc/view/travelmate/stations.htm:133
 msgid "Edit"
@@ -188,7 +189,7 @@ msgstr "詳細なデバッグ ログの有効化"
 #: applications/luci-app-travelmate/luasrc/model/cbi/travelmate/wifi_edit.lua:54
 #: applications/luci-app-travelmate/luasrc/model/cbi/travelmate/wifi_edit.lua:116
 #: applications/luci-app-travelmate/luasrc/view/travelmate/stations.htm:112
-#: applications/luci-app-travelmate/luasrc/view/travelmate/wifi_scan.htm:36
+#: applications/luci-app-travelmate/luasrc/view/travelmate/wifi_scan.htm:43
 msgid "Encryption"
 msgstr "暗号化"
 
@@ -244,7 +245,7 @@ msgstr "TKIP"
 #: applications/luci-app-travelmate/luasrc/model/cbi/travelmate/wifi_edit.lua:64
 #: applications/luci-app-travelmate/luasrc/model/cbi/travelmate/wifi_edit.lua:129
 msgid "Force TKIP and CCMP (AES)"
-msgstr "TKIP と CCMP (AES)"
+msgstr "TKIP 及びCCMP (AES)"
 
 #: applications/luci-app-travelmate/luasrc/model/cbi/travelmate/overview_tab.lua:136
 msgid ""
@@ -254,7 +255,7 @@ msgstr "Travelmate が無線アップリンクへの接続成功を待つ時間�
 #: applications/luci-app-travelmate/luasrc/model/cbi/travelmate/wifi_add.lua:105
 #: applications/luci-app-travelmate/luasrc/model/cbi/travelmate/wifi_edit.lua:87
 msgid "Identity"
-msgstr "ID"
+msgstr "識別子"
 
 #: applications/luci-app-travelmate/luasrc/model/cbi/travelmate/wifi_add.lua:46
 msgid "Ignore BSSID"
@@ -297,11 +298,11 @@ msgstr ""
 
 #: applications/luci-app-travelmate/luasrc/view/travelmate/stations.htm:132
 msgid "Move down"
-msgstr "下へ"
+msgstr "下へ移動"
 
 #: applications/luci-app-travelmate/luasrc/view/travelmate/stations.htm:131
 msgid "Move up"
-msgstr "上へ"
+msgstr "上へ移動"
 
 #: applications/luci-app-travelmate/luasrc/model/cbi/travelmate/overview_tab.lua:80
 msgid "Name of the used uplink interface."
@@ -314,7 +315,7 @@ msgstr "ネット エラーチェック"
 #: applications/luci-app-travelmate/luasrc/model/cbi/travelmate/wifi_add.lua:164
 #: applications/luci-app-travelmate/luasrc/model/cbi/travelmate/wifi_edit.lua:156
 msgid "Optional Arguments"
-msgstr ""
+msgstr "オプションの引数"
 
 #: applications/luci-app-travelmate/luasrc/model/cbi/travelmate/overview_tab.lua:101
 msgid ""
@@ -351,17 +352,17 @@ msgstr "秘密鍵のパスワード"
 #: applications/luci-app-travelmate/luasrc/model/cbi/travelmate/wifi_add.lua:111
 #: applications/luci-app-travelmate/luasrc/model/cbi/travelmate/wifi_edit.lua:95
 msgid "Path to CA-Certificate"
-msgstr "CA 証明書へのパス"
+msgstr "CA証明書のパス"
 
 #: applications/luci-app-travelmate/luasrc/model/cbi/travelmate/wifi_add.lua:114
 #: applications/luci-app-travelmate/luasrc/model/cbi/travelmate/wifi_edit.lua:99
 msgid "Path to Client-Certificate"
-msgstr "クライアント証明書へのパス"
+msgstr "クライアント証明書のパス"
 
 #: applications/luci-app-travelmate/luasrc/model/cbi/travelmate/wifi_add.lua:118
 #: applications/luci-app-travelmate/luasrc/model/cbi/travelmate/wifi_edit.lua:104
 msgid "Path to Private Key"
-msgstr "秘密鍵へのパス"
+msgstr "秘密鍵のパス"
 
 #: applications/luci-app-travelmate/luasrc/model/cbi/travelmate/overview_tab.lua:69
 msgid "ProActive Uplink Switch"
@@ -389,13 +390,13 @@ msgstr "無線の選択 / 順番"
 
 #: applications/luci-app-travelmate/luasrc/view/travelmate/stations.htm:134
 msgid "Remove"
-msgstr ""
+msgstr "削除"
 
 #: applications/luci-app-travelmate/luasrc/view/travelmate/stations.htm:134
 msgid "Remove this Uplink"
-msgstr ""
+msgstr "このアップリンクを削除"
 
-#: applications/luci-app-travelmate/luasrc/view/travelmate/wifi_scan.htm:82
+#: applications/luci-app-travelmate/luasrc/view/travelmate/wifi_scan.htm:89
 msgid "Repeat scan"
 msgstr "再スキャン"
 
@@ -422,7 +423,7 @@ msgstr "アップリンクへの接続を試行する回数です。"
 
 #: applications/luci-app-travelmate/luasrc/view/travelmate/runtime.htm:102
 msgid "Runtime Information"
-msgstr "実行情報"
+msgstr "ランタイム情報"
 
 #: applications/luci-app-travelmate/luasrc/model/cbi/travelmate/wifi_add.lua:41
 #: applications/luci-app-travelmate/luasrc/model/cbi/travelmate/wifi_edit.lua:26
@@ -445,7 +446,7 @@ msgstr "保存"
 
 #: applications/luci-app-travelmate/luasrc/view/travelmate/stations.htm:148
 msgid "Scan"
-msgstr "スキャン:"
+msgstr "スキャン"
 
 #: applications/luci-app-travelmate/luasrc/model/cbi/travelmate/overview_tab.lua:147
 msgid "Scan Buffer Size"
@@ -459,7 +460,7 @@ msgstr "QR コードを表示/非表示"
 msgid "Signal Quality Threshold"
 msgstr "シグナル品質閾値"
 
-#: applications/luci-app-travelmate/luasrc/view/travelmate/wifi_scan.htm:37
+#: applications/luci-app-travelmate/luasrc/view/travelmate/wifi_scan.htm:44
 msgid "Signal strength"
 msgstr "信号強度"
 
@@ -556,11 +557,11 @@ msgstr "上へ"
 msgid "Uplink / Trigger interface"
 msgstr "アップリンク / トリガー インターフェース"
 
-#: applications/luci-app-travelmate/luasrc/view/travelmate/wifi_scan.htm:35
+#: applications/luci-app-travelmate/luasrc/view/travelmate/wifi_scan.htm:42
 msgid "Uplink BSSID"
 msgstr "アップリンク BSSID"
 
-#: applications/luci-app-travelmate/luasrc/view/travelmate/wifi_scan.htm:34
+#: applications/luci-app-travelmate/luasrc/view/travelmate/wifi_scan.htm:41
 msgid "Uplink SSID"
 msgstr "アップリンク SSID"
 
@@ -584,7 +585,7 @@ msgstr ""
 msgid "WPA-Passphrase"
 msgstr "WPA パスフレーズ"
 
-#: applications/luci-app-travelmate/luasrc/view/travelmate/wifi_scan.htm:30
+#: applications/luci-app-travelmate/luasrc/view/travelmate/wifi_scan.htm:37
 msgid "Wireless Scan"
 msgstr "無線スキャン"
 
@@ -596,7 +597,7 @@ msgstr "無線ステーション"
 msgid "add it to the wan zone of the firewall."
 msgstr "ファイアウォールの wan ゾーンに追加します。"
 
-#: applications/luci-app-travelmate/luasrc/view/travelmate/wifi_scan.htm:43
+#: applications/luci-app-travelmate/luasrc/view/travelmate/wifi_scan.htm:50
 msgid "hidden"
 msgstr "（ステルス）"
 

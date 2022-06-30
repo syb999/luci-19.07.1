@@ -1,4 +1,5 @@
 'use strict';
+'require view';
 'require ui';
 'require rpc';
 'require uci';
@@ -136,7 +137,7 @@ function rule_target_txt(s, ctHelpers) {
 	}
 }
 
-return L.view.extend({
+return view.extend({
 	callHostHints: rpc.declare({
 		object: 'luci-rpc',
 		method: 'getHostHints',
@@ -307,6 +308,7 @@ return L.view.extend({
 		o.value('network-redirect');
 		o.value('network-unknown');
 		o.value('network-unreachable');
+		o.value('packet-too-big');
 		o.value('parameter-problem');
 		o.value('port-unreachable');
 		o.value('precedence-cutoff');
@@ -449,11 +451,11 @@ return L.view.extend({
 		for (var i = 1; i <= 31; i++)
 			o.value(i);
 
-		o = s.taboption('timed', form.Value, 'start_time', _('Start Time (hh.mm.ss)'));
+		o = s.taboption('timed', form.Value, 'start_time', _('Start Time (hh:mm:ss)'));
 		o.modalonly = true;
 		o.datatype = 'timehhmmss';
 
-		o = s.taboption('timed', form.Value, 'stop_time', _('Stop Time (hh.mm.ss)'));
+		o = s.taboption('timed', form.Value, 'stop_time', _('Stop Time (hh:mm:ss)'));
 		o.modalonly = true;
 		o.datatype = 'timehhmmss';
 

@@ -1,24 +1,28 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-01-03 04:12+0000\n"
-"Last-Translator: Philippe Paté <asushen@gmail.com>\n"
+"PO-Revision-Date: 2021-12-30 07:50+0000\n"
+"Last-Translator: Samuel Chéreau <bnorus@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsradicale/fr/>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.10\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:268
 msgid ""
 "'AUTO' selects the highest protocol version that client and server support."
 msgstr ""
+"'AUTO' sélectionne la version de protocole la plus élevée supportée par le "
+"client et le serveur."
 
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:223
 msgid ""
 "'Hostname:Port' or 'IPv4:Port' or '[IPv6]:Port' Radicale should listen on"
 msgstr ""
+"'Hostname:Port' ou 'IPv4:Port' ou '[IPv6]:Port' sur lequel Radicale doit "
+"écouter"
 
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:272
 msgid "AUTO"
@@ -73,7 +77,7 @@ msgstr ""
 
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:190
 msgid "Boot delay"
-msgstr ""
+msgstr "Délai de démarrage"
 
 #: applications/luci-app-radicale/luasrc/controller/radicale.lua:23
 msgid "CalDAV/CardDAV"
@@ -107,7 +111,7 @@ msgstr ""
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:574
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:596
 msgid "Critical"
-msgstr ""
+msgstr "Critique"
 
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:707
 msgid ""
@@ -272,7 +276,7 @@ msgstr "NON installé"
 
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:356
 msgid "None"
-msgstr "Aucun"
+msgstr "Rien"
 
 #: applications/luci-app-radicale/luasrc/model/cbi/radicale.lua:654
 msgid "Number of backup files of log to create."

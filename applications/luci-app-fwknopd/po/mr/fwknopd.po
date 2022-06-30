@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2019-12-19 19:39+0000\n"
+"PO-Revision-Date: 2020-02-07 09:18+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsfwknopd/mr/>\n"
@@ -10,15 +10,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.10-dev\n"
+"X-Generator: Weblate 3.11-dev\n"
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:48
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:51
 msgid ""
 "Allow SPA clients to request access to services through an iptables firewall "
 "instead of just to it."
 msgstr ""
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:49
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:52
 msgid "Allow SPA clients to request forwarding destination by DNS name."
 msgstr ""
 
@@ -55,7 +55,7 @@ msgstr "Uci / Luci नियंत्रण सक्षम करा"
 
 #: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:8
 msgid "Enable config overwrite"
-msgstr ""
+msgstr "कॉन्फिगरेशन अधिलेखन सक्षम करा"
 
 #: applications/luci-app-fwknopd/luasrc/controller/fwknopd.lua:13
 msgid "Firewall Knock Daemon"
@@ -63,7 +63,7 @@ msgstr "फायरवॉल नॉक डेमन"
 
 #: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:4
 msgid "Firewall Knock Operator"
-msgstr ""
+msgstr "फायरवॉल नॉक ऑपरेटर"
 
 #: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:39
 msgid ""
@@ -74,7 +74,7 @@ msgid ""
 "know the external IP and set it via the -a argument."
 msgstr ""
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:46
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:49
 msgid ""
 "Maximum age in seconds that an SPA packet will be accepted. defaults to 120 "
 "seconds"
@@ -82,14 +82,22 @@ msgstr ""
 
 #: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:19
 msgid "Normal Key"
-msgstr ""
+msgstr "सामान्य की"
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:47
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:50
 msgid "Specify the ethernet interface on which fwknopd will sniff packets."
 msgstr ""
 
 #: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:28
 msgid "The base64 hmac key"
+msgstr "बेस 64 एचएमएसी की"
+
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:43
+msgid ""
+"This instructs fwknopd to accept complete commands that are contained within "
+"an authorization packet. Any such command will be executed on the fwknopd "
+"server as the user specified by the “CMD_EXEC_USER” or as the user that "
+"started fwknopd if that is not set."
 msgstr ""
 
 #: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:17
@@ -106,6 +114,6 @@ msgstr ""
 msgid "access.conf stanzas"
 msgstr ""
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:44
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:47
 msgid "fwknopd.conf config options"
 msgstr ""

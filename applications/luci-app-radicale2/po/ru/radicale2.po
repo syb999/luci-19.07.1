@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: luci-app-radicale 2\n"
-"PO-Revision-Date: 2020-01-15 10:47+0000\n"
-"Last-Translator: Anton Kikin <a.a.kikin@gmail.com>\n"
+"PO-Revision-Date: 2021-03-11 08:13+0000\n"
+"Last-Translator: Artem <KovalevArtem.ru@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsradicale2/ru/>\n"
 "Language: ru\n"
@@ -11,14 +11,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.11-dev\n"
+"X-Generator: Weblate 4.5.2-dev\n"
 
 #: applications/luci-app-radicale2/luasrc/model/cbi/radicale2/auth.lua:8
 #: applications/luci-app-radicale2/luasrc/model/cbi/radicale2/logging.lua:4
 #: applications/luci-app-radicale2/luasrc/model/cbi/radicale2/server.lua:8
 #: applications/luci-app-radicale2/luasrc/model/cbi/radicale2/storage.lua:7
 msgid "A lightweight CalDAV/CardDAV server"
-msgstr ""
+msgstr "Легковесный сервер CalDAV/CardDAV"
 
 #: applications/luci-app-radicale2/luasrc/model/cbi/radicale2/server.lua:30
 msgid "Advanced Settings"
@@ -26,7 +26,7 @@ msgstr "Дополнительные настройки"
 
 #: applications/luci-app-radicale2/luasrc/model/cbi/radicale2/server.lua:74
 msgid "Allowed Ciphers"
-msgstr ""
+msgstr "Разрешенные шифры"
 
 #: applications/luci-app-radicale2/luasrc/model/cbi/radicale2/auth.lua:10
 msgid "Authentication"
@@ -34,7 +34,7 @@ msgstr "Аутентификация"
 
 #: applications/luci-app-radicale2/luasrc/controller/radicale2.lua:20
 msgid "Authentication / Users"
-msgstr ""
+msgstr "Аутентификация / Пользователи"
 
 #: applications/luci-app-radicale2/luasrc/model/cbi/radicale2/auth.lua:14
 msgid "Authentication Type"
@@ -46,11 +46,11 @@ msgstr ""
 
 #: applications/luci-app-radicale2/luasrc/model/cbi/radicale2/server.lua:128
 msgid "CORS"
-msgstr ""
+msgstr "CORS"
 
 #: applications/luci-app-radicale2/luasrc/model/cbi/radicale2/server.lua:62
 msgid "Certificate"
-msgstr ""
+msgstr "Сертификат"
 
 #: applications/luci-app-radicale2/luasrc/model/cbi/radicale2/server.lua:70
 msgid "Client Certificate Authority"
@@ -74,7 +74,7 @@ msgstr ""
 
 #: applications/luci-app-radicale2/luasrc/model/cbi/radicale2/server.lua:105
 msgid "DNS Lookup"
-msgstr ""
+msgstr "Поиск DNS"
 
 #: applications/luci-app-radicale2/luasrc/model/cbi/radicale2/logging.lua:26
 msgid "Debug"
@@ -119,7 +119,7 @@ msgstr ""
 #: applications/luci-app-radicale2/luasrc/model/cbi/radicale2/auth.lua:110
 #: applications/luci-app-radicale2/luasrc/model/cbi/radicale2/auth.lua:155
 msgid "Encrypted Password"
-msgstr ""
+msgstr "Зашифрованный пароль"
 
 #: applications/luci-app-radicale2/luasrc/model/cbi/radicale2/auth.lua:29
 msgid "Encryption"
@@ -131,7 +131,7 @@ msgstr "Имя файла"
 
 #: applications/luci-app-radicale2/luasrc/model/cbi/radicale2/storage.lua:19
 msgid "Folder"
-msgstr ""
+msgstr "Папка"
 
 #: applications/luci-app-radicale2/luasrc/model/cbi/radicale2/storage.lua:19
 msgid "Folder in which to store collections"
@@ -143,7 +143,7 @@ msgstr ""
 
 #: applications/luci-app-radicale2/luasrc/model/cbi/radicale2/server.lua:29
 msgid "General Settings"
-msgstr "Основные настройки"
+msgstr "Общие настройки"
 
 #: applications/luci-app-radicale2/luasrc/model/cbi/radicale2/auth.lua:155
 msgid ""
@@ -219,7 +219,7 @@ msgstr ""
 #: applications/luci-app-radicale2/luasrc/controller/radicale2.lua:28
 #: applications/luci-app-radicale2/luasrc/model/cbi/radicale2/logging.lua:6
 msgid "Logging"
-msgstr "Настройка журнала"
+msgstr "Журналирование"
 
 #: applications/luci-app-radicale2/luasrc/model/cbi/radicale2/logging.lua:12
 msgid "Logging File"
@@ -321,7 +321,7 @@ msgstr ""
 
 #: applications/luci-app-radicale2/luasrc/model/cbi/radicale2/server.lua:109
 msgid "Realm"
-msgstr ""
+msgstr "Область"
 
 #: applications/luci-app-radicale2/luasrc/model/cbi/radicale2/logging.lua:34
 msgid "Redact passwords in logs"
@@ -353,7 +353,7 @@ msgstr ""
 
 #: applications/luci-app-radicale2/luasrc/model/cbi/radicale2/auth.lua:162
 msgid "Rights"
-msgstr ""
+msgstr "Права"
 
 #: applications/luci-app-radicale2/luasrc/model/cbi/radicale2/auth.lua:176
 msgid "Rights File"
@@ -373,7 +373,7 @@ msgstr ""
 
 #: applications/luci-app-radicale2/luasrc/model/cbi/radicale2/server.lua:52
 msgid "SSL"
-msgstr ""
+msgstr "SSL"
 
 #: applications/luci-app-radicale2/luasrc/model/cbi/radicale2/server.lua:102
 msgid "SSL not available"
@@ -408,7 +408,7 @@ msgstr ""
 #: applications/luci-app-radicale2/luasrc/model/cbi/radicale2/server.lua:140
 #: applications/luci-app-radicale2/luasrc/model/cbi/radicale2/storage.lua:9
 msgid "Storage"
-msgstr ""
+msgstr "Хранилище"
 
 #: applications/luci-app-radicale2/luasrc/model/cbi/radicale2/storage.lua:13
 msgid "Storage Type"
@@ -420,7 +420,7 @@ msgstr ""
 
 #: applications/luci-app-radicale2/luasrc/model/cbi/radicale2/server.lua:85
 msgid "This permanently deletes the cert, key, and configuration to use same."
-msgstr ""
+msgstr "Полное удаление сертификата, ключа и настроек вкладки меню cнизу."
 
 #: applications/luci-app-radicale2/luasrc/model/cbi/radicale2/auth.lua:182
 msgid "This permanently deletes the rights file and configuration to use same."
@@ -428,7 +428,7 @@ msgstr ""
 
 #: applications/luci-app-radicale2/luasrc/model/cbi/radicale2/server.lua:47
 msgid "Timeout"
-msgstr ""
+msgstr "Тайм-аут"
 
 #: applications/luci-app-radicale2/luasrc/model/cbi/radicale2/storage.lua:25
 msgid "Use File Locks"
@@ -472,7 +472,7 @@ msgstr ""
 
 #: applications/luci-app-radicale2/luasrc/model/cbi/radicale2/auth.lua:35
 msgid "crypt"
-msgstr ""
+msgstr "crypt"
 
 #: applications/luci-app-radicale2/luasrc/model/cbi/radicale2/auth.lua:16
 msgid "htpasswd file (manually populated)"

@@ -6,16 +6,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-06-28 08:58+0200\n"
-"PO-Revision-Date: 2019-11-22 20:04+0000\n"
-"Last-Translator: MosDos <hosted.weblate@mos.sh>\n"
+"PO-Revision-Date: 2021-03-20 11:18+0000\n"
+"Last-Translator: Meano Lee <meanocat@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "openwrt/luciapplicationssplash/zh_Hans/>\n"
-"Language: zh-cn\n"
+"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.10-dev\n"
+"X-Generator: Weblate 4.5.2-dev\n"
 
 #: applications/luci-app-splash/luasrc/view/splash/splash.htm:65
 #: applications/luci-app-splash/luasrc/view/splash_splash/splash.htm:13
@@ -97,7 +97,7 @@ msgstr "清理时间"
 #: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua:5
 #: applications/luci-app-splash/luasrc/view/admin_status/splash.htm:197
 msgid "Client-Splash"
-msgstr "Client-Splash"
+msgstr "Client-Splash远程存储客户端"
 
 #: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua:5
 msgid ""
@@ -235,7 +235,7 @@ msgstr "白名单中的 MAC 地址，可不用接受 splash，同时没有带宽
 
 #: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua:77
 msgid "Netmask"
-msgstr "网络掩码"
+msgstr "子网掩码"
 
 #: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua:37
 msgid "Network"
@@ -254,7 +254,7 @@ msgstr "我们不是 ISP（互联网运行商），仅仅只是一个实验性�
 
 #: applications/luci-app-splash/luasrc/view/admin_status/splash.htm:210
 msgid "Policy"
-msgstr "政策"
+msgstr "策略"
 
 #: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua:11
 msgid "Redirect target"
@@ -275,7 +275,7 @@ msgstr "Splash 规则集成在此防火墙区域中"
 
 #: applications/luci-app-splash/luasrc/controller/splash/splash.lua:9
 msgid "Splashtext"
-msgstr "Splashtext"
+msgstr "闪烁标语"
 
 #: applications/luci-app-splash/luasrc/view/splash/splash.htm:125
 msgid ""
@@ -333,7 +333,7 @@ msgstr ""
 
 #: applications/luci-app-splash/luasrc/view/admin_status/splash.htm:208
 msgid "Time remaining"
-msgstr "剩余时间:"
+msgstr "剩余时间"
 
 #: applications/luci-app-splash/luasrc/view/splash/blocked.htm:15
 msgid ""

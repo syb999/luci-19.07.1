@@ -1,4 +1,7 @@
 'use strict';
+'require view';
+'require dom';
+'require poll';
 'require rpc';
 'require uci';
 'require form';
@@ -33,7 +36,7 @@ CBILeaseStatus = form.DummyValue.extend({
 					E('div', { 'class': 'th' }, _('Hostname')),
 					E('div', { 'class': 'th' }, _('IPv4-Address')),
 					E('div', { 'class': 'th' }, _('MAC-Address')),
-					E('div', { 'class': 'th' }, _('Leasetime remaining'))
+					E('div', { 'class': 'th' }, _('Lease time remaining'))
 				]),
 				E('div', { 'class': 'tr placeholder' }, [
 					E('div', { 'class': 'td' }, E('em', _('Collecting data...')))
@@ -135,7 +138,7 @@ function validateServerSpec(sid, s) {
 	return true;
 }
 
-return L.view.extend({
+return view.extend({
 	load: function() {
 		return Promise.all([
 			callHostHints(),
@@ -185,7 +188,8 @@ return L.view.extend({
 			_('Resolve file'),
 			_('local <abbr title="Domain Name System">DNS</abbr> file'));
 
-		o.depends('noresolv', '');
+		o.depends('noresolv', '0');
+		o.placeholder = '/tmp/resolv.conf.auto';
 		o.optional = true;
 
 
@@ -227,6 +231,7 @@ return L.view.extend({
 			o = s.taboption('advanced', form.Flag, 'dnsseccheckunsigned',
 				_('DNSSEC check unsigned'),
 				_('Requires upstream supports DNSSEC; verify unsigned domain responses really come from unsigned domains'));
+			o.default = o.enabled;
 			o.optional = true;
 		}
 
@@ -275,13 +280,6 @@ return L.view.extend({
 		o.optional = true;
 		o.placeholder = '/example.org/10.1.2.3';
 		o.validate = validateServerSpec;
-
-
-		o = s.taboption('general', form.DynamicList, 'address', _('Addresses'),
-			_('List of domains to force to an IP address.'));
-
-		o.optional = true;
-		o.placeholder = '/router.local/192.168.0.1';
 
 
 		o = s.taboption('general', form.Flag, 'rebind_protection',
@@ -427,11 +425,8 @@ return L.view.extend({
 		so.datatype = 'list(unique(macaddr))';
 		so.rmempty  = true;
 		so.cfgvalue = function(section) {
-			var macs = uci.get('dhcp', section, 'mac'),
+			var macs = L.toArray(uci.get('dhcp', section, 'mac')),
 			    result = [];
-
-			if (!Array.isArray(macs))
-				macs = (macs != null && macs != '') ? macs.split(/\ss+/) : [];
 
 			for (var i = 0, mac; (mac = macs[i]) != null; i++)
 				if (/^([0-9a-fA-F]{1,2}):([0-9a-fA-F]{1,2}):([0-9a-fA-F]{1,2}):([0-9a-fA-F]{1,2}):([0-9a-fA-F]{1,2}):([0-9a-fA-F]{1,2})$/.test(mac))
@@ -457,7 +452,7 @@ return L.view.extend({
 
 				var node = ipopt.map.findElement('id', ipopt.cbid(section_id));
 				if (node)
-					L.dom.callClassMethod(node, 'setValue', hosts[mac].ipv4);
+					dom.callClassMethod(node, 'setValue', hosts[mac].ipv4);
 			}, this, ipopt, section_id));
 
 			return node;
@@ -504,7 +499,7 @@ return L.view.extend({
 			o = s.taboption('leases', CBILease6Status, '__status6__');
 
 		return m.render().then(function(mapEl) {
-			L.Poll.add(function() {
+			poll.add(function() {
 				return callDHCPLeases().then(function(leaseinfo) {
 					var leases = Array.isArray(leaseinfo.dhcp_leases) ? leaseinfo.dhcp_leases : [],
 					    leases6 = Array.isArray(leaseinfo.dhcp6_leases) ? leaseinfo.dhcp6_leases : [];
